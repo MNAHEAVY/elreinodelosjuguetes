@@ -1,3 +1,5 @@
+import "./UtilityBar.css";
+
 const UtilityBar = () => {
   return (
     <div className='utility-bar color-scheme-bd4e0e84-6ad3-4213-8f0b-ea0b779379d2 gradient utility-bar--bottom-border'>
@@ -7,7 +9,6 @@ const UtilityBar = () => {
             <span>Bienvenido a nuestra tienda</span>
           </p>
         </div>
-        <div className='localization-wrapper'></div>
       </div>
     </div>
   );

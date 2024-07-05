@@ -1,6 +1,31 @@
 .header__icon--menu {
   display: none;
 }
+.list-menu--inline {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+.list-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.list-menu__item {
+  display: flex;
+  align-items: center;
+  line-height: calc(1 + 0.3 / var(--font-body-scale));
+}
+li {
+  background-color: #235ab9a1;
+  margin: 5px;
+  border-radius: 4px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 
 @media (max-width: 768px) {
   .header__icon--menu {
@@ -8,6 +33,11 @@
   }
 
   .header__inline-menu {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .menu-drawer-container {
     display: none;
   }
 }

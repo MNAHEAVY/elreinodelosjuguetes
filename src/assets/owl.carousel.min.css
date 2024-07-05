@@ -20,7 +20,7 @@
   text-align: center;
   color: #448cfb;
 }
-.slide img {
+.slide .img {
   width: 100px;
   height: 100px;
   object-fit: contain;

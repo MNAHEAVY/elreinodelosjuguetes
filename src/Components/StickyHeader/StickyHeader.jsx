@@ -3,7 +3,6 @@ import {
   FaBars,
   FaTimes,
   FaSearch,
-  FaShoppingCart,
   FaFacebook,
   FaInstagram,
   FaYoutube,
@@ -19,8 +18,12 @@ const StickyHeader = () => {
     <div
       data-sticky-type='on-scroll-up'
       className='header-wrapper color-accent-1 gradient'
+      style={{ background: "#4770db", color: "white" }}
     >
-      <header className='header header--middle-left header--mobile-center page-width header--has-menu header--has-social'>
+      <header
+        className='header header--middle-left header--mobile-center page-width header--has-menu header--has-social'
+        style={{ height: "99.75px" }}
+      >
         <div className='menu-drawer-container'>
           <button
             className='header__icon header__icon--menu link focus-inset'
@@ -39,7 +42,7 @@ const StickyHeader = () => {
                 <div className='menu-drawer__navigation-container'>
                   <nav className='menu-drawer__navigation'>
                     <ul className='menu-drawer__menu has-submenu list-menu' role='list'>
-                      <li>
+                      <li className='liheader'>
                         <a
                           href='/'
                           className='menu-drawer__menu-item list-menu__item link link--text focus-inset menu-drawer__menu-item--active'
@@ -48,7 +51,7 @@ const StickyHeader = () => {
                           Home
                         </a>
                       </li>
-                      <li>
+                      <li className='liheader'>
                         <a
                           href='/collections/all'
                           className='menu-drawer__menu-item list-menu__item link link--text focus-inset'
@@ -56,7 +59,7 @@ const StickyHeader = () => {
                           Catalog
                         </a>
                       </li>
-                      <li>
+                      <li className='liheader'>
                         <a
                           href='/pages/contact'
                           className='menu-drawer__menu-item list-menu__item link link--text focus-inset'
@@ -143,7 +146,14 @@ const StickyHeader = () => {
             aria-label='Search'
             onClick={() => setIsSearchOpen(!isSearchOpen)}
           >
-            <FaSearch />
+            <svg
+              className='modal__toggle-open icon icon-search'
+              aria-hidden='true'
+              focusable='false'
+              role='presentation'
+            >
+              <use href='#icon-search'></use>
+            </svg>
           </button>
           {isSearchOpen && (
             <div
@@ -213,7 +223,20 @@ const StickyHeader = () => {
             aria-haspopup='dialog'
             onClick={() => setIsCartOpen(!isCartOpen)}
           >
-            <FaShoppingCart />
+            <svg
+              className='icon icon-cart'
+              aria-hidden='true'
+              focusable='false'
+              xmlns='http://www.w3.org/2000/svg'
+              viewBox='0 0 40 40'
+              fill='none'
+            >
+              <path
+                fill='currentColor'
+                fillRule='evenodd'
+                d='M20.5 6.5a4.75 4.75 0 00-4.75 4.75v.56h-3.16l-.77 11.6a5 5 0 004.99 5.34h7.38a5 5 0 004.99-5.33l-.77-11.6h-3.16v-.57A4.75 4.75 0 0020.5 6.5zm3.75 5.31v-.56a3.75 3.75 0 10-7.5 0v.56h7.5zm-7.5 1h7.5v.56a3.75 3.75 0 11-7.5 0v-.56zm-1 0v.56a4.75 4.75 0 109.5 0v-.56h2.22l.71 10.67a4 4 0 01-3.99 4.27h-7.38a4 4 0 01-4-4.27l.72-10.67h2.22z'
+              />
+            </svg>
           </button>
           {isCartOpen && (
             <div
