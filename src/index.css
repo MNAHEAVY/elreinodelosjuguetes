@@ -108,6 +108,9 @@
   --variant-pills-shadow-vertical-offset: 4px;
   --variant-pills-shadow-blur-radius: 5px;
 }
+body {
+  margin: 0;
+}
 .header {
   background-image: url("https://cdn.shopify.com/s/files/1/0639/4049/3475/t/2/assets/pefil-05mmmm_qvbkq7.png?v=1710959584");
   background-size: contain;
