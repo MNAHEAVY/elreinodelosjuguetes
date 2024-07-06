@@ -29,7 +29,7 @@ const StickyHeader = () => {
             aria-expanded={isMenuOpen}
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
-            {isMenuOpen ? <FaTimes /> : <FaBars />}
+            {isMenuOpen ? <FaTimes size={30} /> : <FaBars size={30} />}
           </button>
           {isMenuOpen && (
             <div
