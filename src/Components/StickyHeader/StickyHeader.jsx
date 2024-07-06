@@ -7,7 +7,8 @@ import {
   FaInstagram,
   FaYoutube,
 } from "react-icons/fa";
-import "./StickyHeader.css"; // Asegúrate de incluir tus estilos CSS
+import "./StickyHeader.css";
+import logo from "../../assets/logo.png";
 
 const StickyHeader = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,10 +21,7 @@ const StickyHeader = () => {
       className='header-wrapper color-accent-1 gradient'
       style={{ background: "#4770db", color: "white" }}
     >
-      <header
-        className='header header--middle-left header--mobile-center page-width header--has-menu header--has-social'
-        style={{ height: "99.75px" }}
-      >
+      <header className='header header--middle-left header--mobile-center page-width header--has-menu header--has-social'>
         <div className='menu-drawer-container'>
           <button
             className='header__icon header__icon--menu link focus-inset'
@@ -42,29 +40,25 @@ const StickyHeader = () => {
                 <div className='menu-drawer__navigation-container'>
                   <nav className='menu-drawer__navigation'>
                     <ul className='menu-drawer__menu has-submenu list-menu' role='list'>
-                      <li className='liheader'>
-                        <a
-                          href='/'
-                          className='menu-drawer__menu-item list-menu__item link link--text focus-inset menu-drawer__menu-item--active'
-                          aria-current='page'
-                        >
-                          Home
+                      <li>
+                        <a href='/' aria-current='page'>
+                          <span className='juguete'>Juguetes</span>
                         </a>
                       </li>
-                      <li className='liheader'>
+                      <li>
                         <a
                           href='/collections/all'
                           className='menu-drawer__menu-item list-menu__item link link--text focus-inset'
                         >
-                          Catalog
+                          <span className='juguete'>Juguetes</span>
                         </a>
                       </li>
-                      <li className='liheader'>
+                      <li>
                         <a
                           href='/pages/contact'
                           className='menu-drawer__menu-item list-menu__item link link--text focus-inset'
                         >
-                          Contact
+                          <span className='juguete'>Juguetes</span>
                         </a>
                       </li>
                     </ul>
@@ -105,36 +99,41 @@ const StickyHeader = () => {
             </div>
           )}
         </div>
-        <h1 className='header__heading'>
-          <a href='/' className='header__heading-link link link--text focus-inset'>
-            <span className='h2'>My Store</span>
-          </a>
-        </h1>
+        <a href='/' className='header__heading-link link link--text focus-inset'>
+          <img src={logo} style={{ width: "200px", height: "auto" }} />
+        </a>
+
         <nav className='header__inline-menu'>
           <ul className='list-menu list-menu--inline' role='list'>
-            <li>
+            <li
+              style={{ backgroundColor: "#235ab9a1", margin: "5px", borderRadius: "4px" }}
+            >
               <a
                 href='/'
                 className='header__menu-item list-menu__item link link--text focus-inset'
                 aria-current='page'
               >
-                <span className='header__active-menu-item'>Home</span>
+                <span className='header__active-menu-item'>Juegos</span>
               </a>
             </li>
-            <li>
+            <li
+              style={{ backgroundColor: "#235ab9a1", margin: "5px", borderRadius: "4px" }}
+            >
               <a
                 href='/collections/all'
                 className='header__menu-item list-menu__item link link--text focus-inset'
               >
-                <span>Catalog</span>
+                <span className='header__active-menu-item'>Juguetes</span>
               </a>
             </li>
-            <li>
+            <li
+              style={{ backgroundColor: "#235ab9a1", margin: "5px", borderRadius: "4px" }}
+            >
               <a
                 href='/pages/contact'
                 className='header__menu-item list-menu__item link link--text focus-inset'
               >
-                <span>Contact</span>
+                <span className='header__active-menu-item'>Novedades</span>
               </a>
             </li>
           </ul>
@@ -147,12 +146,19 @@ const StickyHeader = () => {
             onClick={() => setIsSearchOpen(!isSearchOpen)}
           >
             <svg
+              style={{ padding: "2px" }}
               className='modal__toggle-open icon icon-search'
               aria-hidden='true'
               focusable='false'
               role='presentation'
             >
-              <use href='#icon-search'></use>
+              <path
+                d='M14.9536 14.9458L21 21M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z'
+                stroke='#FFFFFF'
+                strokeWidth='1.5'
+                strokeLinecap='round'
+                strokeLinejoin='round'
+              />
             </svg>
           </button>
           {isSearchOpen && (
@@ -232,10 +238,10 @@ const StickyHeader = () => {
               fill='none'
             >
               <path
+                d='m15.75 11.8h-3.16l-.77 11.6a5 5 0 0 0 4.99 5.34h7.38a5 5 0 0 0 4.99-5.33l-.78-11.61zm0 1h-2.22l-.71 10.67a4 4 0 0 0 3.99 4.27h7.38a4 4 0 0 0 4-4.27l-.72-10.67h-2.22v.63a4.75 4.75 0 1 1 -9.5 0zm8.5 0h-7.5v.63a3.75 3.75 0 1 0 7.5 0z'
                 fill='currentColor'
                 fillRule='evenodd'
-                d='M20.5 6.5a4.75 4.75 0 00-4.75 4.75v.56h-3.16l-.77 11.6a5 5 0 004.99 5.34h7.38a5 5 0 004.99-5.33l-.77-11.6h-3.16v-.57A4.75 4.75 0 0020.5 6.5zm3.75 5.31v-.56a3.75 3.75 0 10-7.5 0v.56h7.5zm-7.5 1h7.5v.56a3.75 3.75 0 11-7.5 0v-.56zm-1 0v.56a4.75 4.75 0 109.5 0v-.56h2.22l.71 10.67a4 4 0 01-3.99 4.27h-7.38a4 4 0 01-4-4.27l.72-10.67h2.22z'
-              />
+              ></path>
             </svg>
           </button>
           {isCartOpen && (

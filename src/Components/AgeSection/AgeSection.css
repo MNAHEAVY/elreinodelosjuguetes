@@ -4,11 +4,13 @@
 }
 
 .age-section h2 {
-  text-align: center;
-  color: #333; /* Ajusta según tu diseño */
+  text-align: left;
+  color: rgb(14, 27, 77);
+  padding: 20px;
 }
 
 .collections-grid {
+  margin: 40px;
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -17,7 +19,7 @@
 
 .collection-card {
   background-color: #e9e9e9; /* Ajusta según tu diseño */
-  border: 1px solid #ddd; /* Ajusta según tu diseño */
+  border: 1px solid #161515; /* Ajusta según tu diseño */
   border-radius: 8px;
   padding: 20px;
   text-align: center;
@@ -32,8 +34,10 @@
 
 .collection-card__content p {
   margin: 0;
-  font-size: 16px;
-  color: #333; /* Ajusta según tu diseño */
+  font-size: 18px;
+  color: #333;
+  padding-top: 20px;
+  font-weight: 600;
 }
 
 @media (max-width: 768px) {

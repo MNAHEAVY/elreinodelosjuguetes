@@ -1,13 +1,10 @@
-import "./BannerSection.css"; // Asegúrate de incluir tus estilos CSS
+import "./BannerSection.css";
+import cover from "../../assets/cover.png";
 
 const BannerSection = () => {
   return (
     <section className='banner-section'>
-      <img
-        src='https://i.ytimg.com/vi/ih7UGBj8jTg/maxresdefault.jpg'
-        alt='banner'
-        className='banner-image'
-      />
+      <img src={cover} alt='banner' className='banner-image' />
     </section>
   );
 };

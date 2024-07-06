@@ -116,7 +116,7 @@ body {
   background-size: contain;
   max-width: none !important;
 }
-#MainProduct-template--16829706076323__main {
+.age-section {
   background-image: url("https://cdn.shopify.com/s/files/1/0639/4049/3475/t/2/assets/pefil-05mmmm_qvbkq7.png?v=1710959584");
   background-size: cover; /* Ajusta el tamaño de la imagen para cubrir completamente el fondo */
   background-position: center; /* Centra la imagen en el fondo */
@@ -124,7 +124,7 @@ body {
   background-color: snow;
 }
 
-.section-template--16829706076323__related-products {
+.featured-products-section {
   background-image: url("https://cdn.shopify.com/s/files/1/0639/4049/3475/t/2/assets/pefil-05mmmm_qvbkq7.png?v=1710959584");
   background-size: cover; /* Ajusta el tamaño de la imagen para cubrir completamente el fondo */
   background-position: center; /* Centra la imagen en el fondo */
@@ -471,7 +471,7 @@ h2,
 @media only screen and (min-width: 750px) {
   h2,
   .h2 {
-    font-size: calc(var(--font-heading-scale) * 2.4rem);
+    font-size: calc(var(--font-heading-scale) * 1.8rem);
   }
 }
 
@@ -561,7 +561,7 @@ blockquote {
 .field__input,
 .form__label,
 .select__select {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   line-height: calc(1 + 0.5 / var(--font-body-scale));
   letter-spacing: 0.04rem;
 }
@@ -649,7 +649,7 @@ h6:empty {
   text-underline-offset: 0.3rem;
   color: rgb(var(--color-link));
   background-color: transparent;
-  font-size: 1.4rem;
+  font-size: 0.4rem;
   font-family: inherit;
 }
 
@@ -1749,7 +1749,7 @@ details[open] > .share-button__fallback {
   box-sizing: border-box;
   transition: box-shadow var(--duration-short) ease;
   border-radius: var(--inputs-radius);
-  height: 4.5rem;
+  height: 3.5rem;
   min-height: calc(var(--inputs-border-width) * 2);
   min-width: calc(7rem + (var(--inputs-border-width) * 2));
   position: relative;
@@ -1787,7 +1787,7 @@ details[open] > .share-button__fallback {
   right: var(--inputs-border-width);
   bottom: var(--inputs-border-width);
   left: var(--inputs-border-width);
-  border: 0.1rem solid transparent;
+  border: 0.1rem solid #b2b2b2;
   border-radius: var(--inputs-radius);
   box-shadow: 0 0 0 var(--inputs-border-width)
     rgba(var(--color-foreground), var(--inputs-border-opacity));
@@ -1897,7 +1897,7 @@ details[open] > .share-button__fallback {
 
 .field__label,
 .customer .field label {
-  font-size: 1.6rem;
+  font-size: 1rem;
   left: calc(var(--inputs-border-width) + 2rem);
   top: calc(1rem + var(--inputs-border-width));
   margin-bottom: 0;
@@ -1948,7 +1948,7 @@ details[open] > .share-button__fallback {
   color: currentColor;
   cursor: pointer;
   display: flex;
-  height: 4.4rem;
+  height: 100%;
   justify-content: center;
   overflow: hidden;
   padding: 0;
@@ -1959,8 +1959,7 @@ details[open] > .share-button__fallback {
 }
 
 .field__button > svg {
-  height: 2.5rem;
-  width: 2.5rem;
+  width: 1.5rem;
 }
 
 .field__input:-webkit-autofill ~ .field__button,
@@ -2741,8 +2740,8 @@ product-info .loading__spinner:not(.hidden) ~ *,
 
 .header__icon,
 .header__icon--cart .icon {
-  height: 4.4rem;
-  width: 4.4rem;
+  height: 3.4rem;
+  width: 3.4rem;
   padding: 0;
 }
 
@@ -2972,7 +2971,7 @@ details[open] > .header__submenu {
 }
 
 .header__menu-item {
-  padding: 1.2rem;
+  padding: 0.5rem;
   text-decoration: none;
   color: rgba(var(--color-foreground), 0.75);
 }
@@ -3005,8 +3004,8 @@ details[open] > .header__menu-item .icon-caret {
 .header__active-menu-item {
   transition: text-decoration-thickness var(--duration-short) ease;
   color: rgb(var(--color-foreground));
-  text-decoration: underline;
-  text-underline-offset: 0.3rem;
+
+  font-size: 16px;
 }
 
 .header__menu-item:hover .header__active-menu-item {
@@ -3109,12 +3108,6 @@ details-disclosure > details {
   border-color: rgba(var(--color-badge-border), var(--alpha-badge-border));
   color: rgb(var(--color-badge-foreground));
   word-break: break-word;
-}
-
-.gradient {
-  background: rgb(var(--color-background));
-  background: var(--gradient-background);
-  background-attachment: fixed;
 }
 
 @media screen and (forced-colors: active) {

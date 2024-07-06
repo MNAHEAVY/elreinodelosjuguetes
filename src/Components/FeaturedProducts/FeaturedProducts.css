@@ -4,11 +4,13 @@
 }
 
 .featured-products-section h2 {
-  text-align: center;
-  color: #333; /* Ajusta según tu diseño */
+  text-align: left;
+  color: rgb(14, 27, 77);
+  padding: 20px;
 }
 
 .products-grid {
+  margin: 40px;
   display: flex;
   justify-content: center;
   gap: 20px;

@@ -46,8 +46,8 @@ const OwlCarouselComponent = () => {
   }, []);
 
   return (
-    <div className='owl-caro'>
-      <h2>Nuestras Marcas</h2>
+    <div className='owl-caro' style={{ padding: "40px" }}>
+      <h2 style={{ padding: "20px" }}>Nuestras Marcas</h2>
       <div className='owl-carousel'>
         <a className='item' href='/collections/cry-babies' target='_blank'>
           <div className='slide'>

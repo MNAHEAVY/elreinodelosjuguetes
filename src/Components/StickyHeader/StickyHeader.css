@@ -15,10 +15,11 @@
   align-items: center;
   line-height: calc(1 + 0.3 / var(--font-body-scale));
 }
-li {
-  background-color: #235ab9a1;
-  margin: 5px;
-  border-radius: 4px;
+
+.juguete {
+  background-color: #235ab9a1 !important;
+  margin: 5px !important;
+  border-radius: 4px !important;
 }
 
 *,
