@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import "./SearchModal.css";
-import { FaTimes, FaBars, FaSearch } from "react-icons/fa";
+import { FaTimes, FaSearch } from "react-icons/fa";
 
 const SearchModal = ({ isVisible, onClose }) => {
   useEffect(() => {

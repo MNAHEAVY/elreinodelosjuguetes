@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import $ from "jquery";
 import "../../assets/owl.carousel.min.css";
 import "../../assets/owl.theme.default.min.css";
 
