@@ -2,6 +2,7 @@ import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./StickyHeader.css";
 import SearchModal from "../SearchModal/SearchModal";
+import CartModal from "../CartModal/CartModal";
 import logo from "../../assets/logo.png";
 
 const StickyHeader = () => {
@@ -153,28 +154,7 @@ const StickyHeader = () => {
             </svg>
           </button>
           {isCartOpen && (
-            <div
-              className='cart-modal modal__content gradient'
-              role='dialog'
-              aria-modal='true'
-              aria-label='Cart'
-            >
-              <div className='modal-overlay'></div>
-              <div
-                className='cart-modal__content cart-modal__content-bottom'
-                tabIndex='-1'
-              >
-                {/* Contenido del carrito */}
-                <button
-                  type='button'
-                  className='cart-modal__close-button modal__close-button link link--text focus-inset'
-                  aria-label='Close'
-                  onClick={() => setIsCartOpen(false)}
-                >
-                  <FaTimes />
-                </button>
-              </div>
-            </div>
+            <CartModal isVisible={isCartOpen} onClose={() => setIsCartOpen(false)} />
           )}
         </div>
       </header>
