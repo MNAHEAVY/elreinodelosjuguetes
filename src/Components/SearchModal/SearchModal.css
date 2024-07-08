@@ -1,33 +1,12 @@
-/* Detalles y modales */
-details[open] > .search-modal {
-  opacity: 1;
-  animation: animateMenuOpen 200ms ease;
-}
-
-details > * {
-  box-sizing: border-box;
-}
-
-details[open] .modal-overlay {
-  display: block;
-}
-
-details[open] .modal-overlay:after {
-  position: absolute;
-  content: "";
-  background-color: rgb(14, 27, 77, 0.5);
-  top: 100%;
-  left: 0;
-  right: 0;
-  height: 100vh;
-}
-
 /* Estilos del modal */
 .search-modal {
-  opacity: 1;
+  opacity: 0;
   border-bottom: 0.1rem solid rgba(14, 27, 77, 0.08);
   min-height: calc(100% + var(--inputs-margin-offset) + (2 * var(--inputs-border-width)));
   height: 100%;
+}
+.search-modal.visible {
+  opacity: 1;
 }
 
 .search-modal__content {
@@ -73,6 +52,21 @@ details[open] .modal-overlay:after {
 .modal__close-button .icon {
   width: 1.7rem;
   height: 1.7rem;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 3;
+  display: none;
+}
+
+.search-modal.visible .modal-overlay {
+  display: block;
 }
 
 @media screen and (min-width: 750px) {
