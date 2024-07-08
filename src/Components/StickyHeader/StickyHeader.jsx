@@ -1,13 +1,7 @@
 import { useState } from "react";
-import {
-  FaBars,
-  FaTimes,
-  FaSearch,
-  FaFacebook,
-  FaInstagram,
-  FaYoutube,
-} from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
 import "./StickyHeader.css";
+import SearchModal from "../SearchModal/SearchModal";
 import logo from "../../assets/logo.png";
 
 const StickyHeader = () => {
@@ -63,37 +57,6 @@ const StickyHeader = () => {
                       </li>
                     </ul>
                   </nav>
-                  <div className='menu-drawer__utility-links'>
-                    <ul className='list list-social list-unstyled' role='list'>
-                      <li className='list-social__item'>
-                        <a
-                          href='https://www.facebook.com/profile.php?id=100016741901254'
-                          className='list-social__link link'
-                        >
-                          <FaFacebook />
-                          <span className='visually-hidden'>Facebook</span>
-                        </a>
-                      </li>
-                      <li className='list-social__item'>
-                        <a
-                          href='https://www.instagram.com/profile.php?id=100016741901254'
-                          className='list-social__link link'
-                        >
-                          <FaInstagram />
-                          <span className='visually-hidden'>Instagram</span>
-                        </a>
-                      </li>
-                      <li className='list-social__item'>
-                        <a
-                          href='https://www.youtube.com/profile.php'
-                          className='list-social__link link'
-                        >
-                          <FaYoutube />
-                          <span className='visually-hidden'>YouTube</span>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
                 </div>
               </div>
             </div>
@@ -162,67 +125,12 @@ const StickyHeader = () => {
             </svg>
           </button>
           {isSearchOpen && (
-            <div
-              className='search-modal modal__content gradient'
-              role='dialog'
-              aria-modal='true'
-              aria-label='Search'
-            >
-              <div className='modal-overlay'></div>
-              <div
-                className='search-modal__content search-modal__content-bottom'
-                tabIndex='-1'
-              >
-                <form
-                  action='/search'
-                  method='get'
-                  role='search'
-                  className='search search-modal__form'
-                >
-                  <div className='field'>
-                    <input
-                      className='search__input field__input'
-                      id='Search-In-Modal'
-                      type='search'
-                      name='q'
-                      placeholder='Search'
-                      role='combobox'
-                      aria-expanded='false'
-                      aria-owns='predictive-search-results'
-                      aria-controls='predictive-search-results'
-                      aria-haspopup='listbox'
-                      aria-autocomplete='list'
-                      autoCorrect='off'
-                      autoComplete='off'
-                      autoCapitalize='off'
-                      spellCheck='false'
-                    />
-                    <label className='field__label' htmlFor='Search-In-Modal'>
-                      Search
-                    </label>
-                    <button
-                      type='reset'
-                      className='reset__button field__button hidden'
-                      aria-label='Clear search term'
-                    >
-                      <FaTimes />
-                    </button>
-                    <button className='search__button field__button' aria-label='Search'>
-                      <FaSearch />
-                    </button>
-                  </div>
-                </form>
-                <button
-                  type='button'
-                  className='search-modal__close-button modal__close-button link link--text focus-inset'
-                  aria-label='Close'
-                  onClick={() => setIsSearchOpen(false)}
-                >
-                  <FaTimes />
-                </button>
-              </div>
-            </div>
+            <SearchModal
+              isVisible={isSearchOpen}
+              onClose={() => setIsSearchOpen(false)}
+            />
           )}
+
           <button
             className='header__icon header__icon--cart link focus-inset'
             id='cart-icon-bubble'
