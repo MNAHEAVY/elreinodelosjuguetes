@@ -3,6 +3,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import "./StickyHeader.css";
 import SearchModal from "../SearchModal/SearchModal";
 import CartModal from "../CartModal/CartModal";
+import Drawer from "../Drawer/Drawer";
 import logo from "../../assets/logo.png";
 
 const StickyHeader = () => {
@@ -27,40 +28,7 @@ const StickyHeader = () => {
             {isMenuOpen ? <FaTimes size={30} /> : <FaBars size={30} />}
           </button>
           {isMenuOpen && (
-            <div
-              id='menu-drawer'
-              className='gradient menu-drawer motion-reduce color-inverse'
-            >
-              <div className='menu-drawer__inner-container'>
-                <div className='menu-drawer__navigation-container'>
-                  <nav className='menu-drawer__navigation'>
-                    <ul className='menu-drawer__menu has-submenu list-menu' role='list'>
-                      <li>
-                        <a href='/' aria-current='page'>
-                          <span className='juguete'>Juguetes</span>
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href='/collections/all'
-                          className='menu-drawer__menu-item list-menu__item link link--text focus-inset'
-                        >
-                          <span className='juguete'>Juguetes</span>
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href='/pages/contact'
-                          className='menu-drawer__menu-item list-menu__item link link--text focus-inset'
-                        >
-                          <span className='juguete'>Juguetes</span>
-                        </a>
-                      </li>
-                    </ul>
-                  </nav>
-                </div>
-              </div>
-            </div>
+            <Drawer isVisible={isMenuOpen} onClose={() => setIsMenuOpen(false)} />
           )}
         </div>
         <a href='/' className='header__heading-link link link--text focus-inset'>
