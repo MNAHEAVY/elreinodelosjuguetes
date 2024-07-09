@@ -1,13 +1,13 @@
-.menu-drawer__submenu {
+/* .menu-drawer__submenu {
   transform: translate(0);
   visibility: visible;
-}
+} */
 .menu-drawer,
 .menu-drawer__submenu {
   transition: transform 200ms ease, visibility 200ms ease;
 }
 .menu-drawer {
-  height: calc(100vh - 100%);
+  height: calc(var(--viewport-height, 100vh) - (var(--header-bottom-position, 100%)));
   position: absolute;
   transform: translate(-100%);
   visibility: hidden;
