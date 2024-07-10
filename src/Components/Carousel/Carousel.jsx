@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import $ from "jquery";
 import "../../assets/owl.carousel.min.css";
 import "../../assets/owl.theme.default.min.css";
 
@@ -22,8 +21,8 @@ import sixth from "../../assets/brands-img16.png";
 
 const OwlCarouselComponent = () => {
   useEffect(() => {
-    $(document).ready(function () {
-      $(".owl-carousel").owlCarousel({
+    window.$(document).ready(function () {
+      window.$(".owl-carousel").owlCarousel({
         loop: true,
         autoplay: true,
         autoplayTimeout: 1000,
