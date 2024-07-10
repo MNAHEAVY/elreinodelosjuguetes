@@ -1,3 +1,6 @@
+:root {
+  --header-bottom-position: 162px;
+}
 .menu-drawer__submenu {
   transform: translate(0);
   visibility: visible;
