@@ -1,6 +1,19 @@
+import { useEffect } from "react";
 import "./Drawer.css";
 
 const Drawer = ({ isVisible, onClose }) => {
+  useEffect(() => {
+    if (isVisible) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "unset";
+    }
+
+    return () => {
+      document.body.style.overflow = "unset";
+    };
+  }, [isVisible]);
+
   return (
     <div
       id='menu-drawer'
