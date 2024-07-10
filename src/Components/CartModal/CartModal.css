@@ -28,6 +28,12 @@
   align-items: center;
   line-height: calc(1 + 0.8 / var(--font-body-scale));
 }
+@media (max-width: 768px) {
+  .cart-modal__content {
+    left: 25%;
+    width: 75%;
+  }
+}
 
 .cart-modal__content-bottom {
   bottom: calc((var(--inputs-margin-offset) / 2));
