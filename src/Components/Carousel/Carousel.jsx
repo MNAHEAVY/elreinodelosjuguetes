@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import "../../assets/owl.carousel.min.css";
 import "../../assets/owl.theme.default.min.css";
 import one from "../../assets/brands-img1.png";
@@ -18,10 +17,14 @@ import fourth from "../../assets/brands-img14.png";
 import fifth from "../../assets/brands-img15.png";
 import sixth from "../../assets/brands-img16.png";
 
+import { useEffect } from "react";
+window.jQuery = $;
+window.$ = $;
+
 const OwlCarouselComponent = () => {
   useEffect(() => {
-    window.$(document).ready(function () {
-      window.$(".owl-carousel").owlCarousel({
+    $(document).ready(function () {
+      $(".owl-carousel").owlCarousel({
         loop: true,
         autoplay: true,
         autoplayTimeout: 1000,
@@ -43,7 +46,6 @@ const OwlCarouselComponent = () => {
       });
     });
   }, []);
-
   return (
     <div className='owl-caro' style={{ padding: "40px" }}>
       <h2 style={{ padding: "20px", color: "rgb(14, 27, 77)" }}>Nuestras Marcas</h2>
