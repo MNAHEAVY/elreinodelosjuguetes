@@ -21,31 +21,38 @@ import { useEffect } from "react";
 
 const OwlCarouselComponent = () => {
   useEffect(() => {
-    if (window.$ && window.$.fn.owlCarousel) {
-      window.$(document).ready(function () {
-        window.$(".owl-carousel").owlCarousel({
-          loop: true,
-          autoplay: true,
-          autoplayTimeout: 1000,
-          autoplayHoverPause: true,
-          margin: 10,
-          nav: true,
-          dots: false,
-          responsive: {
-            0: {
-              items: 1,
+    const initializeOwlCarousel = () => {
+      if (window.$ && window.$.fn.owlCarousel) {
+        window.$(document).ready(function () {
+          window.$(".owl-carousel").owlCarousel({
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 1000,
+            autoplayHoverPause: true,
+            margin: 10,
+            nav: true,
+            dots: false,
+            responsive: {
+              0: {
+                items: 1,
+              },
+              600: {
+                items: 3,
+              },
+              1000: {
+                items: 5,
+              },
             },
-            600: {
-              items: 3,
-            },
-            1000: {
-              items: 5,
-            },
-          },
+          });
         });
-      });
-    }
+      }
+    };
+
+    // Intentar inicializar OwlCarousel después de un pequeño retraso para asegurarse de que los scripts se hayan cargado
+    const timer = setTimeout(initializeOwlCarousel, 500);
+    return () => clearTimeout(timer);
   }, []);
+
   return (
     <div className='owl-caro' style={{ padding: "40px" }}>
       <h2 style={{ padding: "20px", color: "rgb(14, 27, 77)" }}>Nuestras Marcas</h2>
