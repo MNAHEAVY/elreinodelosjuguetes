@@ -18,33 +18,33 @@ import fifth from "../../assets/brands-img15.png";
 import sixth from "../../assets/brands-img16.png";
 
 import { useEffect } from "react";
-window.jQuery = $;
-window.$ = $;
 
 const OwlCarouselComponent = () => {
   useEffect(() => {
-    $(document).ready(function () {
-      $(".owl-carousel").owlCarousel({
-        loop: true,
-        autoplay: true,
-        autoplayTimeout: 1000,
-        autoplayHoverPause: true,
-        margin: 10,
-        nav: true,
-        dots: false,
-        responsive: {
-          0: {
-            items: 1,
+    if (window.$ && window.$.fn.owlCarousel) {
+      window.$(document).ready(function () {
+        window.$(".owl-carousel").owlCarousel({
+          loop: true,
+          autoplay: true,
+          autoplayTimeout: 1000,
+          autoplayHoverPause: true,
+          margin: 10,
+          nav: true,
+          dots: false,
+          responsive: {
+            0: {
+              items: 1,
+            },
+            600: {
+              items: 3,
+            },
+            1000: {
+              items: 5,
+            },
           },
-          600: {
-            items: 3,
-          },
-          1000: {
-            items: 5,
-          },
-        },
+        });
       });
-    });
+    }
   }, []);
   return (
     <div className='owl-caro' style={{ padding: "40px" }}>
