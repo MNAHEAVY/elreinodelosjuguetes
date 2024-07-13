@@ -1,6 +1,6 @@
+import { useEffect } from "react";
 import "../../assets/owl.carousel.min.css";
 import "../../assets/owl.theme.default.min.css";
-import OwlCarousel from "react-owl-carousel";
 import one from "../../assets/brands-img1.png";
 import two from "../../assets/brands-img2.png";
 import three from "../../assets/brands-img3.png";
@@ -19,19 +19,17 @@ import fifth from "../../assets/brands-img15.png";
 import sixth from "../../assets/brands-img16.png";
 
 const OwlCarouselComponent = () => {
-  return (
-    <div className='owl-caro' style={{ padding: "40px" }}>
-      <h2 style={{ padding: "20px", color: "rgb(14, 27, 77)" }}>Nuestras Marcas</h2>
-      <OwlCarousel
-        className='owl-theme'
-        loop
-        margin={10}
-        dots={false}
-        nav
-        autoplay
-        autoplayTimeout={1000}
-        autoplayHoverPause
-        responsive={{
+  useEffect(() => {
+    window.$(document).ready(function () {
+      window.$(".owl-carousel").owlCarousel({
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 1000,
+        autoplayHoverPause: true,
+        margin: 10,
+        nav: true,
+        dots: false,
+        responsive: {
           0: {
             items: 1,
           },
@@ -41,8 +39,15 @@ const OwlCarouselComponent = () => {
           1000: {
             items: 5,
           },
-        }}
-      >
+        },
+      });
+    });
+  }, []);
+
+  return (
+    <div className='owl-caro' style={{ padding: "40px" }}>
+      <h2 style={{ padding: "20px", color: "rgb(14, 27, 77)" }}>Nuestras Marcas</h2>
+      <div className='owl-carousel'>
         <a className='item' href='/collections/cry-babies' target='_blank'>
           <div className='slide'>
             <img className='img' src={one} alt='cry-babies' width='100' height='100' />
@@ -178,7 +183,7 @@ const OwlCarouselComponent = () => {
           </div>
           <h5 className='text-title'>Accion Extrema</h5>
         </a>
-      </OwlCarousel>
+      </div>
     </div>
   );
 };
