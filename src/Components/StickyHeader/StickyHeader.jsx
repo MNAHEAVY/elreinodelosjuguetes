@@ -41,7 +41,7 @@ const StickyHeader = () => {
               style={{ backgroundColor: "#235ab9a1", margin: "5px", borderRadius: "4px" }}
             >
               <a
-                href='/'
+                href='/juegos'
                 className='header__menu-item list-menu__item link link--text focus-inset'
                 aria-current='page'
               >
@@ -52,7 +52,7 @@ const StickyHeader = () => {
               style={{ backgroundColor: "#235ab9a1", margin: "5px", borderRadius: "4px" }}
             >
               <a
-                href='/collections/all'
+                href='/juguetes'
                 className='header__menu-item list-menu__item link link--text focus-inset'
               >
                 <span className='header__active-menu-item'>Juguetes</span>
@@ -62,7 +62,7 @@ const StickyHeader = () => {
               style={{ backgroundColor: "#235ab9a1", margin: "5px", borderRadius: "4px" }}
             >
               <a
-                href='/pages/contact'
+                href='/novedades'
                 className='header__menu-item list-menu__item link link--text focus-inset'
               >
                 <span className='header__active-menu-item'>Novedades</span>

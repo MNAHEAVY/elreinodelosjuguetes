@@ -1,0 +1,58 @@
+[
+  {
+    "nombre": "FIGURA HARRY POTTER LUNA & CHO",
+    "precio": 5917,
+    "descripcion": "Figura de colección de Harry Potter con personajes Luna Lovegood y Cho Chang.",
+    "marca": "Harry Potter",
+    "edad": "6+",
+    "categoria": "juegos",
+    "disponibilidad": "en stock",
+    "material": "plástico",
+    "dimensiones": "10cm x 5cm x 5cm",
+    "peso": "200g",
+    "codigo_producto": "HP01",
+    "imagen": "https://res.cloudinary.com/dxsl6lphv/image/upload/v1721763020/IMG_5833_vxbdwo.jpg"
+  },
+  {
+    "nombre": "THOR ENDGAME",
+    "precio": 64480,
+    "descripcion": "Figura de acción de Thor Endgame.",
+    "marca": "Marvel",
+    "edad": "6+",
+    "categoria": "juguete",
+    "disponibilidad": "en stock",
+    "material": "plástico",
+    "dimensiones": "30cm x 10cm x 5cm",
+    "peso": "300g",
+    "codigo_producto": "TE01",
+    "imagen": "https://res.cloudinary.com/dxsl6lphv/image/upload/v1721767979/IMG_7269_wifnvs.jpg"
+  },
+  {
+    "nombre": "BUZZ LY ORIGINAL",
+    "precio": 15520,
+    "descripcion": "Figura original de Buzz Lightyear.",
+    "marca": "Disney",
+    "edad": "4+",
+    "categoria": "juguete",
+    "disponibilidad": "en stock",
+    "material": "plástico",
+    "dimensiones": "30cm x 15cm x 10cm",
+    "peso": "500g",
+    "codigo_producto": "BO01",
+    "imagen": "https://res.cloudinary.com/dxsl6lphv/image/upload/v1721766445/IMG_7303_vskyij.jpg"
+  },
+  {
+    "nombre": "AUTO C/ TIRADOR TORTUGAS NINJA",
+    "precio": 4598,
+    "descripcion": "Auto con tirador de las Tortugas Ninja.",
+    "marca": "Tortugas Ninja",
+    "edad": "4+",
+    "categoria": "juegos",
+    "disponibilidad": "en stock",
+    "material": "plástico",
+    "dimensiones": "15cm x 10cm x 8cm",
+    "peso": "300g",
+    "codigo_producto": "TN02",
+    "imagen": "https://res.cloudinary.com/dxsl6lphv/image/upload/v1721768107/IMG_7251_rsi7wd.jpg"
+  }
+]

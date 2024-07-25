@@ -6,10 +6,10 @@ import ageFour from "../../assets/category-img4.gif";
 
 const AgeSection = () => {
   const collections = [
-    { name: "De 0 a 24 Meses", link: "/collection/1", img: ageOne },
-    { name: "De 2 A 4 Años", link: "/collection/2", img: ageTwo },
-    { name: "De 5 A 7 Años", link: "/collection/3", img: ageTre },
-    { name: "8 Años o Mas", link: "/collection/4", img: ageFour },
+    { name: "De 0 a 24 Meses", link: "/collection?edad=1", img: ageOne },
+    { name: "De 2 A 4 Años", link: "/collection?edad=2", img: ageTwo },
+    { name: "De 5 A 7 Años", link: "/collection?edad=3", img: ageTre },
+    { name: "8 Años o Mas", link: "/collection?edad=4", img: ageFour },
   ];
 
   return (
