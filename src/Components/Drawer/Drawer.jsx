@@ -80,7 +80,7 @@ const Drawer = ({ isVisible, onClose }) => {
             <ul className='list list-social list-unstyled' role='list'>
               <li className='list-social__item'>
                 <a
-                  href='https://www.instagram.com/elreinodelosjuguetes'
+                  href='https://www.instagram.com/el.reino.de.los.juguetes/'
                   className='link list-social-link'
                 >
                   <svg

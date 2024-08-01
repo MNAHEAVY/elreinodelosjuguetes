@@ -133,7 +133,7 @@ const Footer = () => {
           <ul className='list-unstyled list-social footer__list-social' role='list'>
             <li className='link list-social__link'>
               <a
-                href='https://www.instagram.com/elreinodelosjuguetes'
+                href='https://www.instagram.com/el.reino.de.los.juguetes/'
                 className='link list-social-link'
               >
                 <svg
@@ -181,7 +181,7 @@ const Footer = () => {
               © 2024, El Reino de los Juguetes{"  "}
             </small>
             <small className='copyright__content'>
-              <a target='_blank' rel='nofollow' href='http://github.com/MNAHEAVY'>
+              <a target='_blank' rel='nofollow' href='https://mnaportfolio.vercel.app/'>
                 Powered by MNADEV
               </a>
             </small>
