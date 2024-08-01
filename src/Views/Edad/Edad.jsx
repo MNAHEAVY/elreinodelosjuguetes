@@ -1,6 +1,6 @@
+import data from "../../../products-b.json";
 import { useState } from "react";
 import { useSearchParams } from "react-router-dom";
-import data from "../../../products-b.json";
 
 const ageRanges = {
   1: { min: 0, max: 2 },
@@ -39,17 +39,26 @@ const Edad = () => {
           : `Para edades entre ${ageRange.min} y ${ageRange.max} años`}
       </h2>
       <div className='products-grid'>
-        {filteredData.slice(0, visibleProducts).map((dat, index) => (
-          <div key={index} className='product-card'>
-            <a href={"/detail/" + data.codigo_producto}>
-              <img src={dat.imagen[0]} alt={dat.nombre} className='product-image' />
-              <div className='product-info'>
-                <p className='product-title'>{dat.nombre}</p>
-                <p className='product-price'>{dat.marca}</p>
-              </div>{" "}
-            </a>
-          </div>
-        ))}
+        {filteredData.slice(0, visibleProducts).map((product) => {
+          if (!product.codigo_producto) {
+            return null; // Skip rendering if the product code is missing
+          }
+          return (
+            <div key={product.codigo_producto} className='product-card'>
+              <a href={`/detail/${product.codigo_producto}`}>
+                <img
+                  src={product.imagen[0]}
+                  alt={product.nombre}
+                  className='product-image'
+                />
+                <div className='product-info'>
+                  <p className='product-title'>{product.nombre}</p>
+                  <p className='product-price'>{product.marca}</p>
+                </div>
+              </a>
+            </div>
+          );
+        })}
       </div>
       {visibleProducts < filteredData.length && (
         <button onClick={handleLoadMore} className='load-more-button'>
