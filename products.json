@@ -1,453 +1,5 @@
 [
   {
-    "nombre": "FIGURA HARRY POTTER LUNA & CHO",
-    "precio": 5917,
-    "descripcion": "Figura de colección de Harry Potter con personajes Luna Lovegood y Cho Chang.",
-    "marca": "Harry Potter",
-    "edad": "6+",
-    "categoria": "juguete",
-    "disponibilidad": "en stock",
-    "material": "plástico",
-    "dimensiones": "10cm x 5cm x 5cm",
-    "peso": "200g",
-    "codigo_producto": "HP01",
-    "imagen": ""
-  },
-  {
-    "nombre": "PLAYSET HARRY POTTER DIVINATTION",
-    "precio": 11495,
-    "descripcion": "Playset de Harry Potter con temática de la clase de adivinación.",
-    "marca": "Harry Potter",
-    "edad": "6+",
-    "categoria": "juego",
-    "disponibilidad": "en stock",
-    "material": "plástico",
-    "dimensiones": "30cm x 20cm x 10cm",
-    "peso": "500g",
-    "codigo_producto": "HP02",
-    "imagen": ""
-  },
-  {
-    "nombre": "SALA HARRY POTTER",
-    "precio": 11495,
-    "descripcion": "Sala de juegos temática de Harry Potter.",
-    "marca": "Harry Potter",
-    "edad": "6+",
-    "categoria": "juego",
-    "disponibilidad": "en stock",
-    "material": "plástico",
-    "dimensiones": "40cm x 30cm x 15cm",
-    "peso": "700g",
-    "codigo_producto": "HP03",
-    "imagen": ""
-  },
-  {
-    "nombre": "PACK X 2 MINI FIG TORTUGAS NINJA",
-    "precio": 4659,
-    "descripcion": "Pack de 2 mini figuras de las Tortugas Ninja.",
-    "marca": "Tortugas Ninja",
-    "edad": "4+",
-    "categoria": "juguete",
-    "disponibilidad": "en stock",
-    "material": "plástico",
-    "dimensiones": "7cm x 3cm x 3cm",
-    "peso": "150g",
-    "codigo_producto": "TN01",
-    "imagen": ""
-  },
-  {
-    "nombre": "AUTO C/ TIRADOR TORTUGAS NINJA",
-    "precio": 4598,
-    "descripcion": "Auto con tirador de las Tortugas Ninja.",
-    "marca": "Tortugas Ninja",
-    "edad": "4+",
-    "categoria": "juguete",
-    "disponibilidad": "en stock",
-    "material": "plástico",
-    "dimensiones": "15cm x 10cm x 8cm",
-    "peso": "300g",
-    "codigo_producto": "TN02",
-    "imagen": ""
-  },
-  {
-    "nombre": "PINYPON C ACCION TRANSPORT",
-    "precio": 6474,
-    "descripcion": "Transporte de acción de Pinypon.",
-    "marca": "Pinypon",
-    "edad": "4+",
-    "categoria": "juguete",
-    "disponibilidad": "en stock",
-    "material": "plástico",
-    "dimensiones": "20cm x 15cm x 10cm",
-    "peso": "400g",
-    "codigo_producto": "PP01",
-    "imagen": ""
-  },
-  {
-    "nombre": "MINI FIGURA 7CM PINYPON ACTION",
-    "precio": 3872,
-    "descripcion": "Mini figura de acción de Pinypon de 7cm.",
-    "marca": "Pinypon",
-    "edad": "4+",
-    "categoria": "juguete",
-    "disponibilidad": "en stock",
-    "material": "plástico",
-    "dimensiones": "7cm x 3cm x 3cm",
-    "peso": "50g",
-    "codigo_producto": "PP02",
-    "imagen": ""
-  },
-  {
-    "nombre": "MINI FIGURA PINYPON EMOCIONES",
-    "precio": 4538,
-    "descripcion": "Mini figura de Pinypon con emociones.",
-    "marca": "Pinypon",
-    "edad": "4+",
-    "categoria": "juguete",
-    "disponibilidad": "en stock",
-    "material": "plástico",
-    "dimensiones": "7cm x 3cm x 3cm",
-    "peso": "50g",
-    "codigo_producto": "PP03",
-    "imagen": ""
-  },
-  {
-    "nombre": "MINI FIG 15 CM THE FLASH",
-    "precio": 3207,
-    "descripcion": "Mini figura de 15cm de The Flash.",
-    "marca": "DC Comics",
-    "edad": "6+",
-    "categoria": "juguete",
-    "disponibilidad": "en stock",
-    "material": "plástico",
-    "dimensiones": "15cm x 5cm x 5cm",
-    "peso": "100g",
-    "codigo_producto": "DC01",
-    "imagen": ""
-  },
-  {
-    "nombre": "SKATE TORTUGAS NINJA CON TIRADOR",
-    "precio": 7442,
-    "descripcion": "Skate de las Tortugas Ninja con tirador.",
-    "marca": "Tortugas Ninja",
-    "edad": "4+",
-    "categoria": "juguete",
-    "disponibilidad": "en stock",
-    "material": "plástico",
-    "dimensiones": "30cm x 10cm x 8cm",
-    "peso": "300g",
-    "codigo_producto": "TN03",
-    "imagen": ""
-  },
-  {
-    "nombre": "MINI SUPERCUTE EN CAJITA",
-    "precio": 7986,
-    "descripcion": "Mini figura Supercute en cajita.",
-    "marca": "Supercute",
-    "edad": "6+",
-    "categoria": "juguete",
-    "disponibilidad": "en stock",
-    "material": "plástico",
-    "dimensiones": "5cm x 5cm x 5cm",
-    "peso": "100g",
-    "codigo_producto": "SC01",
-    "imagen": ""
-  },
-  {
-    "nombre": "FIGURA 10CM TORTUGAS",
-    "precio": 12463,
-    "descripcion": "Figura de 10cm de las Tortugas Ninja.",
-    "marca": "Tortugas Ninja",
-    "edad": "4+",
-    "categoria": "juguete",
-    "disponibilidad": "en stock",
-    "material": "plástico",
-    "dimensiones": "10cm x 5cm x 5cm",
-    "peso": "150g",
-    "codigo_producto": "TN04",
-    "imagen": ""
-  },
-  {
-    "nombre": "FIG 30 CM SELINA KYLE",
-    "precio": 5143,
-    "descripcion": "Figura de 30cm de Selina Kyle.",
-    "marca": "DC Comics",
-    "edad": "6+",
-    "categoria": "juguete",
-    "disponibilidad": "en stock",
-    "material": "plástico",
-    "dimensiones": "30cm x 10cm x 8cm",
-    "peso": "300g",
-    "codigo_producto": "DC02",
-    "imagen": ""
-  },
-  {
-    "nombre": "FIGURAS FLASH",
-    "precio": 9680,
-    "descripcion": "Conjunto de figuras de The Flash.",
-    "marca": "DC Comics",
-    "edad": "6+",
-    "categoria": "juguete",
-    "disponibilidad": "en stock",
-    "material": "plástico",
-    "dimensiones": "15cm x 5cm x 5cm",
-    "peso": "100g",
-    "codigo_producto": "DC03",
-    "imagen": ""
-  },
-  {
-    "nombre": "HARRY 20 CM CHAO CHANG",
-    "precio": 8458,
-    "descripcion": "Figura de 20cm de Harry Potter con Cho Chang.",
-    "marca": "Harry Potter",
-    "edad": "6+",
-    "categoria": "juguete",
-    "disponibilidad": "en stock",
-    "material": "plástico",
-    "dimensiones": "20cm x 10cm x 8cm",
-    "peso": "300g",
-    "codigo_producto": "HP04",
-    "imagen": ""
-  },
-  {
-    "nombre": "GORRO HARRY POTTER",
-    "precio": 45000,
-    "descripcion": "Gorro temático de Harry Potter, ideal para los fanáticos de la saga.",
-    "marca": "Harry Potter",
-    "edad": "6+",
-    "categoria": "juguete",
-    "disponibilidad": "en stock",
-    "material": "lana",
-    "dimensiones": "tamaño único",
-    "peso": "150g",
-    "codigo_producto": "HP05",
-    "imagen": ""
-  },
-  {
-    "nombre": "MICROFONO FISHER PRICE",
-    "precio": 6500,
-    "descripcion": "Micrófono de juguete de Fisher Price, ideal para niños pequeños.",
-    "marca": "Fisher Price",
-    "edad": "2+",
-    "categoria": "juguete",
-    "disponibilidad": "en stock",
-    "material": "plástico",
-    "dimensiones": "20cm x 5cm x 5cm",
-    "peso": "200g",
-    "codigo_producto": "FP01",
-    "imagen": ""
-  },
-  {
-    "nombre": "PINES CROCS",
-    "precio": 2500,
-    "descripcion": "Pack de 8 pines decorativos para Crocs.",
-    "marca": "Crocs",
-    "edad": "6+",
-    "categoria": "juguete",
-    "disponibilidad": "en stock",
-    "material": "plástico",
-    "dimensiones": "2cm x 2cm x 1cm cada uno",
-    "peso": "50g",
-    "codigo_producto": "CR01",
-    "imagen": ""
-  },
-  {
-    "nombre": "DC FIGURA",
-    "precio": 12000,
-    "descripcion": "Figura de acción de DC Comics.",
-    "marca": "DC Comics",
-    "edad": "6+",
-    "categoria": "juguete",
-    "disponibilidad": "en stock",
-    "material": "plástico",
-    "dimensiones": "30cm x 10cm x 8cm",
-    "peso": "300g",
-    "codigo_producto": "DC04",
-    "imagen": ""
-  },
-  {
-    "nombre": "DC FIGURA",
-    "precio": 11000,
-    "descripcion": "Figura de acción de DC Comics.",
-    "marca": "DC Comics",
-    "edad": "6+",
-    "categoria": "juguete",
-    "disponibilidad": "en stock",
-    "material": "plástico",
-    "dimensiones": "30cm x 10cm x 8cm",
-    "peso": "300g",
-    "codigo_producto": "DC05",
-    "imagen": ""
-  },
-  {
-    "nombre": "BLUEY SET",
-    "precio": 3500,
-    "descripcion": "Set de figuras de Bluey, ideal para niños.",
-    "marca": "Bluey",
-    "edad": "3+",
-    "categoria": "juguete",
-    "disponibilidad": "en stock",
-    "material": "plástico",
-    "dimensiones": "10cm x 5cm x 5cm cada figura",
-    "peso": "200g",
-    "codigo_producto": "BL01",
-    "imagen": ""
-  },
-  {
-    "nombre": "HARRY POTTER",
-    "precio": 7500,
-    "descripcion": "Figura de Harry Potter.",
-    "marca": "Harry Potter",
-    "edad": "6+",
-    "categoria": "juguete",
-    "disponibilidad": "en stock",
-    "material": "plástico",
-    "dimensiones": "20cm x 10cm x 8cm",
-    "peso": "300g",
-    "codigo_producto": "HP06",
-    "imagen": ""
-  },
-  {
-    "nombre": "BLUEY SORPRESA",
-    "precio": 2000,
-    "descripcion": "Figura sorpresa de Bluey, ideal para coleccionar.",
-    "marca": "Bluey",
-    "edad": "3+",
-    "categoria": "juguete",
-    "disponibilidad": "en stock",
-    "material": "plástico",
-    "dimensiones": "7cm x 5cm x 5cm",
-    "peso": "100g",
-    "codigo_producto": "BL02",
-    "imagen": ""
-  },
-  {
-    "nombre": "DC COMIC FIG 30 CM",
-    "precio": 16990,
-    "descripcion": "Figura de acción de DC Comics de 30cm.",
-    "marca": "DC Comics",
-    "edad": "6+",
-    "categoria": "juguete",
-    "disponibilidad": "en stock",
-    "material": "plástico",
-    "dimensiones": "30cm x 10cm x 8cm",
-    "peso": "300g",
-    "codigo_producto": "DC06",
-    "imagen": ""
-  },
-  {
-    "nombre": "HARRY WIZARDING WORLD",
-    "precio": 11500,
-    "descripcion": "Figura de Harry Potter del Mundo Mágico.",
-    "marca": "Harry Potter",
-    "edad": "6+",
-    "categoria": "juguete",
-    "disponibilidad": "en stock",
-    "material": "plástico",
-    "dimensiones": "20cm x 10cm x 8cm",
-    "peso": "300g",
-    "codigo_producto": "HP07",
-    "imagen": ""
-  },
-  {
-    "nombre": "HASBRO SUPER HERO",
-    "precio": 6291,
-    "descripcion": "Figura de superhéroe de Hasbro.",
-    "marca": "Hasbro",
-    "edad": "4+",
-    "categoria": "juguete",
-    "disponibilidad": "en stock",
-    "material": "plástico",
-    "dimensiones": "25cm x 10cm x 8cm",
-    "peso": "250g",
-    "codigo_producto": "HB01",
-    "imagen": ""
-  },
-  {
-    "nombre": "FUNKO POP GAME",
-    "precio": 8091,
-    "descripcion": "Figura Funko Pop de un videojuego.",
-    "marca": "Funko Pop",
-    "edad": "6+",
-    "categoria": "juguete",
-    "disponibilidad": "en stock",
-    "material": "vinilo",
-    "dimensiones": "10cm x 5cm x 5cm",
-    "peso": "150g",
-    "codigo_producto": "FP02",
-    "imagen": ""
-  },
-  {
-    "nombre": "HARRY POTTER",
-    "precio": 4301,
-    "descripcion": "Figura de Harry Potter.",
-    "marca": "Harry Potter",
-    "edad": "6+",
-    "categoria": "juguete",
-    "disponibilidad": "en stock",
-    "material": "plástico",
-    "dimensiones": "15cm x 10cm x 8cm",
-    "peso": "200g",
-    "codigo_producto": "HP08",
-    "imagen": ""
-  },
-  {
-    "nombre": "DC COMIC FIG 30 CM",
-    "precio": 15290,
-    "descripcion": "Figura de acción de DC Comics de 30cm.",
-    "marca": "DC Comics",
-    "edad": "6+",
-    "categoria": "juguete",
-    "disponibilidad": "en stock",
-    "material": "plástico",
-    "dimensiones": "30cm x 10cm x 8cm",
-    "peso": "300g",
-    "codigo_producto": "DC07",
-    "imagen": ""
-  },
-  {
-    "nombre": "DC BATMAN 30CM",
-    "precio": 15290,
-    "descripcion": "Figura de Batman de 30cm de DC Comics.",
-    "marca": "DC Comics",
-    "edad": "6+",
-    "categoria": "juguete",
-    "disponibilidad": "en stock",
-    "material": "plástico",
-    "dimensiones": "30cm x 10cm x 8cm",
-    "peso": "300g",
-    "codigo_producto": "DC08",
-    "imagen": ""
-  },
-  {
-    "nombre": "HARRY POTTER",
-    "precio": 5790,
-    "descripcion": "Figura de Harry Potter.",
-    "marca": "Harry Potter",
-    "edad": "6+",
-    "categoria": "juguete",
-    "disponibilidad": "en stock",
-    "material": "plástico",
-    "dimensiones": "15cm x 10cm x 8cm",
-    "peso": "200g",
-    "codigo_producto": "HP09",
-    "imagen": ""
-  },
-  {
-    "nombre": "HARRY POTTER",
-    "precio": 11125,
-    "descripcion": "Figura de Harry Potter.",
-    "marca": "Harry Potter",
-    "edad": "6+",
-    "categoria": "juguete",
-    "disponibilidad": "en stock",
-    "material": "plástico",
-    "dimensiones": "20cm x 10cm x 8cm",
-    "peso": "300g",
-    "codigo_producto": "HP10",
-    "imagen": ""
-  },
-  {
     "nombre": "FIG BASICA ZOOTOPIA",
     "precio": 11892,
     "descripcion": "Figura básica de Zootopia.",
@@ -459,7 +11,7 @@
     "dimensiones": "10cm x 5cm x 5cm",
     "peso": "150g",
     "codigo_producto": "DZ01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "MUÑECA BEBE LLORONA",
@@ -473,7 +25,7 @@
     "dimensiones": "30cm x 15cm x 10cm",
     "peso": "500g",
     "codigo_producto": "BC01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "FIG BASICA ZOOTOPIA",
@@ -487,7 +39,7 @@
     "dimensiones": "10cm x 5cm x 5cm",
     "peso": "150g",
     "codigo_producto": "DZ02",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "ARMA NERFT",
@@ -501,7 +53,7 @@
     "dimensiones": "25cm x 10cm x 5cm",
     "peso": "300g",
     "codigo_producto": "NF01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "VALIJA",
@@ -515,7 +67,7 @@
     "dimensiones": "40cm x 30cm x 15cm",
     "peso": "700g",
     "codigo_producto": "VG01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "MOCHILA",
@@ -529,7 +81,7 @@
     "dimensiones": "35cm x 25cm x 10cm",
     "peso": "300g",
     "codigo_producto": "MG01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "FIG GRANDE",
@@ -543,7 +95,7 @@
     "dimensiones": "30cm x 10cm x 8cm",
     "peso": "300g",
     "codigo_producto": "FG01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "DENTISTA",
@@ -557,7 +109,7 @@
     "dimensiones": "20cm x 15cm x 10cm",
     "peso": "400g",
     "codigo_producto": "PD01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "CUBOS",
@@ -571,21 +123,7 @@
     "dimensiones": "10cm x 10cm x 10cm cada cubo",
     "peso": "500g",
     "codigo_producto": "MB01",
-    "imagen": ""
-  },
-  {
-    "nombre": "TEJO FUTBOL",
-    "precio": 11900,
-    "descripcion": "Juego de tejo con temática de fútbol.",
-    "marca": "Generic",
-    "edad": "6+",
-    "categoria": "juego",
-    "disponibilidad": "en stock",
-    "material": "plástico",
-    "dimensiones": "40cm x 20cm x 10cm",
-    "peso": "700g",
-    "codigo_producto": "TF01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "DESCARGA MANZANA",
@@ -599,7 +137,7 @@
     "dimensiones": "30cm x 15cm x 15cm",
     "peso": "500g",
     "codigo_producto": "DM01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "BMW CONTROL",
@@ -613,7 +151,7 @@
     "dimensiones": "30cm x 15cm x 10cm",
     "peso": "700g",
     "codigo_producto": "BMW01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "BLOQUES BALDE",
@@ -627,7 +165,7 @@
     "dimensiones": "20cm x 20cm x 20cm",
     "peso": "800g",
     "codigo_producto": "MB02",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "SIRENAS",
@@ -641,7 +179,7 @@
     "dimensiones": "10cm x 5cm x 5cm cada figura",
     "peso": "150g",
     "codigo_producto": "SR01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "X SHOT PISTOLA",
@@ -655,7 +193,7 @@
     "dimensiones": "25cm x 10cm x 5cm",
     "peso": "300g",
     "codigo_producto": "XS01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "MINNI SUPERMAN 15 CM",
@@ -669,7 +207,7 @@
     "dimensiones": "15cm x 5cm x 5cm",
     "peso": "150g",
     "codigo_producto": "DC09",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "MINI ROBIN 15 CM",
@@ -683,7 +221,7 @@
     "dimensiones": "15cm x 5cm x 5cm",
     "peso": "150g",
     "codigo_producto": "DC10",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "MINI BATMAN 15 CM",
@@ -697,7 +235,7 @@
     "dimensiones": "15cm x 5cm x 5cm",
     "peso": "150g",
     "codigo_producto": "DC11",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "PISTA METAL MACHINES CONSTRUCCION",
@@ -711,7 +249,7 @@
     "dimensiones": "50cm x 30cm x 20cm",
     "peso": "1kg",
     "codigo_producto": "MM01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "PISTA METAL COCODRILO",
@@ -725,7 +263,7 @@
     "dimensiones": "50cm x 30cm x 20cm",
     "peso": "1kg",
     "codigo_producto": "MM02",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "PISTA AUTOS MACHINES",
@@ -739,7 +277,7 @@
     "dimensiones": "50cm x 30cm x 20cm",
     "peso": "1kg",
     "codigo_producto": "MM03",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "SUPER MAN DC",
@@ -753,7 +291,7 @@
     "dimensiones": "30cm x 10cm x 8cm",
     "peso": "300g",
     "codigo_producto": "DC12",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "BATMAN DC",
@@ -767,7 +305,7 @@
     "dimensiones": "30cm x 10cm x 8cm",
     "peso": "300g",
     "codigo_producto": "DC13",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "BATMAN GRANDE",
@@ -781,7 +319,7 @@
     "dimensiones": "60cm x 20cm x 15cm",
     "peso": "1kg",
     "codigo_producto": "DC14",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "STARD WARS RO",
@@ -795,7 +333,7 @@
     "dimensiones": "10cm x 5cm x 5cm",
     "peso": "100g",
     "codigo_producto": "SW01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "BARBIE PRINCESA",
@@ -809,7 +347,7 @@
     "dimensiones": "30cm x 10cm x 5cm",
     "peso": "200g",
     "codigo_producto": "BB01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "BARBIE FASHION SIN CABELLO",
@@ -823,7 +361,7 @@
     "dimensiones": "30cm x 10cm x 5cm",
     "peso": "200g",
     "codigo_producto": "BB02",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "MUÑECA FRUTILLA",
@@ -837,7 +375,7 @@
     "dimensiones": "20cm x 10cm x 5cm",
     "peso": "150g",
     "codigo_producto": "MF01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "MUÑECA ANANA",
@@ -851,7 +389,7 @@
     "dimensiones": "20cm x 10cm x 5cm",
     "peso": "150g",
     "codigo_producto": "MA01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "MUÑECA NEGRA",
@@ -865,7 +403,7 @@
     "dimensiones": "20cm x 10cm x 5cm",
     "peso": "150g",
     "codigo_producto": "MN01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "MUÑECA",
@@ -879,7 +417,7 @@
     "dimensiones": "20cm x 10cm x 5cm",
     "peso": "150g",
     "codigo_producto": "MG02",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "DINO PLAY DOH",
@@ -893,7 +431,7 @@
     "dimensiones": "30cm x 20cm x 10cm",
     "peso": "500g",
     "codigo_producto": "PD02",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "BARBIE CHELSE",
@@ -907,7 +445,7 @@
     "dimensiones": "15cm x 7cm x 5cm",
     "peso": "100g",
     "codigo_producto": "BC01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "PALITOS CHINOS",
@@ -921,7 +459,7 @@
     "dimensiones": "20cm x 10cm x 2cm",
     "peso": "100g",
     "codigo_producto": "PC01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "BEBOTE",
@@ -935,7 +473,7 @@
     "dimensiones": "25cm x 15cm x 10cm",
     "peso": "300g",
     "codigo_producto": "BB03",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "PISTOLAS DINO",
@@ -949,7 +487,7 @@
     "dimensiones": "30cm x 15cm x 5cm",
     "peso": "400g",
     "codigo_producto": "PD03",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "LAMORGINI CONTROL",
@@ -963,7 +501,7 @@
     "dimensiones": "25cm x 10cm x 8cm",
     "peso": "500g",
     "codigo_producto": "LC01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "MINI BEBE",
@@ -977,7 +515,7 @@
     "dimensiones": "15cm x 10cm x 5cm",
     "peso": "200g",
     "codigo_producto": "MB03",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "BEBOTE TOBOGAN",
@@ -991,7 +529,7 @@
     "dimensiones": "25cm x 15cm x 10cm",
     "peso": "300g",
     "codigo_producto": "BB04",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "PISTOLAS SHARK",
@@ -1005,7 +543,7 @@
     "dimensiones": "30cm x 15cm x 5cm",
     "peso": "400g",
     "codigo_producto": "PS01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "OLIVIA MUÑECA",
@@ -1019,21 +557,7 @@
     "dimensiones": "20cm x 10cm x 5cm",
     "peso": "250g",
     "codigo_producto": "OM01",
-    "imagen": ""
-  },
-  {
-    "nombre": "DENTADURAS",
-    "precio": 4000,
-    "descripcion": "Juego de dentaduras para juego de rol.",
-    "marca": "Generic",
-    "edad": "6+",
-    "categoria": "juguete",
-    "disponibilidad": "en stock",
-    "material": "plástico",
-    "dimensiones": "15cm x 10cm x 5cm",
-    "peso": "150g",
-    "codigo_producto": "DT01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "DOMINO",
@@ -1047,7 +571,7 @@
     "dimensiones": "20cm x 10cm x 5cm",
     "peso": "300g",
     "codigo_producto": "DM02",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "IRON MAN 24 CM",
@@ -1061,7 +585,7 @@
     "dimensiones": "24cm x 10cm x 5cm",
     "peso": "300g",
     "codigo_producto": "IM01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "PLAY DOH TORTAS",
@@ -1075,7 +599,7 @@
     "dimensiones": "30cm x 20cm x 10cm",
     "peso": "500g",
     "codigo_producto": "PD03",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "PLAY DOH POTES",
@@ -1089,7 +613,7 @@
     "dimensiones": "15cm x 10cm x 5cm",
     "peso": "200g",
     "codigo_producto": "PD04",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "FIGURAS DC",
@@ -1103,7 +627,7 @@
     "dimensiones": "30cm x 10cm x 8cm cada figura",
     "peso": "1kg",
     "codigo_producto": "DC15",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "PISTA HOT WHELS ACTION",
@@ -1117,7 +641,7 @@
     "dimensiones": "50cm x 30cm x 20cm",
     "peso": "1.5kg",
     "codigo_producto": "HW01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "MONSTER JAM MINI",
@@ -1131,7 +655,7 @@
     "dimensiones": "10cm x 5cm x 5cm cada figura",
     "peso": "500g",
     "codigo_producto": "MJ01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "HOT WHELS",
@@ -1145,7 +669,7 @@
     "dimensiones": "10cm x 5cm x 3cm",
     "peso": "100g",
     "codigo_producto": "HW02",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "PISTA HOT WHELS CHICA",
@@ -1159,7 +683,7 @@
     "dimensiones": "40cm x 20cm x 10cm",
     "peso": "1kg",
     "codigo_producto": "HW03",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "HOT WHELS X5",
@@ -1173,7 +697,7 @@
     "dimensiones": "10cm x 5cm x 3cm cada coche",
     "peso": "500g",
     "codigo_producto": "HW04",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "DINOS JURASSIC WORLD",
@@ -1187,7 +711,7 @@
     "dimensiones": "15cm x 10cm x 5cm cada figura",
     "peso": "600g",
     "codigo_producto": "JW01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "FIGURAS MARVEL",
@@ -1201,7 +725,7 @@
     "dimensiones": "30cm x 10cm x 8cm cada figura",
     "peso": "600g",
     "codigo_producto": "MV01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "AUTO FROZEN CONTROL",
@@ -1215,7 +739,7 @@
     "dimensiones": "25cm x 10cm x 8cm",
     "peso": "500g",
     "codigo_producto": "FZ01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "BEBE HOLLS MINI",
@@ -1229,7 +753,7 @@
     "dimensiones": "15cm x 10cm x 5cm",
     "peso": "200g",
     "codigo_producto": "BH01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "POLLY POCKET",
@@ -1243,7 +767,7 @@
     "dimensiones": "20cm x 10cm x 5cm",
     "peso": "250g",
     "codigo_producto": "PP01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "SONAJERO DRINK BEBES",
@@ -1257,7 +781,7 @@
     "dimensiones": "15cm x 10cm x 5cm",
     "peso": "100g",
     "codigo_producto": "SD01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "BABY ALIVE HASBRO BAILARINA",
@@ -1271,7 +795,7 @@
     "dimensiones": "30cm x 15cm x 10cm",
     "peso": "500g",
     "codigo_producto": "BA01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "BABY ALIVE HASBRO",
@@ -1285,7 +809,7 @@
     "dimensiones": "30cm x 15cm x 10cm",
     "peso": "500g",
     "codigo_producto": "BA02",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "BARBIE FASHION",
@@ -1299,7 +823,7 @@
     "dimensiones": "30cm x 10cm x 5cm",
     "peso": "200g",
     "codigo_producto": "BB03",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "BOMBEROS PLAYMOBIL",
@@ -1313,7 +837,7 @@
     "dimensiones": "30cm x 20cm x 10cm",
     "peso": "500g",
     "codigo_producto": "PM01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "BOTELLA DE SILICONA FOOTY",
@@ -1327,7 +851,7 @@
     "dimensiones": "20cm x 7cm x 7cm",
     "peso": "150g",
     "codigo_producto": "FT01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "CAMION PLAYMOBIL CEMENTERO",
@@ -1341,7 +865,7 @@
     "dimensiones": "40cm x 20cm x 15cm",
     "peso": "800g",
     "codigo_producto": "PM02",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "MONOPATIN ROCKER MAXI CELESTE",
@@ -1355,35 +879,7 @@
     "dimensiones": "70cm x 10cm x 25cm",
     "peso": "3kg",
     "codigo_producto": "RK01",
-    "imagen": ""
-  },
-  {
-    "nombre": "MUÑECO DC BATMAN 30 CM",
-    "precio": 9114,
-    "descripcion": "Figura de acción de Batman de 30 cm de DC Comics.",
-    "marca": "DC Comics",
-    "edad": "6+",
-    "categoria": "juguete",
-    "disponibilidad": "en stock",
-    "material": "plástico",
-    "dimensiones": "30cm x 10cm x 5cm",
-    "peso": "300g",
-    "codigo_producto": "DC16",
-    "imagen": ""
-  },
-  {
-    "nombre": "MUÑECO SPIDERMAN INTEGRACION 30CM",
-    "precio": 47405,
-    "descripcion": "Figura de acción de Spiderman Integración de 30 cm.",
-    "marca": "Marvel",
-    "edad": "6+",
-    "categoria": "juguete",
-    "disponibilidad": "en stock",
-    "material": "plástico",
-    "dimensiones": "30cm x 10cm x 5cm",
-    "peso": "300g",
-    "codigo_producto": "SP01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "PLAYSET PLAYMOBIL PIRATES MALETIN",
@@ -1397,7 +893,7 @@
     "dimensiones": "30cm x 20cm x 10cm",
     "peso": "500g",
     "codigo_producto": "PM03",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "MONSTER JAM MINI",
@@ -1411,7 +907,7 @@
     "dimensiones": "10cm x 5cm x 5cm cada figura",
     "peso": "500g",
     "codigo_producto": "MJ02",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "MUÑECA LOL",
@@ -1425,7 +921,7 @@
     "dimensiones": "15cm x 10cm x 10cm",
     "peso": "150g",
     "codigo_producto": "LOL01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "MUÑECO BATMAN 15 CM",
@@ -1439,7 +935,7 @@
     "dimensiones": "15cm x 5cm x 5cm",
     "peso": "150g",
     "codigo_producto": "DC17",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "MIÑECO BATMAN TEXT",
@@ -1453,7 +949,7 @@
     "dimensiones": "30cm x 10cm x 5cm",
     "peso": "300g",
     "codigo_producto": "DC18",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "DURAVIT VAGON",
@@ -1467,7 +963,7 @@
     "dimensiones": "30cm x 15cm x 15cm",
     "peso": "400g",
     "codigo_producto": "DV01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "CUBO DIDACTICO",
@@ -1481,7 +977,7 @@
     "dimensiones": "15cm x 15cm x 15cm",
     "peso": "300g",
     "codigo_producto": "CD01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "EXCAVADORA MINI",
@@ -1495,7 +991,7 @@
     "dimensiones": "10cm x 5cm x 5cm",
     "peso": "100g",
     "codigo_producto": "EM01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "SET POLICIA",
@@ -1509,7 +1005,7 @@
     "dimensiones": "25cm x 15cm x 10cm",
     "peso": "300g",
     "codigo_producto": "SP01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "JUEGO BOWLING",
@@ -1523,7 +1019,7 @@
     "dimensiones": "30cm x 20cm x 10cm",
     "peso": "500g",
     "codigo_producto": "JB01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "ANDADOR RONDI",
@@ -1537,7 +1033,7 @@
     "dimensiones": "50cm x 30cm x 40cm",
     "peso": "2kg",
     "codigo_producto": "AR01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "AUTO RADIO CONTROL",
@@ -1551,7 +1047,7 @@
     "dimensiones": "30cm x 15cm x 10cm",
     "peso": "700g",
     "codigo_producto": "RC01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "BEBOTE LOKTOYS 40 CM C/ ACC",
@@ -1565,7 +1061,7 @@
     "dimensiones": "40cm x 20cm x 15cm",
     "peso": "500g",
     "codigo_producto": "BL01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "CAMION TRANSPORTADOR C/",
@@ -1579,7 +1075,7 @@
     "dimensiones": "40cm x 15cm x 20cm",
     "peso": "800g",
     "codigo_producto": "CT01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "JUEGO DE BASQUET",
@@ -1593,7 +1089,7 @@
     "dimensiones": "100cm x 50cm x 30cm",
     "peso": "2kg",
     "codigo_producto": "JB02",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "MESA INFANTIL WIN FUN",
@@ -1607,7 +1103,7 @@
     "dimensiones": "60cm x 40cm x 45cm",
     "peso": "3kg",
     "codigo_producto": "WF01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "PILA ENERGIZER AAA 20X1",
@@ -1621,7 +1117,7 @@
     "dimensiones": "10cm x 5cm x 5cm",
     "peso": "200g",
     "codigo_producto": "EN01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "SET MUÑECA FAMILIA",
@@ -1635,7 +1131,7 @@
     "dimensiones": "30cm x 20cm x 10cm",
     "peso": "500g",
     "codigo_producto": "MF01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "CAJA REGISTRADORA",
@@ -1649,7 +1145,7 @@
     "dimensiones": "25cm x 15cm x 15cm",
     "peso": "300g",
     "codigo_producto": "CR01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "CAMION TRANSPORTADOR C/",
@@ -1663,7 +1159,7 @@
     "dimensiones": "40cm x 15cm x 20cm",
     "peso": "800g",
     "codigo_producto": "CT02",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "ANDADOR RONDI",
@@ -1677,7 +1173,7 @@
     "dimensiones": "50cm x 30cm x 40cm",
     "peso": "2kg",
     "codigo_producto": "AR01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "AUTO RADIO CONTROL",
@@ -1691,7 +1187,7 @@
     "dimensiones": "30cm x 15cm x 10cm",
     "peso": "700g",
     "codigo_producto": "RC01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "BEBOTE LOKTOYS 40 CM C/ ACC",
@@ -1705,7 +1201,7 @@
     "dimensiones": "40cm x 20cm x 15cm",
     "peso": "500g",
     "codigo_producto": "BL01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "CAMION TRANSPORTADOR C/",
@@ -1719,7 +1215,7 @@
     "dimensiones": "40cm x 15cm x 20cm",
     "peso": "800g",
     "codigo_producto": "CT01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "JUEGO DE BASQUET",
@@ -1733,7 +1229,7 @@
     "dimensiones": "100cm x 50cm x 30cm",
     "peso": "2kg",
     "codigo_producto": "JB02",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "MESA INFANTIL WIN FUN",
@@ -1747,7 +1243,7 @@
     "dimensiones": "60cm x 40cm x 45cm",
     "peso": "3kg",
     "codigo_producto": "WF01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "PILA ENERGIZER AAA 20X1",
@@ -1761,7 +1257,7 @@
     "dimensiones": "10cm x 5cm x 5cm",
     "peso": "200g",
     "codigo_producto": "EN01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "SET MUÑECA FAMILIA",
@@ -1775,7 +1271,7 @@
     "dimensiones": "30cm x 20cm x 10cm",
     "peso": "500g",
     "codigo_producto": "MF01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "CAJA REGISTRADORA",
@@ -1789,7 +1285,7 @@
     "dimensiones": "25cm x 15cm x 15cm",
     "peso": "300g",
     "codigo_producto": "CR01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "CAMION TRANSPORTADOR C/",
@@ -1803,7 +1299,7 @@
     "dimensiones": "40cm x 15cm x 20cm",
     "peso": "800g",
     "codigo_producto": "CT02",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "PLAYMOBIL DUO BOMBEROS",
@@ -1817,7 +1313,7 @@
     "dimensiones": "15cm x 10cm x 5cm",
     "peso": "150g",
     "codigo_producto": "PM04",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "PLAYMOBIL PONY DE EQUITACION",
@@ -1831,7 +1327,7 @@
     "dimensiones": "20cm x 15cm x 10cm",
     "peso": "200g",
     "codigo_producto": "PM05",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "MONKY LOCO",
@@ -1845,7 +1341,7 @@
     "dimensiones": "25cm x 20cm x 10cm",
     "peso": "300g",
     "codigo_producto": "ML01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "FLOKYS VETERINARIA Y JARDINERA",
@@ -1859,7 +1355,7 @@
     "dimensiones": "15cm x 10cm x 5cm cada figura",
     "peso": "100g",
     "codigo_producto": "FVJ01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "CUBO DITOYS",
@@ -1873,7 +1369,7 @@
     "dimensiones": "15cm x 15cm x 15cm",
     "peso": "300g",
     "codigo_producto": "CD02",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "MICKEY LANCHA DISNEY",
@@ -1887,7 +1383,7 @@
     "dimensiones": "10cm x 5cm x 5cm",
     "peso": "100g",
     "codigo_producto": "MLD01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "TIRO AL BLANCO SUPERMAN",
@@ -1901,7 +1397,7 @@
     "dimensiones": "30cm x 20cm x 10cm",
     "peso": "500g",
     "codigo_producto": "TS01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "MASCARA SUPER HEROE",
@@ -1915,7 +1411,7 @@
     "dimensiones": "20cm x 15cm x 10cm",
     "peso": "100g",
     "codigo_producto": "MS01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "AUTO BATMAN CONTROL",
@@ -1929,7 +1425,7 @@
     "dimensiones": "30cm x 15cm x 10cm",
     "peso": "700g",
     "codigo_producto": "BC01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "VETERINARIA PET",
@@ -1943,7 +1439,7 @@
     "dimensiones": "30cm x 20cm x 10cm",
     "peso": "500g",
     "codigo_producto": "VP01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "FIG BUDDY PACK 2 TAZ Y BROW",
@@ -1957,7 +1453,7 @@
     "dimensiones": "15cm x 10cm x 5cm cada figura",
     "peso": "200g",
     "codigo_producto": "BP01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "SQUISH UNICORNIO",
@@ -1971,7 +1467,7 @@
     "dimensiones": "10cm x 5cm x 5cm",
     "peso": "100g",
     "codigo_producto": "SU01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "FIG WOW POD MARVEL HULK",
@@ -1985,7 +1481,7 @@
     "dimensiones": "15cm x 10cm x 10cm",
     "peso": "200g",
     "codigo_producto": "WH01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "FIG WOW",
@@ -1999,7 +1495,7 @@
     "dimensiones": "15cm x 10cm x 10cm",
     "peso": "200g",
     "codigo_producto": "WW01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "MONOPATIN CON LUCES",
@@ -2013,7 +1509,7 @@
     "dimensiones": "70cm x 10cm x 25cm",
     "peso": "3kg",
     "codigo_producto": "ML01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "RASTI KIT PZ BASICAS 100",
@@ -2027,7 +1523,7 @@
     "dimensiones": "20cm x 15cm x 10cm",
     "peso": "500g",
     "codigo_producto": "RK01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "FROZEN OLAF EXPRESIONES",
@@ -2041,7 +1537,7 @@
     "dimensiones": "15cm x 10cm x 10cm",
     "peso": "200g",
     "codigo_producto": "FO01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "MINNIE CAJA REGISTRADORA",
@@ -2055,7 +1551,7 @@
     "dimensiones": "25cm x 15cm x 15cm",
     "peso": "300g",
     "codigo_producto": "MC01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "PISTA RONDI 5 NIVELES",
@@ -2069,7 +1565,7 @@
     "dimensiones": "50cm x 30cm x 25cm",
     "peso": "1kg",
     "codigo_producto": "PR01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "FIG ART 30 CM JOKER",
@@ -2083,7 +1579,7 @@
     "dimensiones": "30cm x 10cm x 5cm",
     "peso": "300g",
     "codigo_producto": "FJ01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "FIG ART BATMAN NEGRO",
@@ -2097,7 +1593,7 @@
     "dimensiones": "30cm x 10cm x 5cm",
     "peso": "300g",
     "codigo_producto": "FB01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "AQUAMAN FIG 30 CM",
@@ -2111,21 +1607,7 @@
     "dimensiones": "30cm x 10cm x 5cm",
     "peso": "300g",
     "codigo_producto": "FA01",
-    "imagen": ""
-  },
-  {
-    "nombre": "TORTUGAS NINJA",
-    "precio": 18400,
-    "descripcion": "Set de 4 figuras de acción de las Tortugas Ninja.",
-    "marca": "Tortugas Ninja",
-    "edad": "4+",
-    "categoria": "juguete",
-    "disponibilidad": "en stock",
-    "material": "plástico",
-    "dimensiones": "15cm x 10cm x 5cm cada figura",
-    "peso": "600g",
-    "codigo_producto": "TN05",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "PATITO SWING",
@@ -2139,7 +1621,7 @@
     "dimensiones": "10cm x 10cm x 10cm",
     "peso": "200g",
     "codigo_producto": "PS01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "FIG HARRY POTTER 13CM",
@@ -2153,7 +1635,7 @@
     "dimensiones": "13cm x 5cm x 5cm",
     "peso": "150g",
     "codigo_producto": "HP11",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "MICKEY MUÑECO",
@@ -2167,7 +1649,7 @@
     "dimensiones": "25cm x 15cm x 10cm",
     "peso": "300g",
     "codigo_producto": "MM01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "DONATELLO TORTUGA",
@@ -2181,7 +1663,7 @@
     "dimensiones": "15cm x 10cm x 5cm",
     "peso": "200g",
     "codigo_producto": "DT01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "CUBO DITOYS",
@@ -2195,7 +1677,7 @@
     "dimensiones": "15cm x 15cm x 15cm",
     "peso": "300g",
     "codigo_producto": "CD02",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "CRAZY GORILAS",
@@ -2209,7 +1691,7 @@
     "dimensiones": "30cm x 20cm x 10cm",
     "peso": "500g",
     "codigo_producto": "CG01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "CARRERA DE MENTE LATA",
@@ -2223,7 +1705,7 @@
     "dimensiones": "20cm x 10cm x 10cm",
     "peso": "600g",
     "codigo_producto": "CM01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "AUTOS CAMBIA DE COLOR",
@@ -2237,7 +1719,7 @@
     "dimensiones": "10cm x 5cm x 3cm cada auto",
     "peso": "200g",
     "codigo_producto": "AC01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "SELLOS AVENGERS",
@@ -2251,7 +1733,7 @@
     "dimensiones": "15cm x 10cm x 5cm",
     "peso": "150g",
     "codigo_producto": "SA01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "X-SHOT DINO ATTACK",
@@ -2265,7 +1747,7 @@
     "dimensiones": "25cm x 15cm x 5cm",
     "peso": "300g",
     "codigo_producto": "XD01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "X-SHOT SKINS FLUX APOCAL",
@@ -2279,7 +1761,7 @@
     "dimensiones": "25cm x 15cm x 5cm",
     "peso": "300g",
     "codigo_producto": "XS01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "X-SHOT 68X22X6 CM",
@@ -2293,7 +1775,7 @@
     "dimensiones": "68cm x 22cm x 6cm",
     "peso": "800g",
     "codigo_producto": "XS02",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "X-SHOT",
@@ -2307,7 +1789,7 @@
     "dimensiones": "30cm x 15cm x 10cm",
     "peso": "400g",
     "codigo_producto": "XS03",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "MORDILLO SONAJERO",
@@ -2321,7 +1803,7 @@
     "dimensiones": "10cm x 5cm x 5cm",
     "peso": "100g",
     "codigo_producto": "MS01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "MONSTER HOT WHEELS",
@@ -2335,7 +1817,7 @@
     "dimensiones": "15cm x 10cm x 5cm cada vehículo",
     "peso": "600g",
     "codigo_producto": "HW05",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "COCOMELON",
@@ -2349,7 +1831,7 @@
     "dimensiones": "25cm x 15cm x 10cm",
     "peso": "400g",
     "codigo_producto": "CM01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "POWER RANGER",
@@ -2363,7 +1845,7 @@
     "dimensiones": "20cm x 10cm x 5cm",
     "peso": "200g",
     "codigo_producto": "PR01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "CAMION CALESITA",
@@ -2377,7 +1859,7 @@
     "dimensiones": "40cm x 20cm x 15cm",
     "peso": "700g",
     "codigo_producto": "CC01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "TELEFONO CALESITA",
@@ -2391,7 +1873,7 @@
     "dimensiones": "20cm x 15cm x 10cm",
     "peso": "300g",
     "codigo_producto": "TC01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "JUEGO DE LA VIDA",
@@ -2405,7 +1887,7 @@
     "dimensiones": "40cm x 30cm x 10cm",
     "peso": "1kg",
     "codigo_producto": "JV01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "CLUE",
@@ -2419,7 +1901,7 @@
     "dimensiones": "40cm x 30cm x 10cm",
     "peso": "1kg",
     "codigo_producto": "CL01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "SILLA FISHER PRICE",
@@ -2433,7 +1915,7 @@
     "dimensiones": "50cm x 40cm x 40cm",
     "peso": "2kg",
     "codigo_producto": "FP02",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "THOR ENDGAME",
@@ -2447,7 +1929,10 @@
     "dimensiones": "30cm x 10cm x 5cm",
     "peso": "300g",
     "codigo_producto": "TE01",
-    "imagen": ""
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722429825/IMG_7269_hypldp.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722430171/IMG_7276_o9re1l.png"
+    ]
   },
   {
     "nombre": "PLAYMOBIL AVION",
@@ -2461,7 +1946,7 @@
     "dimensiones": "40cm x 30cm x 20cm",
     "peso": "1kg",
     "codigo_producto": "PM06",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "PLAYMOBIL REMOLQUE C/ CABALLO",
@@ -2475,7 +1960,7 @@
     "dimensiones": "30cm x 20cm x 15cm",
     "peso": "500g",
     "codigo_producto": "PM07",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "HOT WHEELS LANZADOR",
@@ -2489,7 +1974,7 @@
     "dimensiones": "25cm x 10cm x 5cm",
     "peso": "300g",
     "codigo_producto": "HW06",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "X SHOT X36",
@@ -2503,7 +1988,7 @@
     "dimensiones": "30cm x 15cm x 10cm",
     "peso": "400g",
     "codigo_producto": "XS04",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "MARVEL LEGENDS",
@@ -2517,7 +2002,7 @@
     "dimensiones": "15cm x 10cm x 5cm cada figura",
     "peso": "800g",
     "codigo_producto": "ML02",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "VASO C/ SORBETE NUC",
@@ -2531,7 +2016,7 @@
     "dimensiones": "15cm x 7cm x 7cm",
     "peso": "150g",
     "codigo_producto": "NU01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "MORDILLO PULSERA",
@@ -2545,7 +2030,7 @@
     "dimensiones": "10cm x 5cm x 1cm",
     "peso": "50g",
     "codigo_producto": "MP01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "MORDILLO",
@@ -2559,7 +2044,7 @@
     "dimensiones": "10cm x 5cm x 1cm",
     "peso": "50g",
     "codigo_producto": "MD01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "MORDILLO AGUA MARIPOSA",
@@ -2573,7 +2058,7 @@
     "dimensiones": "10cm x 7cm x 1cm",
     "peso": "70g",
     "codigo_producto": "MA01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "VARITA HARRY POTTER",
@@ -2587,7 +2072,7 @@
     "dimensiones": "30cm x 2cm x 2cm",
     "peso": "100g",
     "codigo_producto": "HP12",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "ROCKERS BABY",
@@ -2601,7 +2086,7 @@
     "dimensiones": "25cm x 20cm x 15cm",
     "peso": "300g",
     "codigo_producto": "RB01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "LIGHTYEAR BUZZ",
@@ -2615,7 +2100,10 @@
     "dimensiones": "15cm x 10cm x 5cm",
     "peso": "200g",
     "codigo_producto": "LB01",
-    "imagen": ""
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722431088/D_NQ_NP_872261-MLU69433966130_052023-O_shaktt.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722431089/D_NQ_NP_704303-MLU69433966134_052023-O_n0hbcr.webp"
+    ]
   },
   {
     "nombre": "BUZZ LY ORIGINAL",
@@ -2629,7 +2117,10 @@
     "dimensiones": "30cm x 15cm x 10cm",
     "peso": "500g",
     "codigo_producto": "BO01",
-    "imagen": ""
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722432554/D_NQ_NP_962681-MLU53174992742_012023-O_r239ol.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722432555/D_NQ_NP_813073-MLA74118276390_012024-O_oqwdoi.webp"
+    ]
   },
   {
     "nombre": "HARRY POTTER",
@@ -2643,7 +2134,7 @@
     "dimensiones": "20cm x 10cm x 5cm",
     "peso": "300g",
     "codigo_producto": "HP13",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "BUZZ TRAJE CASCO",
@@ -2657,7 +2148,10 @@
     "dimensiones": "30cm x 15cm x 10cm",
     "peso": "500g",
     "codigo_producto": "BT01",
-    "imagen": ""
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722431907/187135-800-auto_ub6ujs.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722431907/187134-800-auto_ueocxo.webp"
+    ]
   },
   {
     "nombre": "HDP 5",
@@ -2671,7 +2165,7 @@
     "dimensiones": "20cm x 20cm x 5cm",
     "peso": "500g",
     "codigo_producto": "HDP01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "REPUESTOS DARDOS X SHOT",
@@ -2685,7 +2179,7 @@
     "dimensiones": "15cm x 10cm x 5cm",
     "peso": "100g",
     "codigo_producto": "XD02",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "POLLY POCKET",
@@ -2699,7 +2193,7 @@
     "dimensiones": "20cm x 15cm x 10cm",
     "peso": "250g",
     "codigo_producto": "PP02",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "SET FORTRESS",
@@ -2713,7 +2207,7 @@
     "dimensiones": "30cm x 20cm x 10cm",
     "peso": "500g",
     "codigo_producto": "SF01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "MUJER MARAVILLA",
@@ -2727,7 +2221,7 @@
     "dimensiones": "30cm x 10cm x 5cm",
     "peso": "300g",
     "codigo_producto": "MM01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "FIGURAS DC MEDIANAS",
@@ -2741,7 +2235,7 @@
     "dimensiones": "20cm x 10cm x 5cm cada figura",
     "peso": "600g",
     "codigo_producto": "DC18",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "BARBIE CHELSE",
@@ -2755,7 +2249,7 @@
     "dimensiones": "15cm x 7cm x 5cm",
     "peso": "100g",
     "codigo_producto": "BC02",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "BARBIE BASICA",
@@ -2769,7 +2263,7 @@
     "dimensiones": "30cm x 10cm x 5cm",
     "peso": "200g",
     "codigo_producto": "BB04",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "SET CAMPO CABALLO",
@@ -2783,7 +2277,7 @@
     "dimensiones": "20cm x 15cm x 10cm",
     "peso": "250g",
     "codigo_producto": "SC01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "LLAVEROS",
@@ -2797,7 +2291,7 @@
     "dimensiones": "5cm x 2cm x 1cm cada uno",
     "peso": "20g cada uno",
     "codigo_producto": "LL01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "DINOSAURIOS CUERDA",
@@ -2811,7 +2305,7 @@
     "dimensiones": "10cm x 5cm x 5cm cada uno",
     "peso": "50g cada uno",
     "codigo_producto": "DC02",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "HOT WHEELS",
@@ -2825,7 +2319,7 @@
     "dimensiones": "10cm x 5cm x 3cm cada auto",
     "peso": "100g cada auto",
     "codigo_producto": "HW07",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "HOT WHEELS",
@@ -2839,7 +2333,7 @@
     "dimensiones": "10cm x 5cm x 3cm cada auto",
     "peso": "100g cada auto",
     "codigo_producto": "HW08",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "HOT WHEELS RAPIDO",
@@ -2853,7 +2347,7 @@
     "dimensiones": "10cm x 5cm x 3cm cada auto",
     "peso": "100g cada auto",
     "codigo_producto": "HWR01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "DODGE TORETTO",
@@ -2867,7 +2361,7 @@
     "dimensiones": "30cm x 15cm x 10cm",
     "peso": "500g",
     "codigo_producto": "DT01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "CAJA DE HOT WHEELS",
@@ -2881,7 +2375,7 @@
     "dimensiones": "50cm x 30cm x 20cm",
     "peso": "3kg",
     "codigo_producto": "HW09",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "AUTOS RAPIDO Y FURIOSO",
@@ -2895,7 +2389,7 @@
     "dimensiones": "10cm x 5cm x 3cm cada auto",
     "peso": "100g cada auto",
     "codigo_producto": "FF01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "LLAVEROS",
@@ -2909,7 +2403,7 @@
     "dimensiones": "5cm x 2cm x 1cm cada uno",
     "peso": "20g cada uno",
     "codigo_producto": "LL02",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "DRAGON BALL",
@@ -2923,7 +2417,7 @@
     "dimensiones": "15cm x 10cm x 5cm cada figura",
     "peso": "200g cada figura",
     "codigo_producto": "DB01",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "FIGURAS DC",
@@ -2937,7 +2431,7 @@
     "dimensiones": "20cm x 10cm x 5cm cada figura",
     "peso": "300g cada figura",
     "codigo_producto": "DC19",
-    "imagen": ""
+    "imagen": [""]
   },
   {
     "nombre": "MINI STAR WARS",
@@ -2951,6 +2445,6 @@
     "dimensiones": "10cm x 5cm x 5cm cada figura",
     "peso": "100g cada figura",
     "codigo_producto": "SW02",
-    "imagen": ""
+    "imagen": [""]
   }
 ]

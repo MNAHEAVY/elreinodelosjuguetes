@@ -1,6 +1,6 @@
 [
   {
-    "nombre": "FIGURA HARRY POTTER LUNA & CHO",
+    "nombre": "FIGURA HARRY POTTER - CHO CHANG",
     "precio": 5917,
     "descripcion": "Figura de colección de Harry Potter con personajes Luna Lovegood y Cho Chang.",
     "marca": "Harry Potter",
@@ -11,35 +11,144 @@
     "dimensiones": "10cm x 5cm x 5cm",
     "peso": "200g",
     "codigo_producto": "HP01",
-    "imagen": "https://res.cloudinary.com/dxsl6lphv/image/upload/v1721763020/IMG_5833_vxbdwo.jpg"
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722429176/D_NQ_NP_2X_944822-MLA74192121437_012024-F_arnw9z.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722453056/D_NQ_NP_655673-MLA52069776709_102022-O_dflqwi.webp"
+    ]
   },
   {
-    "nombre": "THOR ENDGAME",
-    "precio": 64480,
-    "descripcion": "Figura de acción de Thor Endgame.",
-    "marca": "Marvel",
+    "nombre": "FIGURA HARRY POTTER",
+    "precio": 4301,
+    "descripcion": "Figura de Harry Potter.",
+    "marca": "Harry Potter",
     "edad": "6+",
     "categoria": "juguete",
     "disponibilidad": "en stock",
     "material": "plástico",
-    "dimensiones": "30cm x 10cm x 5cm",
-    "peso": "300g",
-    "codigo_producto": "TE01",
-    "imagen": "https://res.cloudinary.com/dxsl6lphv/image/upload/v1721767979/IMG_7269_wifnvs.jpg"
+    "dimensiones": "15cm x 10cm x 8cm",
+    "peso": "200g",
+    "codigo_producto": "HP08",
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722453505/D_NQ_NP_939057-MLU75132480327_032024-O_rja95g.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722453505/D_NQ_NP_929074-MLU75132333643_032024-O_sgefhq.webp"
+    ]
   },
   {
-    "nombre": "BUZZ LY ORIGINAL",
-    "precio": 15520,
-    "descripcion": "Figura original de Buzz Lightyear.",
-    "marca": "Disney",
+    "nombre": "FIGURA HARRY POTTER - LUNA LOVE",
+    "precio": 4301,
+    "descripcion": "Figura de Harry Potter.",
+    "marca": "Harry Potter",
+    "edad": "6+",
+    "categoria": "juguete",
+    "disponibilidad": "en stock",
+    "material": "plástico",
+    "dimensiones": "15cm x 10cm x 8cm",
+    "peso": "200g",
+    "codigo_producto": "HP08",
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722453499/D_NQ_NP_640542-MLA74134560278_012024-O_p14zji.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722453506/D_NQ_NP_944115-MLA48144734175_112021-O_bioqyd.webp"
+    ]
+  },
+  {
+    "nombre": "FIGURA HARRY POTTER - HERMIONE",
+    "precio": 4301,
+    "descripcion": "Figura de Harry Potter.",
+    "marca": "Harry Potter",
+    "edad": "6+",
+    "categoria": "juguete",
+    "disponibilidad": "en stock",
+    "material": "plástico",
+    "dimensiones": "15cm x 10cm x 8cm",
+    "peso": "200g",
+    "codigo_producto": "HP08",
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722453499/D_NQ_NP_870215-MLU74827252183_022024-O_vatylt.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722453498/D_NQ_NP_918683-MLU72637470517_112023-O_nvxd2h.webp"
+    ]
+  },
+  {
+    "nombre": "MINI FIGURA HARRY POTTER",
+    "precio": 4301,
+    "descripcion": "Figura de Harry Potter.",
+    "marca": "Harry Potter",
+    "edad": "6+",
+    "categoria": "juguete",
+    "disponibilidad": "en stock",
+    "material": "plástico",
+    "dimensiones": "7cm x 3cm x 3cm",
+    "peso": "200g",
+    "codigo_producto": "HP08",
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722454034/D_NQ_NP_709035-MLA70458188464_072023-O_oii9ij.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722454031/D_NQ_NP_681543-MLA70483967821_072023-O_kuyhd2.webp"
+    ]
+  },
+  {
+    "nombre": "MINI FIGURA HARRY POTTER - HERMIONE",
+    "precio": 4301,
+    "descripcion": "Figura de Harry Potter.",
+    "marca": "Harry Potter",
+    "edad": "6+",
+    "categoria": "juguete",
+    "disponibilidad": "en stock",
+    "material": "plástico",
+    "dimensiones": "7cm x 3cm x 3cm",
+    "peso": "200g",
+    "codigo_producto": "HP08",
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722454037/D_NQ_NP_775197-MLA72078141628_102023-O_zpxe2k.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722454031/D_NQ_NP_876857-MLA72138108703_102023-O_fztbyy.webp"
+    ]
+  },
+  {
+    "nombre": "PLAYSET HARRY POTTER DIVINATTION",
+    "precio": 11495,
+    "descripcion": "Playset de Harry Potter con temática de la clase de adivinación.",
+    "marca": "Harry Potter",
+    "edad": "6+",
+    "categoria": "juego",
+    "disponibilidad": "en stock",
+    "material": "plástico",
+    "dimensiones": "30cm x 20cm x 10cm",
+    "peso": "500g",
+    "codigo_producto": "HP02",
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722432341/D_NQ_NP_974026-MLA54958064780_042023-O_dulvy3.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722432340/D_NQ_NP_892951-MLA54952896541_042023-O_ngcoos.webp"
+    ]
+  },
+  {
+    "nombre": "SALA HARRY POTTER",
+    "precio": 11495,
+    "descripcion": "Sala de juegos temática de Harry Potter.",
+    "marca": "Harry Potter",
+    "edad": "6+",
+    "categoria": "juego",
+    "disponibilidad": "en stock",
+    "material": "plástico",
+    "dimensiones": "40cm x 30cm x 15cm",
+    "peso": "700g",
+    "codigo_producto": "HP03",
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722433735/D_NQ_NP_693061-MLA70158927435_062023-O_y04oan.webp"
+    ]
+  },
+  {
+    "nombre": "PACK X 2 MINI FIG TORTUGAS NINJA",
+    "precio": 4659,
+    "descripcion": "Pack de 2 mini figuras de las Tortugas Ninja.",
+    "marca": "Tortugas Ninja",
     "edad": "4+",
     "categoria": "juguete",
     "disponibilidad": "en stock",
     "material": "plástico",
-    "dimensiones": "30cm x 15cm x 10cm",
-    "peso": "500g",
-    "codigo_producto": "BO01",
-    "imagen": "https://res.cloudinary.com/dxsl6lphv/image/upload/v1721766445/IMG_7303_vskyij.jpg"
+    "dimensiones": "7cm x 3cm x 3cm",
+    "peso": "150g",
+    "codigo_producto": "TN01",
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722433889/D_NQ_NP_810788-MLU74017302322_012024-O_ibq1jh.webp"
+    ]
   },
   {
     "nombre": "AUTO C/ TIRADOR TORTUGAS NINJA",
@@ -53,6 +162,608 @@
     "dimensiones": "15cm x 10cm x 8cm",
     "peso": "300g",
     "codigo_producto": "TN02",
-    "imagen": "https://res.cloudinary.com/dxsl6lphv/image/upload/v1721768107/IMG_7251_rsi7wd.jpg"
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722431088/D_NQ_NP_625327-MLA70977513245_082023-O_cegttp.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722431092/D_NQ_NP_839206-MLA70942485610_082023-O_f9y9fr.webp"
+    ]
+  },
+  {
+    "nombre": "MINI FIGURA 7CM PINYPON ACTION",
+    "precio": 3872,
+    "descripcion": "Mini figura de acción de Pinypon de 7cm.",
+    "marca": "Pinypon",
+    "edad": "4+",
+    "categoria": "juguete",
+    "disponibilidad": "en stock",
+    "material": "plástico",
+    "dimensiones": "7cm x 3cm x 3cm",
+    "peso": "50g",
+    "codigo_producto": "PP02",
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722434495/D_NQ_NP_2X_692853-MLA71410919068_092023-F_bip5ux.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722434493/D_NQ_NP_636945-MLA71456087347_092023-O_ffqrgo.webp"
+    ]
+  },
+
+  {
+    "nombre": "SKATE TORTUGAS NINJA CON TIRADOR",
+    "precio": 7442,
+    "descripcion": "Skate de las Tortugas Ninja con tirador.",
+    "marca": "Tortugas Ninja",
+    "edad": "4+",
+    "categoria": "juguete",
+    "disponibilidad": "en stock",
+    "material": "plástico",
+    "dimensiones": "30cm x 10cm x 8cm",
+    "peso": "300g",
+    "codigo_producto": "TN03",
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722435657/D_NQ_NP_672514-MLU73076000656_112023-O_cchfxn.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722435667/D_NQ_NP_823864-MLU73076321228_112023-O_ckmoau.webp"
+    ]
+  },
+  {
+    "nombre": "MINI SUPERCUTE EN CAJITA",
+    "precio": 7986,
+    "descripcion": "Mini figura Supercute en cajita.",
+    "marca": "Supercute",
+    "edad": "6+",
+    "categoria": "juguete",
+    "disponibilidad": "en stock",
+    "material": "plástico",
+    "dimensiones": "5cm x 5cm x 5cm",
+    "peso": "100g",
+    "codigo_producto": "SC01",
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722435663/D_NQ_NP_723756-MLA50937497119_072022-O_gir59m.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722435660/D_NQ_NP_705118-MLA50937452324_072022-O_iqmskp.webp"
+    ]
+  },
+  {
+    "nombre": "FIGURA 10CM TORTUGAS",
+    "precio": 12463,
+    "descripcion": "Figura de 10cm de las Tortugas Ninja.",
+    "marca": "Tortugas Ninja",
+    "edad": "4+",
+    "categoria": "juguete",
+    "disponibilidad": "en stock",
+    "material": "plástico",
+    "dimensiones": "10cm x 5cm x 5cm",
+    "peso": "150g",
+    "codigo_producto": "TN04",
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722435656/D_NQ_NP_635816-MLA70991116786_082023-O_thasjr.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722435668/D_NQ_NP_834491-MLA71027428459_082023-O_ctv0jj.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722435672/D_NQ_NP_920315-MLA71027352621_082023-O_ebldrl.webp"
+    ]
+  },
+  {
+    "nombre": "FIG 30 CM SELINA KYLE",
+    "precio": 5143,
+    "descripcion": "Figura de 30cm de Selina Kyle.",
+    "marca": "DC Comics",
+    "edad": "6+",
+    "categoria": "juguete",
+    "disponibilidad": "en stock",
+    "material": "plástico",
+    "dimensiones": "30cm x 10cm x 8cm",
+    "peso": "300g",
+    "codigo_producto": "DC02",
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722435986/D_NQ_NP_891804-MLU73674433069_122023-O_uczp02.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722435976/D_NQ_NP_630632-MLU71093768396_082023-O_jmgwb4.webp"
+    ]
+  },
+  {
+    "nombre": "SOMBRERO HARRY POTTER",
+    "precio": 45000,
+    "descripcion": "Gorro temático de Harry Potter, ideal para los fanáticos de la saga.",
+    "marca": "Harry Potter",
+    "edad": "6+",
+    "categoria": "juguete",
+    "disponibilidad": "en stock",
+    "material": "lana",
+    "dimensiones": "tamaño único",
+    "peso": "150g",
+    "codigo_producto": "HP05",
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722435982/D_NQ_NP_810240-MLU72636681783_112023-O_ko4ekf.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722435990/D_NQ_NP_904054-MLU72565705334_112023-O_petmfz.webp"
+    ]
+  },
+  {
+    "nombre": "MICROFONO FISHER PRICE",
+    "precio": 6500,
+    "descripcion": "Micrófono de juguete de Fisher Price, ideal para niños pequeños.",
+    "marca": "Fisher Price",
+    "edad": "2+",
+    "categoria": "juguete",
+    "disponibilidad": "en stock",
+    "material": "plástico",
+    "dimensiones": "20cm x 5cm x 5cm",
+    "peso": "200g",
+    "codigo_producto": "FP01",
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722454809/D_NQ_NP_959513-MLU73087809913_112023-O_b2g14a.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722454809/D_NQ_NP_999313-MLA70746794091_072023-O_oaqtw3.webp"
+    ]
+  },
+  {
+    "nombre": "PINES CROCS",
+    "precio": 2500,
+    "descripcion": "Pack de 8 pines decorativos para Crocs.",
+    "marca": "Crocs",
+    "edad": "6+",
+    "categoria": "juguete",
+    "disponibilidad": "en stock",
+    "material": "plástico",
+    "dimensiones": "2cm x 2cm x 1cm cada uno",
+    "peso": "50g",
+    "codigo_producto": "CR01",
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722437039/IMG_6123_guuz0a.png",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722437028/IMG_6128_gfzoeh.png",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722437028/IMG_6127_rfy3dh.png"
+    ]
+  },
+
+  {
+    "nombre": "BLUE'S SET",
+    "precio": 3500,
+    "descripcion": "Set de figuras de Blue's, ideal para niños.",
+    "marca": "Nickelodeon",
+    "edad": "3+",
+    "categoria": "juguete",
+    "disponibilidad": "en stock",
+    "material": "plástico",
+    "dimensiones": "10cm x 5cm x 5cm cada figura",
+    "peso": "200g",
+    "codigo_producto": "BL01",
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722438714/D_NQ_NP_639793-MLU73333880681_122023-O_ayvykw.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722438706/D_NQ_NP_896758-MLU73334148269_122023-O_cgw97m.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722438703/D_NQ_NP_811819-MLU73333880703_122023-O_pxcxxk.webp"
+    ]
+  },
+  {
+    "nombre": "BLUE'S SORPRESA",
+    "precio": 2000,
+    "descripcion": "Figura sorpresa de Blue's, ideal para coleccionar.",
+    "marca": "Nickelodeon",
+    "edad": "3+",
+    "categoria": "juguete",
+    "disponibilidad": "en stock",
+    "material": "plástico",
+    "dimensiones": "7cm x 5cm x 5cm",
+    "peso": "100g",
+    "codigo_producto": "BL02",
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722438710/D_NQ_NP_737631-MLA50183211112_062022-O_lpyvdq.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722438703/D_NQ_NP_811819-MLU73333880703_122023-O_pxcxxk.webp"
+    ]
+  },
+
+  {
+    "nombre": "HARRY WIZARDING WORLD",
+    "precio": 11500,
+    "descripcion": "Set 2 Figuras de Harry Potter del Mundo Mágico.",
+    "marca": "Harry Potter",
+    "edad": "6+",
+    "categoria": "juguete",
+    "disponibilidad": "en stock",
+    "material": "plástico",
+    "dimensiones": "20cm x 10cm x 8cm",
+    "peso": "300g",
+    "codigo_producto": "HP07",
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722444146/D_NQ_NP_807186-MLA69299414343_052023-O_n36sxs.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722444142/D_NQ_NP_741035-MLU70683360281_072023-O_vcq07q.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722444124/D_NQ_NP_619345-MLA72769764963_112023-O_to4lxb.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722444105/D_NQ_NP_978435-MLA69446426055_052023-O_bc6k6t.webp"
+    ]
+  },
+  {
+    "nombre": "HASBRO SUPER HERO SPIDER-MAN",
+    "precio": 6291,
+    "descripcion": "Figuras de superhéroes de Hasbro.",
+    "marca": "Hasbro",
+    "edad": "4+",
+    "categoria": "juguete",
+    "disponibilidad": "en stock",
+    "material": "plástico",
+    "dimensiones": "25cm x 10cm x 8cm",
+    "peso": "250g",
+    "codigo_producto": "HB01SPIDERMAN",
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722451152/D_NQ_NP_743454-MLA77873754635_072024-O_imslyb.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722451152/D_NQ_NP_721465-MLA75829062929_042024-O_zzjact.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722451152/D_NQ_NP_744887-MLA77874394847_072024-O_s1ubsu.webp"
+    ]
+  },
+  {
+    "nombre": "HASBRO SUPER HERO CAPITÁN AMÉRICA",
+    "precio": 6291,
+    "descripcion": "Figuras de superhéroes de Hasbro.",
+    "marca": "Hasbro",
+    "edad": "4+",
+    "categoria": "juguete",
+    "disponibilidad": "en stock",
+    "material": "plástico",
+    "dimensiones": "25cm x 10cm x 8cm",
+    "peso": "250g",
+    "codigo_producto": "HB01CAPITANAMERICA",
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722451153/D_NQ_NP_944626-MLA77731939641_072024-O_nzze6m.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722451154/D_NQ_NP_656318-MLA77731939643_072024-O_ee8o6a.webp"
+    ]
+  },
+  {
+    "nombre": "HASBRO SUPER HERO FALCON",
+    "precio": 6291,
+    "descripcion": "Figuras de superhéroes de Hasbro.",
+    "marca": "Hasbro",
+    "edad": "4+",
+    "categoria": "juguete",
+    "disponibilidad": "en stock",
+    "material": "plástico",
+    "dimensiones": "25cm x 10cm x 8cm",
+    "peso": "250g",
+    "codigo_producto": "HB01FALCON",
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722451151/D_NQ_NP_871796-MLA75329414352_032024-O_kpvu8d.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722451152/D_NQ_NP_964056-MLA75329414358_032024-O_vgvzbh.webp"
+    ]
+  },
+  {
+    "nombre": "HASBRO SUPER HERO MOON KNIGHT",
+    "precio": 6291,
+    "descripcion": "Figuras de superhéroes de Hasbro.",
+    "marca": "Hasbro",
+    "edad": "4+",
+    "categoria": "juguete",
+    "disponibilidad": "en stock",
+    "material": "plástico",
+    "dimensiones": "25cm x 10cm x 8cm",
+    "peso": "250g",
+    "codigo_producto": "HB01MOONKNIGHT",
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722451155/D_NQ_NP_710117-MLA74650434618_022024-O_kbfjxv.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722451153/D_NQ_NP_965304-MLA74651641504_022024-O_at9q98.webp"
+    ]
+  },
+  {
+    "nombre": "HASBRO SUPER HERO THANOS",
+    "precio": 6291,
+    "descripcion": "Figuras de superhéroes de Hasbro.",
+    "marca": "Hasbro",
+    "edad": "4+",
+    "categoria": "juguete",
+    "disponibilidad": "en stock",
+    "material": "plástico",
+    "dimensiones": "25cm x 10cm x 8cm",
+    "peso": "250g",
+    "codigo_producto": "HB01THANOS",
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722451152/D_NQ_NP_718670-MLA77732287701_072024-O_u2zfti.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722451155/D_NQ_NP_664797-MLA77732287703_072024-O_gfjsez.webp"
+    ]
+  },
+  {
+    "nombre": "HASBRO SUPER HERO GROOT",
+    "precio": 6291,
+    "descripcion": "Figuras de superhéroes de Hasbro.",
+    "marca": "Hasbro",
+    "edad": "4+",
+    "categoria": "juguete",
+    "disponibilidad": "en stock",
+    "material": "plástico",
+    "dimensiones": "25cm x 10cm x 8cm",
+    "peso": "250g",
+    "codigo_producto": "HB01GROOT",
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722451152/D_NQ_NP_885515-MLU73707470986_012024-O_hohumh.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722451151/D_NQ_NP_737299-MLU73804322131_012024-O_sc53py.webp"
+    ]
+  },
+  {
+    "nombre": "HASBRO SUPER HERO SHURI",
+    "precio": 6291,
+    "descripcion": "Figuras de superhéroes de Hasbro.",
+    "marca": "Hasbro",
+    "edad": "4+",
+    "categoria": "juguete",
+    "disponibilidad": "en stock",
+    "material": "plástico",
+    "dimensiones": "25cm x 10cm x 8cm",
+    "peso": "250g",
+    "codigo_producto": "HB01SHURI",
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722451156/IMG_6896_sumnrc.png"
+    ]
+  },
+  {
+    "nombre": "HASBRO SUPER HERO LOKI",
+    "precio": 6291,
+    "descripcion": "Figuras de superhéroes de Hasbro.",
+    "marca": "Hasbro",
+    "edad": "4+",
+    "categoria": "juguete",
+    "disponibilidad": "en stock",
+    "material": "plástico",
+    "dimensiones": "25cm x 10cm x 8cm",
+    "peso": "250g",
+    "codigo_producto": "HB01LOKI",
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722451154/D_NQ_NP_644927-MLA77515855656_072024-O_ztrx0h.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722451152/D_NQ_NP_811444-MLA77732911145_072024-O_jbmki5.webp"
+    ]
+  },
+  {
+    "nombre": "HASBRO SUPER HERO NAMOR",
+    "precio": 6291,
+    "descripcion": "Figuras de superhéroes de Hasbro.",
+    "marca": "Hasbro",
+    "edad": "4+",
+    "categoria": "juguete",
+    "disponibilidad": "en stock",
+    "material": "plástico",
+    "dimensiones": "25cm x 10cm x 8cm",
+    "peso": "250g",
+    "codigo_producto": "HB01NAMOR",
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722451155/IMG_6912_wq4ban.png"
+    ]
+  },
+  {
+    "nombre": "HASBRO SUPER HERO BLACK PANTHER",
+    "precio": 6291,
+    "descripcion": "Figuras de superhéroes de Hasbro.",
+    "marca": "Hasbro",
+    "edad": "4+",
+    "categoria": "juguete",
+    "disponibilidad": "en stock",
+    "material": "plástico",
+    "dimensiones": "25cm x 10cm x 8cm",
+    "peso": "250g",
+    "codigo_producto": "HB01BLACKPANTHER",
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722451155/IMG_6914_zlorrj.png"
+    ]
+  },
+  {
+    "nombre": "HASBRO SUPER HERO WOLVERINE",
+    "precio": 6291,
+    "descripcion": "Figuras de superhéroes de Hasbro.",
+    "marca": "Hasbro",
+    "edad": "4+",
+    "categoria": "juguete",
+    "disponibilidad": "en stock",
+    "material": "plástico",
+    "dimensiones": "25cm x 10cm x 8cm",
+    "peso": "250g",
+    "codigo_producto": "HB01WOLVERINE",
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722451156/IMG_6933_jy1hyz.png"
+    ]
+  },
+  {
+    "nombre": "HASBRO SUPER HERO HULK",
+    "precio": 6291,
+    "descripcion": "Figuras de superhéroes de Hasbro.",
+    "marca": "Hasbro",
+    "edad": "4+",
+    "categoria": "juguete",
+    "disponibilidad": "en stock",
+    "material": "plástico",
+    "dimensiones": "25cm x 10cm x 8cm",
+    "peso": "250g",
+    "codigo_producto": "HB01HULK",
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722451151/D_NQ_NP_864292-MLM73980597382_012024-O_tqejcc.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722451152/D_NQ_NP_871972-MLM74129179155_012024-O_cvzspw.webp"
+    ]
+  },
+  {
+    "nombre": "HASBRO SUPER HERO VALKYRIE ",
+    "precio": 6291,
+    "descripcion": "Figuras de superhéroes de Hasbro.",
+    "marca": "Hasbro",
+    "edad": "4+",
+    "categoria": "juguete",
+    "disponibilidad": "en stock",
+    "material": "plástico",
+    "dimensiones": "25cm x 10cm x 8cm",
+    "peso": "250g",
+    "codigo_producto": "HB01VALKYRIE",
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722456933/D_NQ_NP_762678-MLU74413766793_022024-O_c8epdk.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722456933/D_NQ_NP_794853-MLU74413552559_022024-O_ykvhke.webp"
+    ]
+  },
+  {
+    "nombre": "FUNKO POP GAME OF THRONES",
+    "precio": 8091,
+    "descripcion": "Figura Funko Pop de Game of thrones.",
+    "marca": "Funko Pop",
+    "edad": "6+",
+    "categoria": "juguete",
+    "disponibilidad": "en stock",
+    "material": "vinilo",
+    "dimensiones": "10cm x 5cm x 5cm",
+    "peso": "150g",
+    "codigo_producto": "FP02",
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722455200/D_NQ_NP_713791-MLA74780209947_022024-O_kcv7jl.webp"
+    ]
+  },
+  {
+    "nombre": "DC FIGURA CYBORG",
+    "precio": 12000,
+    "descripcion": "Figura de acción de DC Comics.",
+    "marca": "DC Comics",
+    "edad": "6+",
+    "categoria": "juguete",
+    "disponibilidad": "en stock",
+    "material": "plástico",
+    "dimensiones": "30cm x 10cm x 8cm",
+    "peso": "300g",
+    "codigo_producto": "DC04",
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722457010/D_NQ_NP_844516-MLM74221433687_012024-O_rvtyyh.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722457010/D_NQ_NP_703065-MLU75126646173_032024-O_rqfnmt.webp"
+    ]
+  },
+  {
+    "nombre": "DC FIGURA DARK FLASH",
+    "precio": 11000,
+    "descripcion": "Figura de acción de DC Comics.",
+    "marca": "DC Comics",
+    "edad": "6+",
+    "categoria": "juguete",
+    "disponibilidad": "en stock",
+    "material": "plástico",
+    "dimensiones": "30cm x 10cm x 8cm",
+    "peso": "300g",
+    "codigo_producto": "DC05",
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722457169/D_NQ_NP_907863-MLU73804147623_012024-O_ozwiwg.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722457168/D_NQ_NP_817730-MLU71052330008_082023-O_t24cur.webp"
+    ]
+  },
+  {
+    "nombre": "DC FIGURA HAWKMAN BLACK ADAM",
+    "precio": 16990,
+    "descripcion": "Figura de acción de DC Comics de 30cm.",
+    "marca": "DC Comics",
+    "edad": "6+",
+    "categoria": "juguete",
+    "disponibilidad": "en stock",
+    "material": "plástico",
+    "dimensiones": "30cm x 10cm x 8cm",
+    "peso": "300g",
+    "codigo_producto": "DC06",
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722459174/D_NQ_NP_745553-MLA51555122198_092022-O_qyrqli.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722459174/D_NQ_NP_645193-MLA51555038720_092022-O_sngbnw.webp"
+    ]
+  },
+  {
+    "nombre": "DC FIGURA BAT-TECH BATMAN",
+    "precio": 15290,
+    "descripcion": "Figura de acción de DC Comics de 30cm.",
+    "marca": "DC Comics",
+    "edad": "6+",
+    "categoria": "juguete",
+    "disponibilidad": "en stock",
+    "material": "plástico",
+    "dimensiones": "30cm x 10cm x 8cm",
+    "peso": "300g",
+    "codigo_producto": "DC07",
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722459685/D_NQ_NP_681166-MLA50030049083_052022-O_tqv6zu.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722459684/D_NQ_NP_604649-MLA50029888953_052022-O_hv8adn.webp"
+    ]
+  },
+  {
+    "nombre": "DC FIGURA BAT-TECH TACTICAL BATMAN",
+    "precio": 15290,
+    "descripcion": "Figura de acción de DC Comics de 30cm.",
+    "marca": "DC Comics",
+    "edad": "6+",
+    "categoria": "juguete",
+    "disponibilidad": "en stock",
+    "material": "plástico",
+    "dimensiones": "30cm x 10cm x 8cm",
+    "peso": "300g",
+    "codigo_producto": "DC07",
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722459678/D_NQ_NP_706606-MLA48746910238_012022-O_wf7rrs.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722459679/D_NQ_NP_825620-MLA48746927077_012022-O_lwyiub.webp"
+    ]
+  },
+  {
+    "nombre": "DC FIGURA BATMAN ",
+    "precio": 15290,
+    "descripcion": "Figura de Batman de 30cm de DC Comics.",
+    "marca": "DC Comics",
+    "edad": "6+",
+    "categoria": "juguete",
+    "disponibilidad": "en stock",
+    "material": "plástico",
+    "dimensiones": "30cm x 10cm x 8cm",
+    "peso": "300g",
+    "codigo_producto": "DC08",
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722459678/D_NQ_NP_734915-MLA50415579553_062022-O_jwi4lq.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722459678/D_NQ_NP_770371-MLA50415493945_062022-O_yxzxxl.webp"
+    ]
+  },
+  {
+    "nombre": "TEJO FUTBOL",
+    "precio": 11900,
+    "descripcion": "Juego de tejo con temática de fútbol.",
+    "marca": "Generic",
+    "edad": "6+",
+    "categoria": "juego",
+    "disponibilidad": "en stock",
+    "material": "plástico",
+    "dimensiones": "40cm x 20cm x 10cm",
+    "peso": "700g",
+    "codigo_producto": "TF01",
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722462173/D_NQ_NP_981394-MLA44431402497_122020-O_l80ruw.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722462174/D_NQ_NP_632087-MLA44431402495_122020-O_w1lfbw.webp"
+    ]
+  },
+  {
+    "nombre": "DENTADURAS",
+    "precio": 4000,
+    "descripcion": "Juego de dentaduras para juego de rol.",
+    "marca": "Generic",
+    "edad": "6+",
+    "categoria": "juego",
+    "disponibilidad": "en stock",
+    "material": "plástico",
+    "dimensiones": "15cm x 10cm x 5cm",
+    "peso": "150g",
+    "codigo_producto": "DT01",
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722462765/wisiorki-i-breloki-zabek-mix_zt8ei6.jpg",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722462766/wisiorki-i-breloki-zabek-mix_1_wy0xgy.jpg"
+    ]
+  },
+  {
+    "nombre": "CATAN",
+    "precio": 4000,
+    "descripcion": "Juego de estrategia de expancion del catan.",
+    "marca": "Generic",
+    "edad": "8+",
+    "categoria": "juego",
+    "disponibilidad": "en stock",
+    "material": "plástico",
+    "dimensiones": "15cm x 10cm x 5cm",
+    "peso": "150g",
+    "codigo_producto": "DT01ADEF",
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722462038/Catan-Ampliaci%C3%B3n-5-6-Jugadores-1-con-LOGO_e1hmqq.jpg",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722462037/Catan-Ampliaci%C3%B3n-5-6-Jugadores-2-con-LOGO_rvuo2a.jpg"
+    ]
+  },
+  {
+    "nombre": "BINGO LOTTO",
+    "precio": 4000,
+    "descripcion": "Prepárate para emocionar un juego de azar con el Bingo Lotto Tómbola. Este juego es perfecto para reuniones familiares o con amigos, ofreciendo horas de entretenimiento. Reúne a algunos amigos, elige una carta de la suerte y toma algunos contadores para prepararte para un juego de bingo. Gira la tómbola para revelar tus números de la suerte y, si coinciden con los de tu cartón, cúbrelos con un contador. ¡El primer jugador en conseguir cinco en fila gana!",
+    "marca": "Generic",
+    "edad": "8+",
+    "categoria": "juego",
+    "disponibilidad": "en stock",
+    "material": "plástico",
+    "dimensiones": "21cm x 20cm x 10cm",
+    "peso": "150g",
+    "codigo_producto": "DT0444",
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722463170/ff.jpg_m4u3vs.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722463171/Hd76a125a3f2c4d41a477d145955e5b40A_p7irmg.webp"
+    ]
   }
 ]

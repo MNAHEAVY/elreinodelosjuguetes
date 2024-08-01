@@ -1,37 +1,19 @@
 import "./FeaturedProducts.css"; // Asegúrate de incluir tus estilos CSS
 import data from "../../../products-b.json";
 const FeaturedProducts = () => {
-  // const products = [
-  //   {
-  //     title: "Example product title",
-  //     price: "$19.99",
-  //     imageUrl: "https://via.placeholder.com/150",
-  //   },
-  //   {
-  //     title: "Example product title",
-  //     price: "$19.99",
-  //     imageUrl: "https://via.placeholder.com/150",
-  //   },
-  //   { title: "Home page", price: "$19.99", imageUrl: "https://via.placeholder.com/150" },
-  //   {
-  //     title: "Example product title",
-  //     price: "$19.99",
-  //     imageUrl: "https://via.placeholder.com/150",
-  //   },
-  // ];
-  console.log(data);
+  const randomProducts = data.sort(() => 0.5 - Math.random()).slice(0, 4);
   return (
     <div className='featured-products-section'>
       <h2>Productos destacados</h2>
       <div className='products-grid'>
-        {data.map((data, index) => (
+        {randomProducts.map((data, index) => (
           <div key={index} className='product-card'>
-            <a href=''>
-              <img src={data.imagen} alt={data.nombre} className='product-image' />
+            <a href={"/detail/" + data.codigo_producto}>
+              <img src={data.imagen[0]} alt={data.nombre} className='product-image' />
               <div className='product-info'>
                 <p className='product-title'>{data.nombre}</p>
                 <p className='product-price'>{data.precio}</p>
-              </div>
+              </div>{" "}
             </a>
           </div>
         ))}
