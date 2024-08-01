@@ -46,12 +46,17 @@
   margin: 0;
   font-size: 16px;
   color: #333; /* Ajusta según tu diseño */
+  text-decoration: none;
+}
+.product-card a {
+  text-decoration: none;
 }
 
 .product-price {
   margin: 5px 0 0 0;
   font-size: 14px;
-  color: #666; /* Ajusta según tu diseño */
+  font-weight: 700;
+  color: #393838; /* Ajusta según tu diseño */
 }
 .load-more-button {
   display: block;

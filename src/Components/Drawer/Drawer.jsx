@@ -34,7 +34,7 @@ const Drawer = ({ isVisible, onClose }) => {
               >
                 <a
                   id='HeaderDrawer-home'
-                  href='/'
+                  href='/juegos'
                   className='menu-drawer__menu-item list-menu__item link link--text focus-inset menu-drawer__menu-item--active'
                   aria-current='page'
                 >
@@ -51,7 +51,7 @@ const Drawer = ({ isVisible, onClose }) => {
               >
                 <a
                   id='HeaderDrawer-catalog'
-                  href='/collections/all'
+                  href='/juguetes'
                   className='menu-drawer__menu-item list-menu__item link link--text focus-inset'
                 >
                   Juguetes
@@ -67,7 +67,7 @@ const Drawer = ({ isVisible, onClose }) => {
               >
                 <a
                   id='HeaderDrawer-contact'
-                  href='/pages/contact'
+                  href='/novedades'
                   className='menu-drawer__menu-item list-menu__item link link--text focus-inset'
                 >
                   Novedades

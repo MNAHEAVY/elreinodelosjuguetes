@@ -53,7 +53,7 @@ const Search = () => {
                   <img src={data.imagen[0]} alt={data.nombre} className='product-image' />
                   <div className='product-info'>
                     <p className='product-title'>{data.nombre}</p>
-                    <p className='product-price'>{data.precio}</p>
+                    <p className='product-price'>{data.marca}</p>
                   </div>{" "}
                 </a>
               </div>

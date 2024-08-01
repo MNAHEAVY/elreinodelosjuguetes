@@ -45,7 +45,7 @@ const Edad = () => {
               <img src={dat.imagen[0]} alt={dat.nombre} className='product-image' />
               <div className='product-info'>
                 <p className='product-title'>{dat.nombre}</p>
-                <p className='product-price'>{dat.precio}</p>
+                <p className='product-price'>{dat.marca}</p>
               </div>{" "}
             </a>
           </div>

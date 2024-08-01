@@ -67,6 +67,7 @@ const ProductDetail = () => {
     const message = `Hola, me gustaría comprar el producto "${product.nombre}" con el código "${product.codigo_producto}".`;
     return `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
   };
+
   return (
     <div className='featured-products-section'>
       <h2>Detalle Producto</h2>
@@ -80,6 +81,7 @@ const ProductDetail = () => {
             ))}
           </Slider>
         </div>
+
         <div className='product-inf'>
           <h2>{productData[0].nombre}</h2>
           <div className='detail'>
@@ -92,7 +94,10 @@ const ProductDetail = () => {
           </div>
           <div className='detail'>
             <strong>Precio:</strong>
-            <p className='product-price'> {productData[0].precio}</p>
+            <p className='product-price' style={{ textDecoration: "line-through" }}>
+              {" "}
+              {productData[0].precio}
+            </p>
           </div>
           <div className='detail'>
             <strong>Dimensiones:</strong>
