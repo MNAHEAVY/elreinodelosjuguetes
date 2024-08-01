@@ -57,28 +57,28 @@ const OwlCarouselComponent = () => {
     <div className='owl-caro' style={{ padding: "40px" }}>
       <h2 style={{ padding: "20px", color: "rgb(14, 27, 77)" }}>Nuestras Marcas</h2>
       <div className='owl-carousel'>
-        <a className='item' href='/collections/cry-babies' target='_blank'>
+        <a className='item' href={"/marcas/" + "cry-babies"}>
           <div className='slide'>
             <img className='img' src={one} alt='cry-babies' width='100' height='100' />
           </div>
           <h5 className='text-title'>Cry babies</h5>
         </a>
 
-        <a className='item' href='/collections/disney' target='_blank'>
+        <a className='item' href={"/marcas/" + "disney"}>
           <div className='slide'>
             <img className='img' src={two} alt='disney' width='100' height='100' />
           </div>
           <h5 className='text-title'>Disney</h5>
         </a>
 
-        <a className='item' href='/collections/frozen' target='_blank'>
+        <a className='item' href={"/marcas/" + "frozen"}>
           <div className='slide'>
             <img className='img' src={three} alt='frozen' width='100' height='100' />
           </div>
           <h5 className='text-title'>Frozen</h5>
         </a>
 
-        <a className='item' href='/collections/granja-de-zenon' target='_blank'>
+        <a className='item' href={"/marcas/" + "granja-de-zenon"}>
           <div className='slide'>
             <img
               className='img'
@@ -91,70 +91,70 @@ const OwlCarouselComponent = () => {
           <h5 className='text-title'>Granja de Zenon</h5>
         </a>
 
-        <a className='item' href='/collections/lol' target='_blank'>
+        <a className='item' href={"/marcas/" + "lol"}>
           <div className='slide'>
             <img className='img' src={five} alt='Lol' width='100' height='100' />
           </div>
           <h5 className='text-title'>Lol</h5>
         </a>
 
-        <a className='item' href='/collections/nerf' target='_blank'>
+        <a className='item' href={"/marcas/" + "nerf"}>
           <div className='slide'>
             <img className='img' src={six} alt='nerf' width='100' height='100' />
           </div>
           <h5 className='text-title'>Nerf</h5>
         </a>
 
-        <a className='item' href='/collections/paloma' target='_blank'>
+        <a className='item' href={"/marcas/" + "paloma"}>
           <div className='slide'>
             <img className='img' src={seven} alt='paloma' width='100' height='100' />
           </div>
           <h5 className='text-title'>Paloma</h5>
         </a>
 
-        <a className='item' href='/collections/paw-patrol' target='_blank'>
+        <a className='item' href={"/marcas/" + "paw-patrol"}>
           <div className='slide'>
             <img className='img' src={eight} alt='paw-patrol' width='100' height='100' />
           </div>
           <h5 className='text-title'>Paw patrol</h5>
         </a>
 
-        <a className='item' href='/collections/pinypon' target='_blank'>
+        <a className='item' href={"/marcas/" + "pinypon"}>
           <div className='slide'>
             <img className='img' src={nine} alt='Pinypon' width='100' height='100' />
           </div>
           <h5 className='text-title'>Pinypon</h5>
         </a>
 
-        <a className='item' href='/collections/pixar' target='_blank'>
+        <a className='item' href={"/marcas/" + "pixar"}>
           <div className='slide'>
             <img className='img' src={ten} alt='pixar' width='100' height='100' />
           </div>
           <h5 className='text-title'>Pixar</h5>
         </a>
 
-        <a className='item' href='/collections/playmobil' target='_blank'>
+        <a className='item' href={"/marcas/" + "playmobil"}>
           <div className='slide'>
             <img className='img' src={eleven} alt='playmobil' width='100' height='100' />
           </div>
           <h5 className='text-title'>Playmobil</h5>
         </a>
 
-        <a className='item' href='/collections/pokemon' target='_blank'>
+        <a className='item' href={"/marcas/" + "pokemon"}>
           <div className='slide'>
             <img className='img' src={twelve} alt='pokemon' width='100' height='100' />
           </div>
           <h5 className='text-title'>Pokemon</h5>
         </a>
 
-        <a className='item' href='/collections/star-wars' target='_blank'>
+        <a className='item' href={"/marcas/" + "star-wars"}>
           <div className='slide'>
             <img className='img' src={third} alt='star-wars' width='100' height='100' />
           </div>
           <h5 className='text-title'>Star Wars</h5>
         </a>
 
-        <a className='item' href='/collections/sylvanian-families' target='_blank'>
+        <a className='item' href={"/marcas/" + "sylvanian-families"}>
           <div className='slide'>
             <img
               className='img'
@@ -167,7 +167,7 @@ const OwlCarouselComponent = () => {
           <h5 className='text-title'>Sylvanian Families</h5>
         </a>
 
-        <a className='item' href='/collections/velocidad-sin-limites' target='_blank'>
+        <a className='item' href={"/marcas/" + "velocidad-sin-limites"}>
           <div className='slide'>
             <img
               className='img'
@@ -180,7 +180,7 @@ const OwlCarouselComponent = () => {
           <h5 className='text-title'>Velocidad sin limites</h5>
         </a>
 
-        <a className='item' href='/collections/accion-extrema' target='_blank'>
+        <a className='item' href={"/marcas/" + "accion-extrema"}>
           <div className='slide'>
             <img
               className='img'

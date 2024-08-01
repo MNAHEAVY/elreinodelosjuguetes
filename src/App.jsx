@@ -9,6 +9,7 @@ import Juegos from "./Views/Juegos/Juegos";
 import Juguetes from "./Views/Juguetes/Juguetes";
 import Search from "./Views/Search/Search";
 import ProductDetail from "./Views/ProductDetail/ProductDetail";
+import Marcas from "./Views/Marcas/Marcas";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route exact path='/juguetes' element={<Juguetes />} />
           <Route exact path='/search' element={<Search />} />
           <Route exact path='/detail/:id' element={<ProductDetail />} />
+          <Route exact path='/marcas/:id' element={<Marcas />} />
         </Routes>
       </Router>
 
