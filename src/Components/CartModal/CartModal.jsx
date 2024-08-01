@@ -29,7 +29,7 @@ const CartModal = ({ isVisible, onClose }) => {
   };
 
   const generateWhatsAppLink = () => {
-    const phoneNumber = "3755678812";
+    const phoneNumber = "3755295478";
     const message = cart
       .map((product) => `Producto: ${product.nombre}, Código: ${product.codigo_producto}`)
       .join("\n");
