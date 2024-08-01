@@ -84,12 +84,32 @@ const ProductDetail = () => {
           <h2>{productData[0].nombre}</h2>
           <div className='detail'>
             <strong>Descripción:</strong>
-            <p className='product-description'>{productData[0].descripcion}</p>
+            <p className='product-description'> {productData[0].descripcion}</p>
+          </div>
+          <div className='detail'>
+            <strong>Marca:</strong>
+            <p className='product-price'> {productData[0].marca}</p>
           </div>
           <div className='detail'>
             <strong>Precio:</strong>
-            <p className='product-price'>{productData[0].precio}</p>
+            <p className='product-price'> {productData[0].precio}</p>
           </div>
+          <div className='detail'>
+            <strong>Dimensiones:</strong>
+            <p className='product-price'> {productData[0].dimensiones}</p>
+          </div>
+          <>
+            {" "}
+            <Toast
+              onClose={() => setShowToast(false)}
+              show={showToast}
+              delay={3000}
+              autohide
+              bg={toastType}
+            >
+              <Toast.Body>{toastMessage}</Toast.Body>
+            </Toast>
+          </>
           <div className='buttones'>
             <OverlayTrigger
               placement='left'
@@ -118,15 +138,6 @@ const ProductDetail = () => {
             </OverlayTrigger>
           </div>{" "}
         </div>
-        <Toast
-          onClose={() => setShowToast(false)}
-          show={showToast}
-          delay={3000}
-          autohide
-          bg={toastType}
-        >
-          <Toast.Body>{toastMessage}</Toast.Body>
-        </Toast>
       </div>{" "}
     </div>
   );

@@ -11,7 +11,7 @@
 
 .slider-container {
   flex: 1 1 100%;
-  max-width: 600px;
+  max-width: -webkit-fill-available;
   background-color: rgba(255, 255, 255, 0.544);
   border-radius: 5%;
 }
@@ -129,7 +129,9 @@
   align-items: center;
 }
 .toast {
-  position: absolute;
-  top: 220px;
-  right: 20px;
+  position: fixed;
+}
+.toast-body {
+  color: #fff;
+  font-size: 16px;
 }
