@@ -1603,21 +1603,6 @@
     ]
   },
   {
-    "nombre": "juguete Princesas Rapunzel 30 Cm Disney Original Mattel",
-    "precio": 45000,
-    "descripcion": "juguete de Rapunzel de 30 cm, original de Disney y Mattel. Perfecta para recrear escenas del clásico cuento de hadas.",
-    "marca": "Mattel",
-    "edad": "3+",
-    "categoria": "juguete",
-    "disponibilidad": true,
-    "stock": 1,
-    "material": "plástico y tela",
-    "dimensiones": "30cm x 10cm x 5cm",
-    "peso": "250g",
-    "codigo_producto": "RAP01",
-    "imagen": ["URL_imagen_1", "URL_imagen_2"]
-  },
-  {
     "nombre": "Polly Pocket juguete Individual 9 Cm Mattel",
     "precio": 12000,
     "descripcion": "juguete individual Polly Pocket de 9 cm, original de Mattel. Ideal para coleccionar y jugar con el mundo en miniatura de Polly Pocket.",
@@ -1630,7 +1615,14 @@
     "dimensiones": "9cm x 4cm x 2cm",
     "peso": "50g",
     "codigo_producto": "PP01",
-    "imagen": ["URL_imagen_1", "URL_imagen_2"]
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724439352/D_NQ_NP_672013-MLA70490214876_072023-O_qrpcam.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724439351/D_NQ_NP_628484-MLA70489960252_072023-O_mlefzy.webp2",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724439351/D_NQ_NP_836613-MLA70516370141_072023-O_i53bsj.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724439351/D_NQ_NP_657448-MLA70516510407_072023-O_voeokt.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724439352/D_NQ_NP_627755-MLA70516483245_072023-O_poh2xq.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724439351/D_NQ_NP_853801-MLA70516483243_072023-O_fypvvo.webp"
+    ]
   },
   {
     "nombre": "Escopeta Lanza Dardos X-Shot Hawk Eye",
@@ -1645,7 +1637,11 @@
     "dimensiones": "50cm x 15cm x 5cm",
     "peso": "500g",
     "codigo_producto": "XSHE01",
-    "imagen": ["URL_imagen_1", "URL_imagen_2"]
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724440132/D_NQ_NP_714365-MLA53142961328_012023-O_xwnzwp.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724440131/D_NQ_NP_843196-MLA53142978329_012023-O_nnphj7.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724440130/D_NQ_NP_838774-MLA53142948415_012023-O_axrs3o.webp"
+    ]
   },
   {
     "nombre": "Escopeta Lanza Dardos X-Shot Hawk Eye x8",
@@ -1660,7 +1656,11 @@
     "dimensiones": "50cm x 15cm x 5cm",
     "peso": "500g",
     "codigo_producto": "XSHE02",
-    "imagen": ["URL_imagen_1", "URL_imagen_2"]
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724440132/D_NQ_NP_714365-MLA53142961328_012023-O_xwnzwp.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724440131/D_NQ_NP_843196-MLA53142978329_012023-O_nnphj7.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724440130/D_NQ_NP_838774-MLA53142948415_012023-O_axrs3o.webp"
+    ]
   },
   {
     "nombre": "Escopeta Lanza Dardos X-Shot Hawk Eye x12",
@@ -1675,7 +1675,11 @@
     "dimensiones": "50cm x 15cm x 5cm",
     "peso": "550g",
     "codigo_producto": "XSHE03",
-    "imagen": ["URL_imagen_1", "URL_imagen_2"]
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724440132/D_NQ_NP_714365-MLA53142961328_012023-O_xwnzwp.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724440131/D_NQ_NP_843196-MLA53142978329_012023-O_nnphj7.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724440130/D_NQ_NP_838774-MLA53142948415_012023-O_axrs3o.webp"
+    ]
   },
   {
     "nombre": "Pistola Zuru X-shot Lanza Dardos Dino Striker X16",
@@ -1690,7 +1694,11 @@
     "dimensiones": "30cm x 10cm x 4cm",
     "peso": "350g",
     "codigo_producto": "ZSDS01",
-    "imagen": ["URL_imagen_1", "URL_imagen_2"]
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724440337/D_NQ_NP_757659-MLA70662248293_072023-O_hvevnm.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724440338/D_NQ_NP_730108-MLA70633452546_072023-O_vtvfly.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724440338/D_NQ_NP_638580-MLA70633579614_072023-O_mqntjl.webp"
+    ]
   },
   {
     "nombre": "Pistola Zuru X-shot Lanza Dardos Dino Striker X8",
@@ -1705,7 +1713,10 @@
     "dimensiones": "25cm x 8cm x 4cm",
     "peso": "300g",
     "codigo_producto": "ZSDS02",
-    "imagen": ["URL_imagen_1", "URL_imagen_2"]
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724440338/D_NQ_NP_730108-MLA70633452546_072023-O_vtvfly.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724440338/D_NQ_NP_638580-MLA70633579614_072023-O_mqntjl.webp"
+    ]
   },
   {
     "nombre": "Súperman 50cm",
@@ -1720,7 +1731,11 @@
     "dimensiones": "50cm x 20cm x 10cm",
     "peso": "700g",
     "codigo_producto": "DCSP01",
-    "imagen": ["URL_imagen_1", "URL_imagen_2"]
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724441396/90_boneco_superman_1098_brinquedos_rosita_4429_2_f654c2c35cdd306060a8ac641a56c922_bv9gze.jpg",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724441396/90_boneco_superman_1098_brinquedos_rosita_4429_4_1042263736d93874aaa05f288a34d46b_gv7nmm.jpg",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724441396/90_boneco_superman_1098_brinquedos_rosita_4429_1_4efc0669c014d283e8feb5b9ef0debb9_sy6q6w.jpg"
+    ]
   },
   {
     "nombre": "Batman 50 cm",
@@ -1735,12 +1750,15 @@
     "dimensiones": "50cm x 20cm x 10cm",
     "peso": "700g",
     "codigo_producto": "DCBM01",
-    "imagen": ["URL_imagen_1", "URL_imagen_2"]
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724441453/180_boneco_batman_40cm_baby_brink_baby_brink_e_brinquedos_rosita_531_1_0e6b8a4992311017ec7705ec1d390e28_r6s0yo.jpg",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724441454/180_boneco_batman_40cm_baby_brink_baby_brink_e_brinquedos_rosita_531_2_c44e33aba529d21bba257c72441aa880_coodxo.jpg"
+    ]
   },
   {
-    "nombre": "Iron Man 50cm",
+    "nombre": "Flash 50cm",
     "precio": 50000,
-    "descripcion": "Figura de acción de Iron Man de 50 cm, ideal para los fanáticos de Marvel. Perfecto para recrear escenas heroicas.",
+    "descripcion": "Figura de acción de Flash de 50 cm, ideal para los fanáticos de Marvel. Perfecto para recrear escenas heroicas.",
     "marca": "Marvel",
     "edad": "4+",
     "categoria": "figura de acción",
@@ -1750,7 +1768,10 @@
     "dimensiones": "50cm x 20cm x 10cm",
     "peso": "700g",
     "codigo_producto": "MIM01",
-    "imagen": ["URL_imagen_1", "URL_imagen_2"]
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724442045/BONECO-ROSITA-FLASH-1097_2_gsuegh.jpg",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724442045/BONECO-ROSITA-FLASH-1097_1_pwfxun.jpg"
+    ]
   },
   {
     "nombre": "Thor 50 cm",
@@ -1765,7 +1786,10 @@
     "dimensiones": "50cm x 20cm x 10cm",
     "peso": "700g",
     "codigo_producto": "MTH01",
-    "imagen": ["URL_imagen_1", "URL_imagen_2"]
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724442094/D_NQ_NP_874365-MLA51933267898_102022-O_cyntzo.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724442094/D_NQ_NP_864452-MLA51933404343_102022-O_oj6jsd.webp"
+    ]
   },
   {
     "nombre": "Máscara Iron Man Ditoys",
@@ -1968,7 +1992,7 @@
     "descripcion": "Dinosaurio a cuerda que camina cuando se le da cuerda. Divertido y fácil de usar.",
     "marca": "Dino Toys",
     "edad": "3+",
-    "categoria": "figura",
+    "categoria": "juguete",
     "disponibilidad": true,
     "stock": 2,
     "material": "plástico",
@@ -1998,7 +2022,7 @@
     "descripcion": "Monopatín resistente, ideal para principiantes y avanzados. Con un diseño llamativo y ruedas de alta calidad.",
     "marca": "SkatePro",
     "edad": "8+",
-    "categoria": "deporte",
+    "categoria": "juego",
     "disponibilidad": true,
     "stock": 2,
     "material": "madera y metal",
@@ -2013,7 +2037,7 @@
     "descripcion": "Auto de descubrimiento Fisher Price diseñado para la estimulación temprana, con luces y sonidos para los más pequeños.",
     "marca": "Fisher Price",
     "edad": "6 meses+",
-    "categoria": "juguete educativo",
+    "categoria": "juguete",
     "disponibilidad": true,
     "stock": 1,
     "material": "plástico",
@@ -2021,5 +2045,23 @@
     "peso": "500g",
     "codigo_producto": "FP01",
     "imagen": ["URL_imagen_1", "URL_imagen_2"]
+  },
+  {
+    "nombre": "juguete Princesas Rapunzel 30 Cm Disney Original Mattel",
+    "precio": 45000,
+    "descripcion": "juguete de Rapunzel de 30 cm, original de Disney y Mattel. Perfecta para recrear escenas del clásico cuento de hadas.",
+    "marca": "Mattel",
+    "edad": "3+",
+    "categoria": "juguete",
+    "disponibilidad": true,
+    "stock": 1,
+    "material": "plástico y tela",
+    "dimensiones": "30cm x 10cm x 5cm",
+    "peso": "250g",
+    "codigo_producto": "RAP01",
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724439352/D_NQ_NP_964159-MLA76489852791_052024-O_zyjzla.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724439351/D_NQ_NP_746271-MLA76299687918_052024-O_nvjswu.webp"
+    ]
   }
 ]
