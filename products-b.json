@@ -1107,21 +1107,7 @@
       "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724423188/D_NQ_NP_997447-MLA46725241673_072021-O_dxfype.webp"
     ]
   },
-  {
-    "nombre": "Dinosaurio a Cuerda",
-    "precio": 5500,
-    "descripcion": "Dinosaurio a cuerda que camina cuando se le da cuerda. Divertido y fácil de usar.",
-    "marca": "Dino Toys",
-    "edad": "3+",
-    "categoria": "figura",
-    "disponibilidad": true,
-    "stock": 2,
-    "material": "plástico",
-    "dimensiones": "15cm x 8cm x 5cm",
-    "peso": "100g",
-    "codigo_producto": "DC01",
-    "imagen": ["URL_imagen_1", "URL_imagen_2"]
-  },
+
   {
     "nombre": "Pista Metal Machines T-Rex Attack",
     "precio": 45000,
@@ -1135,7 +1121,10 @@
     "dimensiones": "60cm x 40cm x 20cm",
     "peso": "800g",
     "codigo_producto": "MM01",
-    "imagen": ["URL_imagen_1", "URL_imagen_2"]
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724423500/D_NQ_NP_834324-MLU73202184072_122023-O_hcsol9.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724423500/D_NQ_NP_834324-MLU73202184072_122023-O_hcsol9.webp"
+    ]
   },
   {
     "nombre": "Playmobil Dúo",
@@ -1143,45 +1132,37 @@
     "descripcion": "Set de Playmobil Dúo. Incluye dos figuras con accesorios para jugar y coleccionar.",
     "marca": "Playmobil",
     "edad": "4+",
-    "categoria": "figura",
+    "categoria": "juguete",
     "disponibilidad": true,
     "stock": 5,
     "material": "plástico",
     "dimensiones": "20cm x 15cm x 5cm",
     "peso": "150g",
     "codigo_producto": "PM01",
-    "imagen": ["URL_imagen_1", "URL_imagen_2"]
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724423963/D_NQ_NP_981876-MLA44429524783_122020-O_xn5imb.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724423963/D_NQ_NP_796102-MLU71275538787_082023-O_u3ewug.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724423963/D_NQ_NP_706445-MLA75750301212_042024-O_fnsdew.webp"
+    ]
   },
 
-  {
-    "nombre": "Maletín",
-    "precio": 50000,
-    "descripcion": "Elegante maletín para transportar y organizar tus pertenencias de manera segura.",
-    "marca": "Executive Gear",
-    "edad": "N/A",
-    "categoria": "accesorios",
-    "disponibilidad": true,
-    "stock": 1,
-    "material": "cuero y metal",
-    "dimensiones": "45cm x 35cm x 10cm",
-    "peso": "1.2kg",
-    "codigo_producto": "MG01",
-    "imagen": ["URL_imagen_1", "URL_imagen_2"]
-  },
   {
     "nombre": "DC Red Hood 30 cm",
     "precio": 28000,
     "descripcion": "Figura de acción de 30 cm de Red Hood, uno de los personajes más icónicos de DC Comics.",
     "marca": "DC Comics",
     "edad": "6+",
-    "categoria": "figura",
+    "categoria": "juguete",
     "disponibilidad": true,
     "stock": 2,
     "material": "plástico",
     "dimensiones": "30cm x 10cm x 5cm",
     "peso": "250g",
     "codigo_producto": "DC01",
-    "imagen": ["URL_imagen_1", "URL_imagen_2"]
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724424149/D_NQ_NP_2X_641100-MLA71109981488_082023-F_cw6tqh.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724424150/D_NQ_NP_965912-MLU54973660743_042023-O_yb2zhx.webp"
+    ]
   },
   {
     "nombre": "DC Aquaman The Lost Kingdom",
@@ -1189,44 +1170,36 @@
     "descripcion": "Figura de acción basada en la película 'Aquaman: The Lost Kingdom', con detalles precisos y alta calidad.",
     "marca": "DC Comics",
     "edad": "6+",
-    "categoria": "figura",
+    "categoria": "juguete",
     "disponibilidad": true,
     "stock": 1,
     "material": "plástico",
     "dimensiones": "30cm x 10cm x 5cm",
     "peso": "250g",
     "codigo_producto": "DC02",
-    "imagen": ["URL_imagen_1", "URL_imagen_2"]
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724424253/D_NQ_NP_971892-MLA77269751824_072024-O_hymlzd.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724424253/D_NQ_NP_987326-MLA77269751814_072024-O_xzgggn.webp"
+    ]
   },
-  {
-    "nombre": "Monopatín",
-    "precio": 38000,
-    "descripcion": "Monopatín resistente, ideal para principiantes y avanzados. Con un diseño llamativo y ruedas de alta calidad.",
-    "marca": "SkatePro",
-    "edad": "8+",
-    "categoria": "deporte",
-    "disponibilidad": true,
-    "stock": 2,
-    "material": "madera y metal",
-    "dimensiones": "80cm x 20cm x 10cm",
-    "peso": "2.5kg",
-    "codigo_producto": "SP01",
-    "imagen": ["URL_imagen_1", "URL_imagen_2"]
-  },
+
   {
     "nombre": "Hot Wheels con Lanzador",
     "precio": 20000,
     "descripcion": "Set de Hot Wheels con lanzador, ideal para carreras emocionantes y acrobacias asombrosas.",
     "marca": "Hot Wheels",
     "edad": "5+",
-    "categoria": "vehículo de juguete",
+    "categoria": "juguete",
     "disponibilidad": true,
     "stock": 1,
     "material": "plástico y metal",
     "dimensiones": "30cm x 15cm x 10cm",
     "peso": "500g",
     "codigo_producto": "HW01",
-    "imagen": ["URL_imagen_1", "URL_imagen_2"]
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724428988/D_NQ_NP_925557-MLA78001196814_082024-O_f4vib8.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724428988/D_NQ_NP_686544-MLA78001167138_082024-O_nhsd7n.webp"
+    ]
   },
   {
     "nombre": "Muñeco The Joker DC",
@@ -1234,14 +1207,17 @@
     "descripcion": "Figura de acción de The Joker, el icónico villano de DC Comics, con detalles realistas y articulaciones móviles.",
     "marca": "DC Comics",
     "edad": "6+",
-    "categoria": "figura",
+    "categoria": "juguete",
     "disponibilidad": true,
     "stock": 1,
     "material": "plástico",
     "dimensiones": "30cm x 10cm x 5cm",
     "peso": "250g",
     "codigo_producto": "DC04",
-    "imagen": ["URL_imagen_1", "URL_imagen_2"]
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724429209/D_NQ_NP_722785-MLA49281734566_032022-O_bhslvl.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724429210/D_NQ_NP_773013-MLA49281740575_032022-O_x4axmv.webp"
+    ]
   },
   {
     "nombre": "Pepa Pig y su Familia",
@@ -1249,14 +1225,16 @@
     "descripcion": "Set de figuras de Pepa Pig y su familia, perfecto para recrear las aventuras de estos personajes adorables.",
     "marca": "Pepa Pig",
     "edad": "3+",
-    "categoria": "juego de figuras",
+    "categoria": "juguete",
     "disponibilidad": true,
     "stock": 2,
     "material": "plástico",
     "dimensiones": "15cm x 15cm x 5cm (cada figura)",
     "peso": "500g",
     "codigo_producto": "PP01",
-    "imagen": ["URL_imagen_1", "URL_imagen_2"]
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724424462/D_NQ_NP_991507-MLA75724176512_042024-O_uvunlc.webp"
+    ]
   },
   {
     "nombre": "Figura De Acción Ghostbusters Peter Venkman 30cm",
@@ -1271,7 +1249,10 @@
     "dimensiones": "30cm x 10cm x 5cm",
     "peso": "300g",
     "codigo_producto": "GB01",
-    "imagen": ["URL_imagen_1", "URL_imagen_2"]
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724429483/D_NQ_NP_882088-MLA48579117043_122021-O_j2k9lp.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724429482/D_NQ_NP_964224-MLA74221449061_012024-O_phpkxu.webp"
+    ]
   },
   {
     "nombre": "Pista Rondi 5 Niveles",
@@ -1286,7 +1267,10 @@
     "dimensiones": "50cm x 40cm x 15cm",
     "peso": "1kg",
     "codigo_producto": "RD01",
-    "imagen": ["URL_imagen_1", "URL_imagen_2"]
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724429655/D_NQ_NP_970211-MLU77964712442_082024-O_e9ksqt.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724429654/D_NQ_NP_843064-MLU77964573696_082024-O_krwiya.webp"
+    ]
   },
   {
     "nombre": "Pata Pata Rondi",
@@ -1301,7 +1285,10 @@
     "dimensiones": "60cm x 30cm x 40cm",
     "peso": "3kg",
     "codigo_producto": "PP01",
-    "imagen": ["URL_imagen_1", "URL_imagen_2"]
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724430516/D_NQ_NP_766074-MLA47260739947_082021-O_vq6yw6.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724430517/D_NQ_NP_974920-MLA47262111038_082021-O_yokgwd.webp"
+    ]
   },
 
   {
@@ -1317,7 +1304,10 @@
     "dimensiones": "60cm x 50cm x 20cm",
     "peso": "2kg",
     "codigo_producto": "BS01",
-    "imagen": ["URL_imagen_1", "URL_imagen_2"]
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724430612/D_NQ_NP_843616-MLA31035240668_062019-O_rboqil.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724430611/D_NQ_NP_946133-MLA32617571244_102019-O_fp18io.webp"
+    ]
   },
   {
     "nombre": "Vagón Didáctico Duravit Vehículo con Bloques de Encastre",
@@ -1332,7 +1322,10 @@
     "dimensiones": "40cm x 25cm x 20cm",
     "peso": "1kg",
     "codigo_producto": "DV01",
-    "imagen": ["URL_imagen_1", "URL_imagen_2"]
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724430720/D_NQ_NP_670930-MLU72637468011_112023-O_xorpvt.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724430722/D_NQ_NP_2X_808722-MLU73130176918_122023-F_d60p6i.webp"
+    ]
   },
   {
     "nombre": "Figura Spider-man Titan Hero Series Miles Morales 30cm",
@@ -1347,22 +1340,10 @@
     "dimensiones": "30cm x 10cm x 5cm",
     "peso": "300g",
     "codigo_producto": "TH01",
-    "imagen": ["URL_imagen_1", "URL_imagen_2"]
-  },
-  {
-    "nombre": "Fisher Price Estimulación Temprana Auto De Descubrimiento",
-    "precio": 35000,
-    "descripcion": "Auto de descubrimiento Fisher Price diseñado para la estimulación temprana, con luces y sonidos para los más pequeños.",
-    "marca": "Fisher Price",
-    "edad": "6 meses+",
-    "categoria": "juguete educativo",
-    "disponibilidad": true,
-    "stock": 1,
-    "material": "plástico",
-    "dimensiones": "20cm x 15cm x 10cm",
-    "peso": "500g",
-    "codigo_producto": "FP01",
-    "imagen": ["URL_imagen_1", "URL_imagen_2"]
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724430772/D_NQ_NP_747855-MLU72564877338_112023-O_rwvmok.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724430773/24144904_1_mcgmkl.jpg"
+    ]
   },
   {
     "nombre": "Auto Metal Machines Color Change Cambia Color",
@@ -1377,7 +1358,11 @@
     "dimensiones": "7cm x 3cm x 2cm",
     "peso": "50g",
     "codigo_producto": "MM01",
-    "imagen": ["URL_imagen_1", "URL_imagen_2"]
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724431812/D_NQ_NP_754843-MLA75685844913_042024-O_py5hft.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724431809/D_NQ_NP_683950-MLA78399070718_082024-O_x7ha30.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724431808/D_NQ_NP_877789-MLA75685330379_042024-O_xmsss8.webp"
+    ]
   },
   {
     "nombre": "Hot Wheels Pack X 5 Autos",
@@ -1392,7 +1377,12 @@
     "dimensiones": "7cm x 3cm x 2cm (cada auto)",
     "peso": "250g",
     "codigo_producto": "HW02",
-    "imagen": ["URL_imagen_1", "URL_imagen_2"]
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724432180/D_664904-MLA75134093589_032024-C_i1vk6m.jpg",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724432185/5936094-800-auto_ihdowe.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724432181/5936093-800-auto_kwo9oe.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724432188/5939289-800-auto_nxtbib.webp"
+    ]
   },
   {
     "nombre": "Muñeco Venom Original Hasbro Marvel Avengers",
@@ -1407,7 +1397,10 @@
     "dimensiones": "30cm x 10cm x 5cm",
     "peso": "300g",
     "codigo_producto": "MV01",
-    "imagen": ["URL_imagen_1", "URL_imagen_2"]
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724432294/D_NQ_NP_794105-MLA77778714586_072024-O_ywhijx.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724432297/D_NQ_NP_714752-MLA77778794046_072024-O_kzltcz.webp"
+    ]
   },
   {
     "nombre": "Locomotora De Arrastre Didáctica Primera Infancia Duravit",
@@ -1422,7 +1415,10 @@
     "dimensiones": "25cm x 15cm x 10cm",
     "peso": "400g",
     "codigo_producto": "LD01",
-    "imagen": ["URL_imagen_1", "URL_imagen_2"]
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724432399/D_NQ_NP_926571-MLU77826290191_072024-O_f2pa8n.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724432402/D_NQ_NP_709004-MLU77826240885_072024-O_ijmi6k.webp"
+    ]
   },
   {
     "nombre": "Blocky Policias Super Balde 120 Piezas Para Armar Original",
@@ -1437,7 +1433,10 @@
     "dimensiones": "20cm x 20cm x 20cm",
     "peso": "1kg",
     "codigo_producto": "BLK01",
-    "imagen": ["URL_imagen_1", "URL_imagen_2"]
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724432607/D_NQ_NP_825320-MLA50820307592_072022-O_svn6tm.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724432587/D_NQ_NP_610244-MLA50820307591_072022-O_xd03hu.webp"
+    ]
   },
   {
     "nombre": "Blocky ciudad Super Balde 120 Piezas Para Armar Original",
@@ -1452,7 +1451,11 @@
     "dimensiones": "20cm x 20cm x 20cm",
     "peso": "1kg",
     "codigo_producto": "BLK02",
-    "imagen": ["URL_imagen_1", "URL_imagen_2"]
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724432609/D_NQ_NP_843333-MLA31027965838_062019-O_vplyum.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724432595/D_NQ_NP_722232-MLA31027966801_062019-O_pzarby.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724432603/D_NQ_NP_746899-MLA31027966800_062019-O_yvrnen.webp"
+    ]
   },
   {
     "nombre": "Balde De Bloques De 100 Piezas Blocky bomberos",
@@ -1467,7 +1470,10 @@
     "dimensiones": "20cm x 20cm x 20cm",
     "peso": "1kg",
     "codigo_producto": "BLK03",
-    "imagen": ["URL_imagen_1", "URL_imagen_2"]
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724432590/D_NQ_NP_630165-MLU72700066187_112023-O_eknisw.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724432600/D_NQ_NP_743919-MLA50134719934_052022-O_zguhq3.webp"
+    ]
   },
   {
     "nombre": "Blocky Balde Ciudad Encantada Rosa 100 Piezas",
@@ -1482,7 +1488,11 @@
     "dimensiones": "20cm x 20cm x 20cm",
     "peso": "1kg",
     "codigo_producto": "BLK04",
-    "imagen": ["URL_imagen_1", "URL_imagen_2"]
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724432594/D_NQ_NP_688016-MLU74136916386_012024-O_twmvif.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724432614/D_NQ_NP_985090-MLA51964904263_102022-O_jmjiek.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724432617/D_NQ_NP_736974-MLA51964904264_102022-O_eq3thx.webp"
+    ]
   },
   {
     "nombre": "Playmobil 9468 Bomberos Bomba De Agua Funcionamiento Real",
@@ -1497,7 +1507,10 @@
     "dimensiones": "30cm x 25cm x 10cm",
     "peso": "800g",
     "codigo_producto": "PM9468",
-    "imagen": ["URL_imagen_1", "URL_imagen_2"]
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724433091/D_NQ_NP_903513-MLA52145195524_102022-O_g4hqhl.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724433092/D_NQ_NP_2X_946220-MLA52696098661_122022-F_rouaos.webp"
+    ]
   },
   {
     "nombre": "THOR ENDGAME",
@@ -1584,7 +1597,10 @@
     "dimensiones": "25cm x 10cm x 8cm",
     "peso": "300g",
     "codigo_producto": "AVIM01",
-    "imagen": ["URL_imagen_1", "URL_imagen_2"]
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724433233/D_NQ_NP_832032-MLA75928701562_042024-O_zj7ex2.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724433230/D_NQ_NP_825972-MLA76104966533_042024-O_dtkf91.webp"
+    ]
   },
   {
     "nombre": "juguete Princesas Rapunzel 30 Cm Disney Original Mattel",
@@ -1944,6 +1960,66 @@
     "dimensiones": "8cm x 6cm x 4cm",
     "peso": "150g",
     "codigo_producto": "PP02",
+    "imagen": ["URL_imagen_1", "URL_imagen_2"]
+  },
+  {
+    "nombre": "Dinosaurio a Cuerda",
+    "precio": 5500,
+    "descripcion": "Dinosaurio a cuerda que camina cuando se le da cuerda. Divertido y fácil de usar.",
+    "marca": "Dino Toys",
+    "edad": "3+",
+    "categoria": "figura",
+    "disponibilidad": true,
+    "stock": 2,
+    "material": "plástico",
+    "dimensiones": "15cm x 8cm x 5cm",
+    "peso": "100g",
+    "codigo_producto": "DC01",
+    "imagen": ["URL_imagen_1", "URL_imagen_2"]
+  },
+  {
+    "nombre": "Maletín",
+    "precio": 50000,
+    "descripcion": "Elegante maletín para transportar y organizar tus pertenencias de manera segura.",
+    "marca": "Executive Gear",
+    "edad": "N/A",
+    "categoria": "accesorios",
+    "disponibilidad": true,
+    "stock": 1,
+    "material": "cuero y metal",
+    "dimensiones": "45cm x 35cm x 10cm",
+    "peso": "1.2kg",
+    "codigo_producto": "MG01",
+    "imagen": ["URL_imagen_1", "URL_imagen_2"]
+  },
+  {
+    "nombre": "Monopatín",
+    "precio": 38000,
+    "descripcion": "Monopatín resistente, ideal para principiantes y avanzados. Con un diseño llamativo y ruedas de alta calidad.",
+    "marca": "SkatePro",
+    "edad": "8+",
+    "categoria": "deporte",
+    "disponibilidad": true,
+    "stock": 2,
+    "material": "madera y metal",
+    "dimensiones": "80cm x 20cm x 10cm",
+    "peso": "2.5kg",
+    "codigo_producto": "SP01",
+    "imagen": ["URL_imagen_1", "URL_imagen_2"]
+  },
+  {
+    "nombre": "Fisher Price Estimulación Temprana Auto De Descubrimiento",
+    "precio": 35000,
+    "descripcion": "Auto de descubrimiento Fisher Price diseñado para la estimulación temprana, con luces y sonidos para los más pequeños.",
+    "marca": "Fisher Price",
+    "edad": "6 meses+",
+    "categoria": "juguete educativo",
+    "disponibilidad": true,
+    "stock": 1,
+    "material": "plástico",
+    "dimensiones": "20cm x 15cm x 10cm",
+    "peso": "500g",
+    "codigo_producto": "FP01",
     "imagen": ["URL_imagen_1", "URL_imagen_2"]
   }
 ]
