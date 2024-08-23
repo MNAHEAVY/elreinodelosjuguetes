@@ -42,8 +42,8 @@
     "imagen": [""]
   },
   {
-    "nombre": "ARMA NERFT",
-    "precio": 4156,
+    "nombre": "ReARMA NERFT",
+    "precio": 5000,
     "descripcion": "Arma de juguete Nerft.",
     "marca": "Nerf",
     "edad": "8+",
@@ -1917,23 +1917,7 @@
     "codigo_producto": "FP02",
     "imagen": [""]
   },
-  {
-    "nombre": "THOR ENDGAME",
-    "precio": 64480,
-    "descripcion": "Figura de acción de Thor Endgame.",
-    "marca": "Marvel",
-    "edad": "6+",
-    "categoria": "juguete",
-    "disponibilidad": "en stock",
-    "material": "plástico",
-    "dimensiones": "30cm x 10cm x 5cm",
-    "peso": "300g",
-    "codigo_producto": "TE01",
-    "imagen": [
-      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722429825/IMG_7269_hypldp.webp",
-      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722430171/IMG_7276_o9re1l.png"
-    ]
-  },
+
   {
     "nombre": "PLAYMOBIL AVION",
     "precio": 27104,
@@ -2088,40 +2072,7 @@
     "codigo_producto": "RB01",
     "imagen": [""]
   },
-  {
-    "nombre": "LIGHTYEAR BUZZ",
-    "precio": 6900,
-    "descripcion": "Figura de Buzz Lightyear de la película Lightyear.",
-    "marca": "Disney",
-    "edad": "4+",
-    "categoria": "juguete",
-    "disponibilidad": "en stock",
-    "material": "plástico",
-    "dimensiones": "15cm x 10cm x 5cm",
-    "peso": "200g",
-    "codigo_producto": "LB01",
-    "imagen": [
-      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722431088/D_NQ_NP_872261-MLU69433966130_052023-O_shaktt.webp",
-      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722431089/D_NQ_NP_704303-MLU69433966134_052023-O_n0hbcr.webp"
-    ]
-  },
-  {
-    "nombre": "BUZZ LY ORIGINAL",
-    "precio": 15520,
-    "descripcion": "Figura original de Buzz Lightyear.",
-    "marca": "Disney",
-    "edad": "4+",
-    "categoria": "juguete",
-    "disponibilidad": "en stock",
-    "material": "plástico",
-    "dimensiones": "30cm x 15cm x 10cm",
-    "peso": "500g",
-    "codigo_producto": "BO01",
-    "imagen": [
-      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722432554/D_NQ_NP_962681-MLU53174992742_012023-O_r239ol.webp",
-      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722432555/D_NQ_NP_813073-MLA74118276390_012024-O_oqwdoi.webp"
-    ]
-  },
+
   {
     "nombre": "HARRY POTTER",
     "precio": 24990,
@@ -2136,23 +2087,7 @@
     "codigo_producto": "HP13",
     "imagen": [""]
   },
-  {
-    "nombre": "BUZZ TRAJE CASCO",
-    "precio": 21390,
-    "descripcion": "Figura de Buzz Lightyear con traje y casco.",
-    "marca": "Disney",
-    "edad": "4+",
-    "categoria": "juguete",
-    "disponibilidad": "en stock",
-    "material": "plástico",
-    "dimensiones": "30cm x 15cm x 10cm",
-    "peso": "500g",
-    "codigo_producto": "BT01",
-    "imagen": [
-      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722431907/187135-800-auto_ub6ujs.webp",
-      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1722431907/187134-800-auto_ueocxo.webp"
-    ]
-  },
+
   {
     "nombre": "HDP 5",
     "precio": 3990,
