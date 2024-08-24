@@ -1797,14 +1797,17 @@
     "descripcion": "Máscara de Iron Man de Ditoys, ideal para disfraces y juegos de rol. Ofrece un diseño detallado y ajustable.",
     "marca": "Ditoys",
     "edad": "6+",
-    "categoria": "disfraz",
+    "categoria": "juego",
     "disponibilidad": true,
     "stock": 1,
     "material": "plástico",
     "dimensiones": "20cm x 20cm x 10cm",
     "peso": "200g",
     "codigo_producto": "DT01",
-    "imagen": ["URL_imagen_1", "URL_imagen_2"]
+    "imagen": [
+      "Uhttps://res.cloudinary.com/dxsl6lphv/image/upload/v1724453061/D_NQ_NP_682091-MLU72576475260_112023-O_qwqh2s.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724453060/D_NQ_NP_632408-MLU75164504209_032024-O_f3afa6.webp"
+    ]
   },
   {
     "nombre": "Hombre Araña Ditoys",
@@ -1819,7 +1822,10 @@
     "dimensiones": "20cm x 10cm x 5cm",
     "peso": "250g",
     "codigo_producto": "DT02",
-    "imagen": ["URL_imagen_1", "URL_imagen_2"]
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724453060/D_NQ_NP_771547-MLA75664466440_042024-O_s4ypvj.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724453060/D_NQ_NP_639652-MLA78017057489_072024-O_w8brrh.webp"
+    ]
   },
   {
     "nombre": "Máscara Hombre Araña Hasbro",
@@ -1827,14 +1833,17 @@
     "descripcion": "Máscara de Hombre Araña de Hasbro, ideal para disfraces y juegos de rol. Ofrece un diseño detallado y ajuste cómodo.",
     "marca": "Hasbro",
     "edad": "6+",
-    "categoria": "disfraz",
+    "categoria": "juego",
     "disponibilidad": true,
     "stock": 1,
     "material": "plástico",
     "dimensiones": "22cm x 22cm x 10cm",
     "peso": "250g",
     "codigo_producto": "HS02",
-    "imagen": ["URL_imagen_1", "URL_imagen_2"]
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724453060/D_NQ_NP_771547-MLA75664466440_042024-O_s4ypvj.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724453060/D_NQ_NP_639652-MLA78017057489_072024-O_w8brrh.webp"
+    ]
   },
   {
     "nombre": "Playmobil Cemento",
@@ -1849,7 +1858,10 @@
     "dimensiones": "40cm x 30cm x 20cm",
     "peso": "1kg",
     "codigo_producto": "PM01",
-    "imagen": ["URL_imagen_1", "URL_imagen_2"]
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724501485/D_NQ_NP_638128-MLA73196075773_122023-O_sdk2yk.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724501485/D_NQ_NP_830706-MLA74193914652_012024-O_zsj4xc.webp"
+    ]
   },
   {
     "nombre": "City Action Avión Policía",
@@ -1864,7 +1876,10 @@
     "dimensiones": "35cm x 25cm x 15cm",
     "peso": "800g",
     "codigo_producto": "CA01",
-    "imagen": ["URL_imagen_1", "URL_imagen_2"]
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724501485/D_NQ_NP_827543-MLA53075005317_122022-O_obvdte.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724501485/D_NQ_NP_901434-MLA53074935836_122022-O_al6b5i.webp"
+    ]
   },
   {
     "nombre": "Playmobil 123 Coche Zoo Con Remolque De Caballo",
@@ -1879,7 +1894,10 @@
     "dimensiones": "30cm x 20cm x 15cm",
     "peso": "600g",
     "codigo_producto": "PM12301",
-    "imagen": ["URL_imagen_1", "URL_imagen_2"]
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724501485/D_NQ_NP_699922-MLA74192670278_012024-O_qj8tl8.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724501486/D_NQ_NP_775482-MLA73731050828_012024-O_cmrdks.webp"
+    ]
   },
   {
     "nombre": "Mamá con Mellizos",
@@ -1894,7 +1912,10 @@
     "dimensiones": "12cm x 8cm x 6cm",
     "peso": "250g",
     "codigo_producto": "PM02",
-    "imagen": ["URL_imagen_1", "URL_imagen_2"]
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724501485/D_NQ_NP_776480-MLA44439219015_122020-O_wji9pd.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724501486/D_NQ_NP_841033-MLU71275538713_082023-O_a7qjes.webp"
+    ]
   },
   {
     "nombre": "Playmobil Sorpresitas",
@@ -1909,7 +1930,10 @@
     "dimensiones": "10cm x 5cm x 5cm",
     "peso": "100g",
     "codigo_producto": "PM03",
-    "imagen": ["URL_imagen_1", "URL_imagen_2"]
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724501486/D_NQ_NP_970327-MLA44459106578_122020-O_ou5rrk.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724501486/D_NQ_NP_885498-MLA44459088833_122020-O_gsgel2.webp"
+    ]
   },
   {
     "nombre": "Playmobil Set x 2",
@@ -1939,7 +1963,12 @@
     "dimensiones": "15cm x 10cm x 5cm",
     "peso": "300g",
     "codigo_producto": "PM05",
-    "imagen": ["URL_imagen_1", "URL_imagen_2"]
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724503730/D_NQ_NP_710692-MLA52195658837_102022-O_zsfjk5.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724503730/D_NQ_NP_746486-MLA77064176641_062024-O_jxq7il.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724503730/D_NQ_NP_603474-MLA77064146999_062024-O_z8xh4w.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724503730/D_NQ_NP_880346-MLA77064176663_062024-O_wqvs7c.webp"
+    ]
   },
   {
     "nombre": "Flokys juguetes",
@@ -1954,7 +1983,11 @@
     "dimensiones": "10cm x 5cm x 5cm",
     "peso": "150g",
     "codigo_producto": "FLO01",
-    "imagen": ["URL_imagen_1", "URL_imagen_2"]
+    "imagen": [
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724504292/D_NQ_NP_669235-MLU74274945171_012024-O_whspqs.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724504292/D_NQ_NP_856202-MLA44971217747_022021-O_swntua.webp",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724504291/D_NQ_NP_769046-MLA50820052381_072022-O_lvfjim.webp"
+    ]
   },
   {
     "nombre": "Polly Pocket",
