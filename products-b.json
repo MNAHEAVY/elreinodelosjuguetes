@@ -1128,7 +1128,7 @@
   },
   {
     "nombre": "Playmobil Dúo",
-    "precio": 25000,
+    "precio": 30000,
     "descripcion": "Set de Playmobil Dúo. Incluye dos figuras con accesorios para jugar y coleccionar.",
     "marca": "Playmobil",
     "edad": "4+",
@@ -1617,7 +1617,7 @@
     "codigo_producto": "PP01",
     "imagen": [
       "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724439352/D_NQ_NP_672013-MLA70490214876_072023-O_qrpcam.webp",
-      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724439351/D_NQ_NP_628484-MLA70489960252_072023-O_mlefzy.webp2",
+      "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724439351/D_NQ_NP_628484-MLA70489960252_072023-O_mlefzy.webp",
       "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724439351/D_NQ_NP_836613-MLA70516370141_072023-O_i53bsj.webp",
       "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724439351/D_NQ_NP_657448-MLA70516510407_072023-O_voeokt.webp",
       "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724439352/D_NQ_NP_627755-MLA70516483245_072023-O_poh2xq.webp",
@@ -1936,21 +1936,6 @@
     ]
   },
   {
-    "nombre": "Playmobil Set x 2",
-    "precio": 30000,
-    "descripcion": "Set Playmobil x 2, incluye dos sets diferentes con figuras y accesorios variados. Ideal para expandir colecciones.",
-    "marca": "Playmobil",
-    "edad": "4+",
-    "categoria": "juego de construcción",
-    "disponibilidad": true,
-    "stock": 5,
-    "material": "plástico",
-    "dimensiones": "25cm x 20cm x 15cm",
-    "peso": "500g",
-    "codigo_producto": "PM04",
-    "imagen": ["URL_imagen_1", "URL_imagen_2"]
-  },
-  {
     "nombre": "Playmobil Special Plus",
     "precio": 21000,
     "descripcion": "Playmobil Special Plus, set con figuras y accesorios especiales. Perfecto para coleccionistas y entusiastas de Playmobil.",
@@ -1988,21 +1973,6 @@
       "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724504292/D_NQ_NP_856202-MLA44971217747_022021-O_swntua.webp",
       "https://res.cloudinary.com/dxsl6lphv/image/upload/v1724504291/D_NQ_NP_769046-MLA50820052381_072022-O_lvfjim.webp"
     ]
-  },
-  {
-    "nombre": "Polly Pocket",
-    "precio": 9000,
-    "descripcion": "Polly Pocket, juguete compacta con accesorios. Perfecta para juegos en movimiento y colecciones.",
-    "marca": "Polly Pocket",
-    "edad": "4+",
-    "categoria": "juguete",
-    "disponibilidad": true,
-    "stock": 9,
-    "material": "plástico",
-    "dimensiones": "8cm x 6cm x 4cm",
-    "peso": "100g",
-    "codigo_producto": "PP01",
-    "imagen": ["URL_imagen_1", "URL_imagen_2"]
   },
   {
     "nombre": "Polly Pocket Disfraces",
