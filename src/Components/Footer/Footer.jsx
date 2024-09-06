@@ -1,6 +1,12 @@
 import "./Footer.css";
 import logo from "../../assets/logo.png";
+import { useLocation } from "react-router-dom";
 const Footer = () => {
+  const location = useLocation();
+  const excludePaths = ["/admin"];
+  if (excludePaths.includes(location.pathname)) {
+    return null;
+  }
   return (
     <footer
       className='footer color-inverse grant section-sections--22846564041014__footer-padding'

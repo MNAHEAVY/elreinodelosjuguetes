@@ -5,12 +5,18 @@ import SearchModal from "../SearchModal/SearchModal";
 import CartModal from "../CartModal/CartModal";
 import Drawer from "../Drawer/Drawer";
 import logo from "../../assets/logo.png";
+import { useLocation } from "react-router-dom";
 
 const StickyHeader = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [isCartOpen, setIsCartOpen] = useState(false);
 
+  const location = useLocation();
+  const excludePaths = ["/admin"];
+  if (excludePaths.includes(location.pathname)) {
+    return null;
+  }
   return (
     <div
       data-sticky-type='on-scroll-up'

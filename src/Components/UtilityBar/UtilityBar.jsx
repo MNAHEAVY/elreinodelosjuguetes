@@ -1,6 +1,12 @@
+import { useLocation } from "react-router-dom";
 import "./UtilityBar.css";
 
 const UtilityBar = () => {
+  const location = useLocation();
+  const excludePaths = ["/admin"];
+  if (excludePaths.includes(location.pathname)) {
+    return null;
+  }
   return (
     <div className='utility-bar color-scheme-bd4e0e84-6ad3-4213-8f0b-ea0b779379d2 gradient utility-bar--bottom-border'>
       <div className='page-width utility-bar__grid'>

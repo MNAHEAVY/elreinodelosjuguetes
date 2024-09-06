@@ -10,13 +10,14 @@ import Juguetes from "./Views/Juguetes/Juguetes";
 import Search from "./Views/Search/Search";
 import ProductDetail from "./Views/ProductDetail/ProductDetail";
 import Marcas from "./Views/Marcas/Marcas";
+import Admin from "./Views/Admin/dashboard";
 
 function App() {
   return (
     <>
-      <UtilityBar />
-      <StickyHeader />
       <Router>
+        <UtilityBar />
+        <StickyHeader />
         <Routes>
           <Route exact path='/' element={<Landing />} />
           <Route exact path='/novedades' element={<Novedades />} />
@@ -26,10 +27,11 @@ function App() {
           <Route exact path='/search' element={<Search />} />
           <Route exact path='/detail/:id' element={<ProductDetail />} />
           <Route exact path='/marcas/:id' element={<Marcas />} />
+          <Route exact path='/admin' element={<Admin />} />
         </Routes>
-      </Router>
 
-      <Footer />
+        <Footer />
+      </Router>
     </>
   );
 }
