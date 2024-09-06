@@ -1,96 +1,252 @@
-const people = [
-  {
-    name: "Leslie Alexander",
-    email: "leslie.alexander@example.com",
-    role: "Co-Founder / CEO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-    lastSeen: "3h ago",
-    lastSeenDateTime: "2023-01-23T13:23Z",
-  },
-  {
-    name: "Michael Foster",
-    email: "michael.foster@example.com",
-    role: "Co-Founder / CTO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-    lastSeen: "3h ago",
-    lastSeenDateTime: "2023-01-23T13:23Z",
-  },
-  {
-    name: "Dries Vincent",
-    email: "dries.vincent@example.com",
-    role: "Business Relations",
-    imageUrl:
-      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-    lastSeen: null,
-  },
-  {
-    name: "Lindsay Walton",
-    email: "lindsay.walton@example.com",
-    role: "Front-end Developer",
-    imageUrl:
-      "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-    lastSeen: "3h ago",
-    lastSeenDateTime: "2023-01-23T13:23Z",
-  },
-  {
-    name: "Courtney Henry",
-    email: "courtney.henry@example.com",
-    role: "Designer",
-    imageUrl:
-      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-    lastSeen: "3h ago",
-    lastSeenDateTime: "2023-01-23T13:23Z",
-  },
-  {
-    name: "Tom Cook",
-    email: "tom.cook@example.com",
-    role: "Director of Product",
-    imageUrl:
-      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-    lastSeen: null,
-  },
-];
+import { useState, useEffect } from "react";
+import { ToastContainer, toast } from "react-toastify";
 
 export default function Editar() {
+  const [productos, setProductos] = useState([]);
+  const [filteredProductos, setFilteredProductos] = useState([]);
+  const [editingProductId, setEditingProductId] = useState(null);
+  const [searchTerm, setSearchTerm] = useState("");
+
+  useEffect(() => {
+    const fetchProducts = async () => {
+      try {
+        const response = await fetch(
+          "https://backend-reino-production.up.railway.app/products"
+        );
+        if (!response.ok) {
+          throw new Error("Network response was not ok");
+        }
+        const data = await response.json();
+        setProductos(data);
+      } catch (error) {
+        console.error("Error fetching products:", error);
+      }
+    };
+
+    fetchProducts();
+  }, []);
+
+  useEffect(() => {
+    setFilteredProductos(
+      productos.filter((producto) =>
+        producto.nombre.toLowerCase().includes(searchTerm.toLowerCase())
+      )
+    );
+  }, [searchTerm, productos]);
+
+  const handleEditClick = (id) => {
+    setEditingProductId(id);
+  };
+
+  const handleInputChange = (e, index, field) => {
+    const updatedValue = field === "precio" ? parseFloat(e.target.value) : e.target.value;
+    const updatedProducts = [...productos];
+    updatedProducts[index] = { ...updatedProducts[index], [field]: updatedValue };
+    setProductos(updatedProducts);
+  };
+
+  const handleSelectChange = (e, index, field) => {
+    const updatedProducts = [...productos];
+    updatedProducts[index][field] = e.target.value === "true";
+    setProductos(updatedProducts);
+  };
+
+  const updateProduct = async (id, updatedProduct) => {
+    console.log(JSON.stringify(updatedProduct));
+    try {
+      const response = await fetch(
+        `https://backend-reino-production.up.railway.app/product/${id}`,
+        {
+          method: "PUT",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(updatedProduct),
+        }
+      );
+
+      if (response.ok) {
+        toast.success("¡Producto actualizado!");
+      } else {
+        toast.error("¡Fallo la actualizacion!");
+        throw new Error("Network response was not ok");
+      }
+
+      const result = await response.json();
+      console.log("Product updated successfully:", result);
+      // Optionally, fetch the updated product list again
+      // fetchProducts();
+    } catch (error) {
+      console.error("Error updating product:", error);
+    }
+  };
+
+  const handleSaveClick = async (id) => {
+    const updatedProduct = productos.find((p) => p._id === id);
+    await updateProduct(id, updatedProduct);
+    setEditingProductId(null);
+  };
+
+  const handleSearchChange = (e) => {
+    setSearchTerm(e.target.value);
+  };
   return (
-    <ul role='list' className='divide-y divide-gray-100'>
-      {people.map((person) => (
-        <li key={person.email} className='flex justify-between gap-x-6 py-5'>
-          <div className='flex min-w-0 gap-x-4'>
-            <img
-              alt=''
-              src={person.imageUrl}
-              className='h-12 w-12 flex-none rounded-full bg-gray-50'
-            />
-            <div className='min-w-0 flex-auto'>
-              <p className='text-sm font-semibold leading-6 text-gray-900'>
-                {person.name}
-              </p>
-              <p className='mt-1 truncate text-xs leading-5 text-gray-500'>
-                {person.email}
-              </p>
-            </div>
-          </div>
-          <div className='hidden shrink-0 sm:flex sm:flex-col sm:items-end'>
-            <p className='text-sm leading-6 text-gray-900'>{person.role}</p>
-            {person.lastSeen ? (
-              <p className='mt-1 text-xs leading-5 text-gray-500'>
-                Last seen{" "}
-                <time dateTime={person.lastSeenDateTime}>{person.lastSeen}</time>
-              </p>
-            ) : (
-              <div className='mt-1 flex items-center gap-x-1.5'>
-                <div className='flex-none rounded-full bg-emerald-500/20 p-1'>
-                  <div className='h-1.5 w-1.5 rounded-full bg-emerald-500' />
-                </div>
-                <p className='text-xs leading-5 text-gray-500'>Online</p>
-              </div>
-            )}
-          </div>
-        </li>
-      ))}
-    </ul>
+    <div>
+      <ToastContainer />
+      <div className='mb-4 flex justify-center'>
+        <input
+          type='text'
+          placeholder='Buscar por nombre...'
+          value={searchTerm}
+          onChange={handleSearchChange}
+          className=' p-2 border border-gray-300 rounded-md w-full max-w-sm'
+        />
+      </div>
+      <div className='overflow-x-auto'>
+        <table className='w-full divide-y divide-gray-200'>
+          <thead className='bg-gray-50'>
+            <tr>
+              <th className='px-3 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider'>
+                Imagen
+              </th>
+              <th className='px-3 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider'>
+                Nombre
+              </th>
+              <th className='px-3 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider'>
+                Marca
+              </th>
+              <th className='px-3 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider'>
+                Edad
+              </th>
+              <th className='px-3 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider'>
+                Categoría
+              </th>
+              <th className='px-3 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider'>
+                Precio
+              </th>
+              <th className='px-3 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider'>
+                Disponibilidad
+              </th>
+              <th className='px-3 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider'>
+                Acción
+              </th>
+            </tr>
+          </thead>
+          <tbody className='bg-white divide-y divide-gray-200'>
+            {filteredProductos.map((producto, index) => (
+              <tr key={producto._id} className='text-sm'>
+                <td className='px-3 py-2 whitespace-nowrap'>
+                  <img
+                    alt={producto.nombre}
+                    src={producto.imagen[0]}
+                    className='h-10 w-10 rounded-full bg-gray-50'
+                  />
+                </td>
+                <td className='px-3 py-2 whitespace-nowrap'>
+                  {editingProductId === producto._id ? (
+                    <input
+                      type='text'
+                      value={producto.nombre}
+                      onChange={(e) => handleInputChange(e, index, "nombre")}
+                      className='w-28 text-sm font-semibold leading-5 text-gray-900 border-gray-300 rounded-md shadow-sm px-2 py-1'
+                    />
+                  ) : (
+                    <p className='text-sm font-semibold leading-5 text-gray-900'>
+                      {producto.nombre}
+                    </p>
+                  )}
+                </td>
+                <td className='px-3 py-2 whitespace-nowrap'>
+                  {editingProductId === producto._id ? (
+                    <input
+                      type='text'
+                      value={producto.marca}
+                      onChange={(e) => handleInputChange(e, index, "marca")}
+                      className='w-28 text-sm leading-5 text-gray-900 border-gray-300 rounded-md shadow-sm px-2 py-1'
+                    />
+                  ) : (
+                    <p className='text-sm leading-5 text-gray-900'>{producto.marca}</p>
+                  )}
+                </td>
+                <td className='px-3 py-2 whitespace-nowrap text-sm'>
+                  {" "}
+                  {editingProductId === producto._id ? (
+                    <input
+                      type='text'
+                      value={producto.edad}
+                      onChange={(e) => handleInputChange(e, index, "edad")}
+                      className='w-12 text-sm leading-5 text-gray-900 border-gray-300 rounded-md shadow-sm px-2 py-1'
+                    />
+                  ) : (
+                    <p className='text-sm leading-5 text-gray-900'>{producto.edad}</p>
+                  )}
+                </td>
+                <td className='px-3 py-2 whitespace-nowrap text-sm'>
+                  {editingProductId === producto._id ? (
+                    <select
+                      value={producto.categoria}
+                      onChange={(e) => handleInputChange(e, index, "categoria")}
+                      className='w-28 text-sm leading-5 text-gray-900 border-gray-300 rounded-md shadow-sm px-2 py-1'
+                    >
+                      <option value='juego'>Juego</option>
+                      <option value='juguete'>Juguete</option>
+                    </select>
+                  ) : (
+                    <p className='text-sm leading-5 text-gray-900'>
+                      {producto.categoria}
+                    </p>
+                  )}
+                </td>
+                <td className='px-3 py-2 whitespace-nowrap text-sm'>
+                  {editingProductId === producto._id ? (
+                    <input
+                      type='number'
+                      value={producto.precio}
+                      onChange={(e) => handleInputChange(e, index, "precio")}
+                      className='w-24 text-sm leading-5 text-gray-900 border-gray-300 rounded-md shadow-sm px-2 py-1'
+                    />
+                  ) : (
+                    <p className='text-sm leading-5 text-gray-900'>${producto.precio}</p>
+                  )}
+                </td>
+                <td className='px-3 py-2 whitespace-nowrap text-sm'>
+                  {editingProductId === producto._id ? (
+                    <select
+                      value={producto.disponibilidad}
+                      onChange={(e) => handleSelectChange(e, index, "disponibilidad")}
+                      className='w-28 text-sm leading-5 text-gray-900 border-gray-300 rounded-md shadow-sm px-2 py-1'
+                    >
+                      <option value='true'>En stock</option>
+                      <option value='false'>Sin stock</option>
+                    </select>
+                  ) : (
+                    <p className='text-sm leading-5 text-gray-900'>
+                      {producto.disponibilidad ? "En stock" : "Sin stock"}
+                    </p>
+                  )}
+                </td>
+                <td className='px-3 py-2 whitespace-nowrap'>
+                  {editingProductId === producto._id ? (
+                    <button
+                      onClick={() => handleSaveClick(producto._id)}
+                      className='text-xs bg-green-500 text-white px-2 py-1 rounded'
+                    >
+                      Guardar
+                    </button>
+                  ) : (
+                    <button
+                      onClick={() => handleEditClick(producto._id)}
+                      className='text-xs bg-blue-500 text-white px-2 py-1 rounded'
+                    >
+                      Editar
+                    </button>
+                  )}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
   );
 }

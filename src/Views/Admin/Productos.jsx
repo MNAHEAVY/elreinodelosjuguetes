@@ -1,4 +1,6 @@
 import { useState, useEffect } from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export default function Productos() {
   const [productos, setProductos] = useState([]);
@@ -64,7 +66,10 @@ export default function Productos() {
         }
       );
 
-      if (!response.ok) {
+      if (response.ok) {
+        toast.success("¡Producto actualizado!");
+      } else {
+        toast.error("¡Fallo la actualizacion!");
         throw new Error("Network response was not ok");
       }
 
@@ -88,6 +93,7 @@ export default function Productos() {
   };
   return (
     <div>
+      <ToastContainer />
       <div className='mb-4 flex justify-center'>
         <input
           type='text'
@@ -183,6 +189,7 @@ export default function Productos() {
                       onChange={(e) => handleInputChange(e, index, "categoria")}
                       className='w-28 text-sm leading-5 text-gray-900 border-gray-300 rounded-md shadow-sm px-2 py-1'
                     >
+                      <option disabled>Elige</option>
                       <option value='juego'>Juego</option>
                       <option value='juguete'>Juguete</option>
                     </select>
@@ -211,6 +218,7 @@ export default function Productos() {
                       onChange={(e) => handleSelectChange(e, index, "disponibilidad")}
                       className='w-28 text-sm leading-5 text-gray-900 border-gray-300 rounded-md shadow-sm px-2 py-1'
                     >
+                      <option disabled>Elige</option>
                       <option value='true'>En stock</option>
                       <option value='false'>Sin stock</option>
                     </select>

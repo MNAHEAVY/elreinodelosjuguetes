@@ -1,96 +1,127 @@
-const people = [
-  {
-    name: "Leslie Alexander",
-    email: "leslie.alexander@example.com",
-    role: "Co-Founder / CEO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-    lastSeen: "3h ago",
-    lastSeenDateTime: "2023-01-23T13:23Z",
-  },
-  {
-    name: "Michael Foster",
-    email: "michael.foster@example.com",
-    role: "Co-Founder / CTO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-    lastSeen: "3h ago",
-    lastSeenDateTime: "2023-01-23T13:23Z",
-  },
-  {
-    name: "Dries Vincent",
-    email: "dries.vincent@example.com",
-    role: "Business Relations",
-    imageUrl:
-      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-    lastSeen: null,
-  },
-  {
-    name: "Lindsay Walton",
-    email: "lindsay.walton@example.com",
-    role: "Front-end Developer",
-    imageUrl:
-      "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-    lastSeen: "3h ago",
-    lastSeenDateTime: "2023-01-23T13:23Z",
-  },
-  {
-    name: "Courtney Henry",
-    email: "courtney.henry@example.com",
-    role: "Designer",
-    imageUrl:
-      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-    lastSeen: "3h ago",
-    lastSeenDateTime: "2023-01-23T13:23Z",
-  },
-  {
-    name: "Tom Cook",
-    email: "tom.cook@example.com",
-    role: "Director of Product",
-    imageUrl:
-      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-    lastSeen: null,
-  },
-];
+import { useState, useEffect } from "react";
+import { ToastContainer, toast } from "react-toastify";
 
 export default function Borrar() {
+  const [productos, setProductos] = useState([]);
+  const [filteredProductos, setFilteredProductos] = useState([]);
+  const [searchTerm, setSearchTerm] = useState("");
+
+  useEffect(() => {
+    const fetchProducts = async () => {
+      try {
+        const response = await fetch(
+          "https://backend-reino-production.up.railway.app/products"
+        );
+        if (!response.ok) {
+          throw new Error("Network response was not ok");
+        }
+        const data = await response.json();
+        setProductos(data);
+      } catch (error) {
+        console.error("Error fetching products:", error);
+      }
+    };
+
+    fetchProducts();
+  }, []);
+
+  useEffect(() => {
+    setFilteredProductos(
+      productos.filter((producto) =>
+        producto.nombre.toLowerCase().includes(searchTerm.toLowerCase())
+      )
+    );
+  }, [searchTerm, productos]);
+
+  // Cambia la función a deleteProduct
+  const deleteProduct = async (id) => {
+    try {
+      const response = await fetch(
+        `https://backend-reino-production.up.railway.app/product/${id}`,
+        {
+          method: "DELETE", // Cambia el método a DELETE
+        }
+      );
+
+      if (response.ok) {
+        toast.success("¡Producto borrado!");
+        setProductos((prevProductos) =>
+          prevProductos.filter((producto) => producto._id !== id)
+        );
+      } else {
+        toast.error("¡Error al borrar el producto!");
+        throw new Error("Network response was not ok");
+      }
+    } catch (error) {
+      console.error("Error deleting product:", error);
+    }
+  };
+
+  const handleDeleteClick = async (id) => {
+    await deleteProduct(id); // Llama a la función deleteProduct en lugar de updateProduct
+  };
+
+  const handleSearchChange = (e) => {
+    setSearchTerm(e.target.value);
+  };
+
   return (
-    <ul role='list' className='divide-y divide-gray-100'>
-      {people.map((person) => (
-        <li key={person.email} className='flex justify-between gap-x-6 py-5'>
-          <div className='flex min-w-0 gap-x-4'>
-            <img
-              alt=''
-              src={person.imageUrl}
-              className='h-12 w-12 flex-none rounded-full bg-gray-50'
-            />
-            <div className='min-w-0 flex-auto'>
-              <p className='text-sm font-semibold leading-6 text-gray-900'>
-                {person.name}
-              </p>
-              <p className='mt-1 truncate text-xs leading-5 text-gray-500'>
-                {person.email}
-              </p>
-            </div>
-          </div>
-          <div className='hidden shrink-0 sm:flex sm:flex-col sm:items-end'>
-            <p className='text-sm leading-6 text-gray-900'>{person.role}</p>
-            {person.lastSeen ? (
-              <p className='mt-1 text-xs leading-5 text-gray-500'>
-                Last seen{" "}
-                <time dateTime={person.lastSeenDateTime}>{person.lastSeen}</time>
-              </p>
-            ) : (
-              <div className='mt-1 flex items-center gap-x-1.5'>
-                <div className='flex-none rounded-full bg-emerald-500/20 p-1'>
-                  <div className='h-1.5 w-1.5 rounded-full bg-emerald-500' />
-                </div>
-                <p className='text-xs leading-5 text-gray-500'>Online</p>
-              </div>
-            )}
-          </div>
-        </li>
-      ))}
-    </ul>
+    <div>
+      <ToastContainer />
+      <div className='mb-4 flex justify-center'>
+        <input
+          type='text'
+          placeholder='Buscar por nombre...'
+          value={searchTerm}
+          onChange={handleSearchChange}
+          className='p-2 border border-gray-300 rounded-md w-full max-w-sm'
+        />
+      </div>
+      <div className='overflow-x-auto'>
+        <table className='w-full divide-y divide-gray-200'>
+          <thead className='bg-gray-50'>
+            <tr>
+              <th className='px-3 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider'>
+                Imagen
+              </th>
+              <th className='px-3 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider'>
+                Nombre
+              </th>
+              <th className='px-3 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider'>
+                Disponibilidad
+              </th>
+              <th className='px-3 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider'>
+                Borrar
+              </th>
+            </tr>
+          </thead>
+          <tbody className='bg-white divide-y divide-gray-200'>
+            {filteredProductos.map((producto) => (
+              <tr key={producto._id} className='text-sm'>
+                <td className='px-3 py-2 whitespace-nowrap'>
+                  <img
+                    alt={producto.nombre}
+                    src={producto.imagen[0]}
+                    className='h-10 w-10 rounded-full bg-gray-50'
+                  />
+                </td>
+                <td className='px-3 py-2 whitespace-nowrap'>{producto.nombre}</td>
+                <td className='px-3 py-2 whitespace-nowrap text-sm'>
+                  {producto.disponibilidad ? "En stock" : "Sin stock"}
+                </td>
+                <td className='px-3 py-2 whitespace-nowrap'>
+                  <button
+                    onClick={() => handleDeleteClick(producto._id)}
+                    className='text-xs bg-red-500 text-white px-2 py-1 rounded'
+                  >
+                    Borrar
+                  </button>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
   );
 }
