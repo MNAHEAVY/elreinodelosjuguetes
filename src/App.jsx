@@ -11,6 +11,7 @@ import Search from "./Views/Search/Search";
 import ProductDetail from "./Views/ProductDetail/ProductDetail";
 import Marcas from "./Views/Marcas/Marcas";
 import Admin from "./Views/Admin/dashboard";
+import EditarProduct from "./Views/Admin/EditarProduct";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route exact path='/detail/:id' element={<ProductDetail />} />
           <Route exact path='/marcas/:id' element={<Marcas />} />
           <Route exact path='/admin' element={<Admin />} />
+          <Route exact path='/admin/edit/:id' element={<EditarProduct />} />
         </Routes>
 
         <Footer />

@@ -13,8 +13,12 @@ const StickyHeader = () => {
   const [isCartOpen, setIsCartOpen] = useState(false);
 
   const location = useLocation();
-  const excludePaths = ["/admin"];
-  if (excludePaths.includes(location.pathname)) {
+  const excludePaths = ["/admin", "/admin/edit/"];
+
+  // Verifica si la ruta actual empieza con alguno de los caminos excluidos
+  const isExcludedPath = excludePaths.some((path) => location.pathname.startsWith(path));
+
+  if (isExcludedPath) {
     return null;
   }
   return (

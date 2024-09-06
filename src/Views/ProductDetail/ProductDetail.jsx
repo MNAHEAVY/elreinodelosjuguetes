@@ -1,4 +1,3 @@
-import data from "../../../products-b.json";
 import { useState } from "react";
 import { useParams } from "react-router-dom";
 import "./ProductDetail.css";
@@ -9,13 +8,35 @@ import { FaShoppingCart, FaWhatsapp } from "react-icons/fa";
 import Tooltip from "react-bootstrap/Tooltip";
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import Toast from "react-bootstrap/Toast";
+import { useEffect } from "react";
 
 const ProductDetail = () => {
+  const [productos, setProductos] = useState([]);
   const { id } = useParams();
-  const productData = data.filter((juguete) => juguete.codigo_producto === id);
+  const productData = productos.filter((juguete) => juguete._id === id);
   const [showToast, setShowToast] = useState(false);
   const [toastMessage, setToastMessage] = useState("");
   const [toastType, setToastType] = useState("");
+
+  useEffect(() => {
+    const fetchProducts = async () => {
+      try {
+        const response = await fetch(
+          "https://backend-reino-production.up.railway.app/products"
+        );
+        if (!response.ok) {
+          throw new Error("Network response was not ok");
+        }
+        const data = await response.json();
+        setProductos(data);
+      } catch (error) {
+        console.error("Error fetching products:", error);
+      }
+    };
+
+    fetchProducts();
+  }, []);
+
   if (productData.length === 0) {
     return (
       <div className='featured-products-section'>

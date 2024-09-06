@@ -1,10 +1,9 @@
 import { useState, useEffect } from "react";
-import { ToastContainer, toast } from "react-toastify";
+import { ToastContainer } from "react-toastify";
 
 export default function Editar() {
   const [productos, setProductos] = useState([]);
   const [filteredProductos, setFilteredProductos] = useState([]);
-  const [editingProductId, setEditingProductId] = useState(null);
   const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
@@ -33,59 +32,6 @@ export default function Editar() {
       )
     );
   }, [searchTerm, productos]);
-
-  const handleEditClick = (id) => {
-    setEditingProductId(id);
-  };
-
-  const handleInputChange = (e, index, field) => {
-    const updatedValue = field === "precio" ? parseFloat(e.target.value) : e.target.value;
-    const updatedProducts = [...productos];
-    updatedProducts[index] = { ...updatedProducts[index], [field]: updatedValue };
-    setProductos(updatedProducts);
-  };
-
-  const handleSelectChange = (e, index, field) => {
-    const updatedProducts = [...productos];
-    updatedProducts[index][field] = e.target.value === "true";
-    setProductos(updatedProducts);
-  };
-
-  const updateProduct = async (id, updatedProduct) => {
-    console.log(JSON.stringify(updatedProduct));
-    try {
-      const response = await fetch(
-        `https://backend-reino-production.up.railway.app/product/${id}`,
-        {
-          method: "PUT",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(updatedProduct),
-        }
-      );
-
-      if (response.ok) {
-        toast.success("¡Producto actualizado!");
-      } else {
-        toast.error("¡Fallo la actualizacion!");
-        throw new Error("Network response was not ok");
-      }
-
-      const result = await response.json();
-      console.log("Product updated successfully:", result);
-      // Optionally, fetch the updated product list again
-      // fetchProducts();
-    } catch (error) {
-      console.error("Error updating product:", error);
-    }
-  };
-
-  const handleSaveClick = async (id) => {
-    const updatedProduct = productos.find((p) => p._id === id);
-    await updateProduct(id, updatedProduct);
-    setEditingProductId(null);
-  };
 
   const handleSearchChange = (e) => {
     setSearchTerm(e.target.value);
@@ -133,7 +79,7 @@ export default function Editar() {
             </tr>
           </thead>
           <tbody className='bg-white divide-y divide-gray-200'>
-            {filteredProductos.map((producto, index) => (
+            {filteredProductos.map((producto) => (
               <tr key={producto._id} className='text-sm'>
                 <td className='px-3 py-2 whitespace-nowrap'>
                   <img
@@ -142,105 +88,28 @@ export default function Editar() {
                     className='h-10 w-10 rounded-full bg-gray-50'
                   />
                 </td>
-                <td className='px-3 py-2 whitespace-nowrap'>
-                  {editingProductId === producto._id ? (
-                    <input
-                      type='text'
-                      value={producto.nombre}
-                      onChange={(e) => handleInputChange(e, index, "nombre")}
-                      className='w-28 text-sm font-semibold leading-5 text-gray-900 border-gray-300 rounded-md shadow-sm px-2 py-1'
-                    />
-                  ) : (
-                    <p className='text-sm font-semibold leading-5 text-gray-900'>
-                      {producto.nombre}
-                    </p>
-                  )}
+                <td className='px-3 py-2 whitespace-nowrap'>{producto.nombre}</td>
+                <td className='px-3 py-2 whitespace-nowrap'>{producto.marca} </td>
+                <td className='px-3 py-2 whitespace-nowrap text-sm'>{producto.edad}</td>
+                <td className='px-3 py-2 whitespace-nowrap text-sm'>
+                  {producto.categoria}
+                </td>
+                <td className='px-3 py-2 whitespace-nowrap text-sm'>
+                  ${producto.precio}
+                </td>
+                <td className='px-3 py-2 whitespace-nowrap text-sm'>
+                  {producto.disponibilidad ? "En stock" : "Sin stock"}
                 </td>
                 <td className='px-3 py-2 whitespace-nowrap'>
-                  {editingProductId === producto._id ? (
-                    <input
-                      type='text'
-                      value={producto.marca}
-                      onChange={(e) => handleInputChange(e, index, "marca")}
-                      className='w-28 text-sm leading-5 text-gray-900 border-gray-300 rounded-md shadow-sm px-2 py-1'
-                    />
-                  ) : (
-                    <p className='text-sm leading-5 text-gray-900'>{producto.marca}</p>
-                  )}
-                </td>
-                <td className='px-3 py-2 whitespace-nowrap text-sm'>
-                  {" "}
-                  {editingProductId === producto._id ? (
-                    <input
-                      type='text'
-                      value={producto.edad}
-                      onChange={(e) => handleInputChange(e, index, "edad")}
-                      className='w-12 text-sm leading-5 text-gray-900 border-gray-300 rounded-md shadow-sm px-2 py-1'
-                    />
-                  ) : (
-                    <p className='text-sm leading-5 text-gray-900'>{producto.edad}</p>
-                  )}
-                </td>
-                <td className='px-3 py-2 whitespace-nowrap text-sm'>
-                  {editingProductId === producto._id ? (
-                    <select
-                      value={producto.categoria}
-                      onChange={(e) => handleInputChange(e, index, "categoria")}
-                      className='w-28 text-sm leading-5 text-gray-900 border-gray-300 rounded-md shadow-sm px-2 py-1'
-                    >
-                      <option value='juego'>Juego</option>
-                      <option value='juguete'>Juguete</option>
-                    </select>
-                  ) : (
-                    <p className='text-sm leading-5 text-gray-900'>
-                      {producto.categoria}
-                    </p>
-                  )}
-                </td>
-                <td className='px-3 py-2 whitespace-nowrap text-sm'>
-                  {editingProductId === producto._id ? (
-                    <input
-                      type='number'
-                      value={producto.precio}
-                      onChange={(e) => handleInputChange(e, index, "precio")}
-                      className='w-24 text-sm leading-5 text-gray-900 border-gray-300 rounded-md shadow-sm px-2 py-1'
-                    />
-                  ) : (
-                    <p className='text-sm leading-5 text-gray-900'>${producto.precio}</p>
-                  )}
-                </td>
-                <td className='px-3 py-2 whitespace-nowrap text-sm'>
-                  {editingProductId === producto._id ? (
-                    <select
-                      value={producto.disponibilidad}
-                      onChange={(e) => handleSelectChange(e, index, "disponibilidad")}
-                      className='w-28 text-sm leading-5 text-gray-900 border-gray-300 rounded-md shadow-sm px-2 py-1'
-                    >
-                      <option value='true'>En stock</option>
-                      <option value='false'>Sin stock</option>
-                    </select>
-                  ) : (
-                    <p className='text-sm leading-5 text-gray-900'>
-                      {producto.disponibilidad ? "En stock" : "Sin stock"}
-                    </p>
-                  )}
-                </td>
-                <td className='px-3 py-2 whitespace-nowrap'>
-                  {editingProductId === producto._id ? (
-                    <button
-                      onClick={() => handleSaveClick(producto._id)}
-                      className='text-xs bg-green-500 text-white px-2 py-1 rounded'
-                    >
-                      Guardar
-                    </button>
-                  ) : (
-                    <button
-                      onClick={() => handleEditClick(producto._id)}
-                      className='text-xs bg-blue-500 text-white px-2 py-1 rounded'
-                    >
+                  <a
+                    href={"/admin/edit/" + producto._id}
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    <button className='text-xs bg-blue-500 text-white px-2 py-1 rounded'>
                       Editar
                     </button>
-                  )}
+                  </a>
                 </td>
               </tr>
             ))}

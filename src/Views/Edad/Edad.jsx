@@ -1,5 +1,4 @@
-import data from "../../../products-b.json";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 
 const ageRanges = {
@@ -17,12 +16,13 @@ const convertAge = (ageString) => {
 };
 
 const Edad = () => {
+  const [productos, setProductos] = useState([]);
   const [searchParams] = useSearchParams();
   const edadParam = parseInt(searchParams.get("edad"), 10);
   const ageRange = ageRanges[edadParam];
   const [visibleProducts, setVisibleProducts] = useState(8);
 
-  const filteredData = data.filter((product) => {
+  const filteredData = productos.filter((product) => {
     const productAge = convertAge(product.edad);
     return productAge >= ageRange.min && productAge <= ageRange.max;
   });
@@ -31,6 +31,24 @@ const Edad = () => {
     setVisibleProducts((prevVisibleProducts) => prevVisibleProducts + 4);
   };
 
+  useEffect(() => {
+    const fetchProducts = async () => {
+      try {
+        const response = await fetch(
+          "https://backend-reino-production.up.railway.app/products"
+        );
+        if (!response.ok) {
+          throw new Error("Network response was not ok");
+        }
+        const data = await response.json();
+        setProductos(data);
+      } catch (error) {
+        console.error("Error fetching products:", error);
+      }
+    };
+
+    fetchProducts();
+  }, []);
   return (
     <div className='featured-products-section'>
       <h2>
@@ -45,7 +63,7 @@ const Edad = () => {
           }
           return (
             <div key={product.codigo_producto} className='product-card'>
-              <a href={`/detail/${product.codigo_producto}`}>
+              <a href={`/detail/${product._id}`}>
                 <img
                   src={product.imagen[0]}
                   alt={product.nombre}

@@ -6,16 +6,8 @@ import Stock from "./Stock";
 import Productos from "./Productos";
 import Login from "./Login";
 
-import {
-  Disclosure,
-  DisclosureButton,
-  DisclosurePanel,
-  Menu,
-  MenuButton,
-  MenuItem,
-  MenuItems,
-} from "@headlessui/react";
-import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
+import { Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/react";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { useState } from "react";
 
 const navigation = [
@@ -87,7 +79,10 @@ export default function Example() {
               </div>
               <div className='md:block'>
                 <div className='ml-4 flex items-center md:ml-6'>
-                  <a href='/'>Volver</a>
+                  <a className='text-white' href='/'>
+                    {" "}
+                    ⬅️ Volver
+                  </a>
                 </div>
               </div>
               <div className='-mr-2 flex md:hidden'>

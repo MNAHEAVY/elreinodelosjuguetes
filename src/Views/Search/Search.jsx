@@ -1,12 +1,31 @@
 import { useState, useEffect } from "react";
 import { useSearchParams } from "react-router-dom";
-import data from "../../../products-b.json";
 
 const Search = () => {
   const [searchParams] = useSearchParams();
   const [query, setQuery] = useState(searchParams.get("q") || "");
+  const [productos, setProductos] = useState([]);
   const [filteredData, setFilteredData] = useState([]);
   const [visibleProducts, setVisibleProducts] = useState(8);
+
+  useEffect(() => {
+    const fetchProducts = async () => {
+      try {
+        const response = await fetch(
+          "https://backend-reino-production.up.railway.app/products"
+        );
+        if (!response.ok) {
+          throw new Error("Network response was not ok");
+        }
+        const data = await response.json();
+        setProductos(data);
+      } catch (error) {
+        console.error("Error fetching products:", error);
+      }
+    };
+
+    fetchProducts();
+  }, []);
 
   useEffect(() => {
     const queryParam = searchParams.get("q") || "";
@@ -15,12 +34,12 @@ const Search = () => {
 
   useEffect(() => {
     if (query) {
-      const filtered = data.filter((product) =>
+      const filtered = productos.filter((product) =>
         product.nombre.toLowerCase().includes(query.toLowerCase())
       );
       setFilteredData(filtered);
     } else {
-      setFilteredData(data);
+      setFilteredData(productos);
     }
   }, [query]);
 
@@ -49,7 +68,7 @@ const Search = () => {
           <div className='products-grid'>
             {filteredData.slice(0, visibleProducts).map((data, index) => (
               <div key={index} className='product-card'>
-                <a href={"/detail/" + data.codigo_producto}>
+                <a href={"/detail/" + data._id}>
                   <img src={data.imagen[0]} alt={data.nombre} className='product-image' />
                   <div className='product-info'>
                     <p className='product-title'>{data.nombre}</p>

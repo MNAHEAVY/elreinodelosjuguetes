@@ -1,13 +1,31 @@
-import { useState } from "react";
-import data from "../../../products-b.json";
+import { useEffect, useState } from "react";
 
 const Juguetes = () => {
-  const filteredData = data.filter((juguete) => juguete.categoria === "juguete");
+  const [productos, setProductos] = useState([]);
+  const filteredData = productos.filter((juguete) => juguete.categoria === "juguete");
   const [visibleProducts, setVisibleProducts] = useState(8);
 
   const handleLoadMore = () => {
     setVisibleProducts((prevVisibleProducts) => prevVisibleProducts + 4);
   };
+  useEffect(() => {
+    const fetchProducts = async () => {
+      try {
+        const response = await fetch(
+          "https://backend-reino-production.up.railway.app/products"
+        );
+        if (!response.ok) {
+          throw new Error("Network response was not ok");
+        }
+        const data = await response.json();
+        setProductos(data);
+      } catch (error) {
+        console.error("Error fetching products:", error);
+      }
+    };
+
+    fetchProducts();
+  }, []);
 
   return (
     <div className='featured-products-section'>
@@ -15,7 +33,7 @@ const Juguetes = () => {
       <div className='products-grid'>
         {filteredData.slice(0, visibleProducts).map((data, index) => (
           <div key={index} className='product-card'>
-            <a href={"/detail/" + data.codigo_producto}>
+            <a href={"/detail/" + data._id}>
               <img src={data.imagen[0]} alt={data.nombre} className='product-image' />
               <div className='product-info'>
                 <p className='product-title'>{data.nombre}</p>
