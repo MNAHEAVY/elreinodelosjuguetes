@@ -4,22 +4,23 @@ import { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 
 export default function Crear() {
-  const [selectedImage, setSelectedImage] = useState(null);
-  const [loading, setLoading] = useState(false);
-  const [inputForm, setInputForm] = useState({
+  const initialFormState = {
     nombre: "",
     precio: 0,
     descripcion: "",
     marca: "",
     edad: "",
-    categoria: "",
+    categoria: "juguete",
     disponibilidad: true,
     stock: 0,
     material: "",
     dimensiones: "",
     peso: "",
     imagen: [],
-  });
+  };
+  const [selectedImage, setSelectedImage] = useState(null);
+  const [loading, setLoading] = useState(false);
+  const [inputForm, setInputForm] = useState(initialFormState);
 
   function handleChange(e) {
     setInputForm({
@@ -32,7 +33,7 @@ export default function Crear() {
     const file = event.target.files[0];
     if (!file) return;
 
-    setLoading(true); // Inicia el loading
+    setLoading(true);
 
     const formData = new FormData();
     formData.append("file", file);
@@ -46,6 +47,7 @@ export default function Crear() {
       setSelectedImage(res.data.secure_url); // Imagen subida exitosamente
     } catch (error) {
       console.error("Error uploading image:", error);
+      toast.error("Error al subir la imagen, intente de nuevo");
     } finally {
       setLoading(false); // Finaliza el loading
     }
@@ -71,10 +73,12 @@ export default function Crear() {
         inputForm
       );
       toast.success("Producto creado con éxito.");
+      setInputForm(initialFormState);
     } catch (error) {
       toast.error("Error al crear el producto.");
     }
   };
+
   return (
     <div className='relative isolate overflow-hidden bg-white px-6 pb-6 lg:overflow-visible lg:px-0'>
       <h2 className='text-center font-semibold leading-7 text-gray-900 '>
@@ -280,7 +284,7 @@ export default function Crear() {
                 <div className='mt-2'>
                   <input
                     id='stock'
-                    type='text'
+                    type='number'
                     placeholder='Inserte cantidad'
                     name='stock'
                     value={inputForm.stock}

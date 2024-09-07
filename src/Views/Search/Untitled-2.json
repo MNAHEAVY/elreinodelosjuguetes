@@ -90,21 +90,6 @@
     "imagen": []
   },
   {
-    "nombre": "Aros de Basket",
-    "precio": 7000,
-    "descripcion": "Set de aros de basket portátiles para jugar en interiores o exteriores. Ideal para mejorar la puntería y habilidades motrices.",
-    "marca": "Genérico",
-    "edad": "6+",
-    "categoria": "juego",
-    "disponibilidad": true,
-    "stock": 2,
-    "material": "plástico y metal",
-    "dimensiones": "45cm x 30cm x 10cm",
-    "peso": "800g",
-    "codigo_producto": "BASKET01",
-    "imagen": []
-  },
-  {
     "nombre": "Pistolas de agua",
     "precio": 8400,
     "descripcion": "Set de pistolas de agua de alta capacidad. Perfectas para juegos al aire libre durante el verano.",
