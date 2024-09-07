@@ -28,11 +28,13 @@ export default function Stock() {
   }, []);
 
   useEffect(() => {
-    setFilteredProductos(
-      productos.filter((producto) =>
+    const sortedProductos = productos
+      .filter((producto) =>
         producto.nombre.toLowerCase().includes(searchTerm.toLowerCase())
       )
-    );
+      .sort((a, b) => a.nombre.localeCompare(b.nombre));
+
+    setFilteredProductos(sortedProductos);
   }, [searchTerm, productos]);
 
   const handleEditClick = (id) => {

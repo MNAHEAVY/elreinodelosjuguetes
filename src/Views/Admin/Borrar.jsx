@@ -26,11 +26,13 @@ export default function Borrar() {
   }, []);
 
   useEffect(() => {
-    setFilteredProductos(
-      productos.filter((producto) =>
+    const sortedProductos = productos
+      .filter((producto) =>
         producto.nombre.toLowerCase().includes(searchTerm.toLowerCase())
       )
-    );
+      .sort((a, b) => a.nombre.localeCompare(b.nombre));
+
+    setFilteredProductos(sortedProductos);
   }, [searchTerm, productos]);
 
   // Cambia la función a deleteProduct
