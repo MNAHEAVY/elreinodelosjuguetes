@@ -7,9 +7,12 @@ const Search = () => {
   const [productos, setProductos] = useState([]);
   const [filteredData, setFilteredData] = useState([]);
   const [visibleProducts, setVisibleProducts] = useState(8);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState("");
 
   useEffect(() => {
     const fetchProducts = async () => {
+      setLoading(true);
       try {
         const response = await fetch(
           "https://backend-reino-production.up.railway.app/products"
@@ -19,8 +22,11 @@ const Search = () => {
         }
         const data = await response.json();
         setProductos(data);
+        setLoading(false);
       } catch (error) {
         console.error("Error fetching products:", error);
+        setError("Error fetching products. Please try again later.");
+        setLoading(false);
       }
     };
 
@@ -41,11 +47,19 @@ const Search = () => {
     } else {
       setFilteredData(productos);
     }
-  }, [query]);
+  }, [query, productos]);
 
   const handleLoadMore = () => {
     setVisibleProducts((prevVisibleProducts) => prevVisibleProducts + 4);
   };
+
+  if (loading) {
+    return <p>Loading...</p>;
+  }
+
+  if (error) {
+    return <p>{error}</p>;
+  }
 
   return (
     <div className='featured-products-section'>
@@ -60,20 +74,20 @@ const Search = () => {
           }}
         >
           <p>
-            No hay resultados para la búsqueda <strong> {query}</strong>.
+            No hay resultados para la búsqueda <strong>{query}</strong>.
           </p>
         </div>
       ) : (
         <>
           <div className='products-grid'>
-            {filteredData.slice(0, visibleProducts).map((data, index) => (
-              <div key={index} className='product-card'>
-                <a href={"/detail/" + data._id}>
+            {filteredData.slice(0, visibleProducts).map((data) => (
+              <div key={data._id} className='product-card'>
+                <a href={`/detail/${data._id}`}>
                   <img src={data.imagen[0]} alt={data.nombre} className='product-image' />
                   <div className='product-info'>
                     <p className='product-title'>{data.nombre}</p>
                     <p className='product-price'>{data.marca}</p>
-                  </div>{" "}
+                  </div>
                 </a>
               </div>
             ))}
