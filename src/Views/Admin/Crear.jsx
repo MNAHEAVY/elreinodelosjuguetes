@@ -326,7 +326,7 @@ export default function Crear() {
                     id='dimensiones'
                     type='text'
                     name='dimensiones'
-                    placeholder='Por Ej. 15x12x30'
+                    placeholder='Por Ej. 15cm x 12cm x 30cm'
                     value={inputForm.dimensiones}
                     onChange={(e) => handleChange(e)}
                     className='block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset placeholder:text-gray-400 focus:ring-2 focus:ring-indigo-600 sm:text-sm'
