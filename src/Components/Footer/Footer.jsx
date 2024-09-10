@@ -73,7 +73,7 @@ const Footer = () => {
           <div className='footer-block grid__item scroll-trigger animate--slide-in'>
             <h3 className='footer-block__heading inline-richtext'>Hablamos?</h3>
             <div className='footer-block__details-content rte'>
-              <p>Tel: 3755 295478</p>
+              <p>Tel: 3755 600520</p>
               <p>
                 Horario de atención telefónica:
                 <br />
