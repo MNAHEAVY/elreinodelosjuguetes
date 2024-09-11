@@ -6,7 +6,7 @@ const Juegos = () => {
   const [visibleProducts, setVisibleProducts] = useState(8);
 
   const handleLoadMore = () => {
-    setVisibleProducts((prevVisibleProducts) => prevVisibleProducts + 4);
+    setVisibleProducts((prevVisibleProducts) => prevVisibleProducts + 12);
   };
 
   useEffect(() => {

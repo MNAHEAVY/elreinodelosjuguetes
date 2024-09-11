@@ -28,7 +28,7 @@ const Edad = () => {
   });
 
   const handleLoadMore = () => {
-    setVisibleProducts((prevVisibleProducts) => prevVisibleProducts + 4);
+    setVisibleProducts((prevVisibleProducts) => prevVisibleProducts + 12);
   };
 
   useEffect(() => {

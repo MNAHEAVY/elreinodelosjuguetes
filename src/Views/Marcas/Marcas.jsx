@@ -27,7 +27,7 @@ const Marcas = () => {
   }, []);
 
   const handleLoadMore = () => {
-    setVisibleProducts((prevVisibleProducts) => prevVisibleProducts + 4);
+    setVisibleProducts((prevVisibleProducts) => prevVisibleProducts + 12);
   };
 
   if (filteredData.length === 0) {

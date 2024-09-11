@@ -50,7 +50,7 @@ const Search = () => {
   }, [query, productos]);
 
   const handleLoadMore = () => {
-    setVisibleProducts((prevVisibleProducts) => prevVisibleProducts + 4);
+    setVisibleProducts((prevVisibleProducts) => prevVisibleProducts + 12);
   };
 
   if (loading) {
