@@ -84,7 +84,7 @@ const ProductDetail = () => {
   };
 
   const generateWhatsAppLink = (product) => {
-    const phoneNumber = "3755295478";
+    const phoneNumber = "3755600520";
     const message = `Hola, me gustaría comprar el producto "${product.nombre}" con el código "${product.codigo_producto}".`;
     return `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
   };
