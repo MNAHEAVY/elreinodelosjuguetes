@@ -34,7 +34,7 @@ const Footer = () => {
             <ul className='footer-block__details-content list-unstyled'>
               <li>
                 <a
-                  href='/search'
+                  href='https://maps.app.goo.gl/Ag9pFBdwYtM8fNxM9'
                   className='link link--text list-menu__item list-menu__item--link'
                   style={{ color: "darkgray", fontSize: "14px" }}
                 >
@@ -43,7 +43,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href='/'
+                  href='https://wa.me/3755600520'
                   className='link link--text list-menu__item list-menu__item--link'
                   style={{ color: "darkgray", fontSize: "14px" }}
                 >
@@ -52,7 +52,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href='/search'
+                  href='https://wa.me/3755600520'
                   className='link link--text list-menu__item list-menu__item--link'
                   style={{ color: "darkgray", fontSize: "14px" }}
                 >
@@ -61,7 +61,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href='/search'
+                  href='mailto:elreinodelosjuguetes478@gmail.com'
                   className='link link--text list-menu__item list-menu__item--link'
                   style={{ color: "darkgray", fontSize: "14px" }}
                 >
@@ -81,7 +81,7 @@ const Footer = () => {
               </p>
               <p>Chat Online: Todos los días de 9 a 00hs</p>
               <p>elreinodelosjuguetes478@gmail.com</p>
-              <p>Angel Acuña 980, Posadas</p>
+              <p>Carlos Pellegrini 2686, Posadas</p>
             </div>
           </div>
         </div>
@@ -163,7 +163,7 @@ const Footer = () => {
               </a>
             </li>
             <li className='link list-social__link'>
-              <a href='https://wa.me/3755295478' className='link list-social-link'>
+              <a href='https://wa.me/3755600520' className='link list-social-link'>
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
                   viewBox='0 0 25 25'
