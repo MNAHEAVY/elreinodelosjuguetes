@@ -115,7 +115,7 @@ const ProductDetail = () => {
           </div>
           <div className='detail'>
             <strong>Precio:</strong>
-            <p className='product-price' style={{ textDecoration: "line-through" }}>
+            <p className='product-price'>
               {" "}
               {productData[0].precio}
             </p>
